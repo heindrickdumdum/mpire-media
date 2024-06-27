@@ -1,0 +1,295 @@
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<style>
+  #shopify-section-{{ section.id }} .tab {
+    display: none;
+  }
+  #shopify-section-{{ section.id }} .tab-label {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: none;
+    display: inline-block;
+  }
+  #shopify-section-{{ section.id }} .tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+
+  [name="tab"] {
+    display: none;
+  }
+  #tab1:checked ~ label[for="tab1"],
+  #tab2:checked ~ label[for="tab2"],
+  #tab3:checked ~ label[for="tab3"],
+  #tab4:checked ~ label[for="tab4"],
+  #tab5:checked ~ label[for="tab5"] {
+    color: #1976d2;
+    border-bottom: 3px solid;
+  }
+
+  [data-tab="tab1"] > #content1,
+  [data-tab="tab2"] > #content2,
+  [data-tab="tab3"] > #content3,
+  [data-tab="tab4"] > #content4,
+  [data-tab="tab5"] > #content5 {
+    display: block;
+  }
+
+  #shopify-section-{{ section.id }} .tab-item {
+    width: auto;
+    white-space: nowrap;
+    margin: 0;
+    min-width: auto;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 750px) {
+    #shopify-section-{{ section.id }} .tab-label {
+      padding: 1rem 2rem;
+    }
+  }
+</style>
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
+    <div class="{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+      <h2
+        class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} text-center"
+        {{ section.shopify_attributes }}
+      >
+        {{ section.settings.heading }}
+      </h2>
+
+      <div class="text-center">
+        {{ section.settings.sub_heading }}
+      </div>
+
+      <slider-component class="slider-mobile-gutter">
+        <ul
+          class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop slider slider--mobile grid--peek"
+          id="Slider-{{ section.id }}"
+          role="list"
+        >
+          <li id="Slide-{{ section.id }}-0" class="tab-item grid__item article slider__slide slider__slide--full-width">
+            <input type="radio" id="tab1" name="tab" checked>
+            <label for="tab1" class="tab-label">Media Buying</label>
+          </li>
+          
+          <li id="Slide-{{ section.id }}-1" class="tab-item grid__item article slider__slide slider__slide--full-width">
+            <input type="radio" id="tab2" name="tab">
+            <label for="tab2" class="tab-label">Paid Media Strategy</label>
+          </li>
+          
+          <li id="Slide-{{ section.id }}-2" class="tab-item grid__item article slider__slide slider__slide--full-width">
+            <input type="radio" id="tab3" name="tab">
+            <label for="tab3" class="tab-label">Creative Strategy</label>
+          </li>
+          
+          <li id="Slide-{{ section.id }}-3" class="tab-item grid__item article slider__slide slider__slide--full-width">
+            <input type="radio" id="tab4" name="tab">
+            <label for="tab4" class="tab-label">Data Analysis</label>
+          </li>
+          
+          <li id="Slide-{{ section.id }}-4" class="tab-item grid__item article slider__slide slider__slide--full-width">
+            <input type="radio" id="tab5" name="tab">
+            <label for="tab5" class="tab-label">Reporting</label>
+          </li>
+        </ul>
+      </slider-component>
+
+      <div class="text-center">
+        {% comment %} <input type="radio" id="tab1" name="tab" checked>
+        <label for="tab1" class="tab-label">Media Buying</label>
+
+        <input type="radio" id="tab2" name="tab">
+        <label for="tab2" class="tab-label">Paid Media Strategy</label>
+
+        <input type="radio" id="tab3" name="tab">
+        <label for="tab3" class="tab-label">Creative Strategy</label>
+        
+        <input type="radio" id="tab4" name="tab">
+        <label for="tab4" class="tab-label">Data Analysis</label>
+
+        <input type="radio" id="tab5" name="tab">
+        <label for="tab5" class="tab-label">Reporting</label>
+
+         {% endcomment %}
+        <div id="tabContent" data-tab="tab1">
+          <div id="content1" class="tab-content">
+            {% render 'tab-content-1' %}
+          </div>
+  
+          <div id="content2" class="tab-content">
+            {% render 'tab-content-2' %}
+          </div>
+  
+          <div id="content3" class="tab-content">
+            {% render 'tab-content-3' %}
+          </div>
+          
+          <div id="content4" class="tab-content">
+            {% render 'tab-content-4' %}
+          </div>
+  
+          <div id="content5" class="tab-content">
+            {% render 'tab-content-5' %}
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+document.querySelectorAll('input[name="tab"]').forEach((radio) => {
+    radio.addEventListener('change', (event) => {
+        const selectedRadioId = event.target.id;
+        const elementToChange = document.querySelector('#tabContent[data-tab]');
+        if (elementToChange) {
+            elementToChange.setAttribute('data-tab', selectedRadioId);
+        }
+    });
+});
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Base Section",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "WHAT WE CAN DO FOR YOU",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "sub_heading",
+      "label": "Sub Heading"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": true,
+      "label": "t:sections.rich-text.settings.full_width.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Brand",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "brand_logo",
+          "label": "Brand Logo"
+        },
+        {
+          "type": "text",
+          "id": "brand_name",
+          "label": "Brand Name"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Service Tabs"
+    }
+  ]
+}
+{% endschema %}

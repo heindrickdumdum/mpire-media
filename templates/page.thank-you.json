@@ -1,0 +1,107 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_7zeDmT": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.main-page-title {\n        font-size: calc(var(--font-heading-scale)* 2.8rem);\n    }\n\n}\n\n@media screen and (min-width: 990px) {\n    .main-page-title {\n        font-size: calc(var(--font-heading-scale)* 5.2rem);\n    }\n\n}\n\nfooter {\ndisplay: none;\n}\n<style>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "page_narrow": false,
+        "custom_heading": "MPIRE // MEDIA",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "custom_liquid_nHANbE": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<div class=\"text-center page-width-full\">\n<h1><span style='font-size:4rem;'>&#127881;</span> Thank you for taking the time to complete this form!</h1>\n\n<h2>\n<span style='font-size:4rem;'>&#128073;</span>\nCheck your email or phone for download information.</h2>\n\n<style>\n\nh1 {\n  font-size: 1.5rem;\n}\nh2 {\n  font-size: 1rem;\n}\n@media screen and (min-width: 990px) {\n  h1 {\n    font-size: 2.5rem;\n  }\n  h2 {\n    font-size: 2rem;\n  }\n}\n</style>\n\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_8RQFw3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- Motion embed begin -->\n<iframe src=\"https://app.usemotion.com/meet/mpire-media/meeting\" title=\"Motion Booking Page\" width=\"100%\" height=\"840px\" frameborder=\"0\"></iframe>\n<!-- Motion embed end -->",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_fyykxH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nrrXdp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Who is Mpire - What services do we offer?</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_DN4ndq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mpire Media is an elite group of ad buyers and creatives that focuses on paid advertising for E-Commerce brands & Serviced Based lead generation funnels.</p>"
+          }
+        },
+        "text_9EwNDi": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Here is a list of our services offered:<br/><br/>- Paid Ads Management<br/><br/>- Ad Creative Production<br/><br/>- Shopify Development<br/><br/>- Email Marketing</h5>"
+          }
+        },
+        "text_xdMhpe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We would love to help you crush this Q4. Book a call below to book a strategy call!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nrrXdp",
+        "text_DN4ndq",
+        "text_9EwNDi",
+        "text_xdMhpe"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 100rem;}",
+        "h2,.h2 {font-size: calc(var(--font-heading-scale) * 2rem);}",
+        "@media screen and (min-width: 990px) {h2, .h2 {font-size: calc(var(--font-heading-scale) * 2.5rem); }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_7zeDmT",
+    "main",
+    "custom_liquid_nHANbE",
+    "custom_liquid_8RQFw3",
+    "rich_text_fyykxH"
+  ]
+}

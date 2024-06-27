@@ -1,0 +1,282 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .pricing-category {
+    margin: 20px auto;
+    max-width: 650px;
+    background-color: hsla(0, 0%, 100%, .05);
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .page-width-narrow {
+    max-width: 700px;
+    padding: 0;
+  }
+
+  .pricing-container {
+    width: 95%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #121212;
+  }
+
+  .pricing-heading {
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    font-size: 1.76rem;
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding">
+  <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %} page-width-narrow">
+    {% if section.settings.heading != blank %}
+    <h2
+      class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} text-center"
+      {{ section.shopify_attributes }}
+    >
+      {{ section.settings.heading }}
+    </h2>
+    {% endif %}
+
+    
+
+    <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} pricing-container">
+      {% if section.settings.sub_heading %}
+      <h3
+        class="image-with-text__heading inline-richtext h3 text-center"
+        {{ section.shopify_attributes }}
+      >
+        {{ section.settings.sub_heading }}
+      </h3>
+      {% endif %}
+
+      {% for block in section.blocks %}
+        {%- case block.type -%}
+          {%- when 'service' -%}
+            {% if section.settings.collapsible_content %}
+              <div class="accordion">
+                <details
+                  id="Details-{{ block.id }}-{{ section.id }}"
+                  {% if section.settings.open_first_collapsible_row and forloop.first %}
+                    open
+                  {% endif %}
+                >
+                  <summary id="Summary-{{ block.id }}-{{ section.id }}">
+                    <h3 class="accordion__title inline-richtext h4">
+                      {{ block.settings.text }}
+                    </h3>
+                    {% render 'icon-caret' %}
+                  </summary>
+                  <div
+                    class="accordion__content rte"
+                    id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
+                    role="region"
+                    aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
+                  >
+                    {{ block.settings.richtext }}
+                    {{ block.settings.html }}
+                  </div>
+                </details>
+              </div>
+            {% else %}
+            <div class="pricing-category ">
+              <h3 class="pricing-heading {% if block.settings.center_heading %}text-center{% endif %}">{{ block.settings.text }}</h3>
+              <div class="{% if block.settings.center_content %}text-center{% endif %}">
+                {{ block.settings.richtext }}
+                {{ block.settings.html }}
+              </div>
+            </div>
+            {% endif %}
+        {%- endcase -%}
+      {% endfor %}
+
+      {% comment %} {%- for block in section.blocks -%}
+        <div class="accordion">
+          <details
+            id="Details-{{ block.id }}-{{ section.id }}"
+            {% if section.settings.open_first_collapsible_row and forloop.first %}
+              open
+            {% endif %}
+          >
+            <summary id="Summary-{{ block.id }}-{{ section.id }}">
+              <h3 class="accordion__title inline-richtext h4">
+                {{ block.settings.text }}
+              </h3>
+              {% render 'icon-caret' %}
+            </summary>
+            <div
+              class="accordion__content rte"
+              id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
+              role="region"
+              aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
+            >
+              {{ block.settings.richtext }}
+              {{ block.settings.html }}
+            </div>
+          </details>
+        </div>
+      {%- endfor -%} {% endcomment %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Pricing Section",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "TRANSPARENT PRICING",
+      "label": "Heading"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "sub_heading",
+      "default": "Ad Account Management",
+      "label": "Sub Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": true,
+      "label": "t:sections.rich-text.settings.full_width.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "collapsible_content",
+      "default": false,
+      "label": "Collapsible Content"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "blocks": [
+    {
+      "type": "service",
+      "name": "Service",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Heading"
+        },
+        {
+          "type": "checkbox",
+          "id": "center_heading",
+          "default": true,
+          "label": "Center Heading"
+        },
+        {
+          "type": "checkbox",
+          "id": "center_content",
+          "default": true,
+          "label": "Center Content"
+        },
+        {
+          "type": "richtext",
+          "id": "richtext",
+          "label": "Service Content"
+        },
+        {
+          "type": "html",
+          "id": "html",
+          "label": "Service Content (HTML)"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pricing Section"
+    }
+  ]
+}
+{% endschema %}

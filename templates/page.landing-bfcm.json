@@ -1,0 +1,471 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_7zeDmT": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.main-page-title {\n        font-size: calc(var(--font-heading-scale)* 2.8rem);\n    }\n\nh2, .h2 {\n    font-size: calc(var(--font-heading-scale)* 2.5rem);\n}\n\n@media screen and (min-width: 990px) {\n    .main-page-title {\n        font-size: calc(var(--font-heading-scale)* 5.2rem);\n    }\n\n    h2, .h2 {\n        font-size: calc(var(--font-heading-scale)* 4.5rem);\n    }\n}\n\nfooter {\ndisplay: none;\n}\n<style>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "page_narrow": false,
+        "custom_heading": "MPIRE // MEDIA",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1724638146d4431512": {
+      "type": "apps",
+      "blocks": {
+        "gsc_countdown_timer_countdown_ma9UUj": {
+          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+          "settings": {
+            "widget_id": "GSC-BAR-H1ZZHIoFl9f1B53"
+          }
+        }
+      },
+      "block_order": [
+        "gsc_countdown_timer_countdown_ma9UUj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "custom_liquid_zciWTH": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".p-20 {padding-inline: 1rem;}",
+        "@media screen and (max-width: 767px) {iframe {height: 750px; }}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"p-20\">\n<iframe\n  src=\"https://crm.mpire.media/widget/form/4j90kexsicjgv6eUVK6I\"\n  style=\"width:100%;height:100%;border:none;border-radius:3px\"\n  id=\"inline-4j90kexsicjgv6eUVK6I\" \n  data-layout=\"{'id':'INLINE'}\"\n  data-trigger-type=\"alwaysShow\"\n  data-trigger-value=\"\"\n  data-activation-type=\"alwaysActivated\"\n  data-activation-value=\"\"\n  data-deactivation-type=\"neverDeactivate\"\n  data-deactivation-value=\"\"\n  data-form-name=\"BFCM Form - GHL Thank You Page\"\n  data-height=\"433\"\n  data-layout-iframe-id=\"inline-4j90kexsicjgv6eUVK6I\"\n  data-form-id=\"4j90kexsicjgv6eUVK6I\"\n  title=\"BFCM Form - GHL Thank You Page\"\n      >\n</iframe>\n<script src=\"https://crm.mpire.media/js/form_embed.js\"></script>\n\n<p style=\"text-align: center; max-width: 650px; margin: auto;\">\nBy submitting you agree to receive SMS or e-mails from Mpire Media, LLC. Incoming message rates may be applied. Reply STOP to opt out.\n</p>\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_9iMaki": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_TNp6yR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_1.png",
+            "title": "",
+            "text": "<p><strong>Inventory</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DVeeBG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_2.png",
+            "title": "",
+            "text": "<p><strong>Product Check</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9yLHUq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_3.png",
+            "title": "",
+            "text": "<p><strong>Offer</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_i9Dmbi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_4.png",
+            "title": "",
+            "text": "<p><strong>AOV Optimization</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dBMfXi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_5.png",
+            "title": "",
+            "text": "<p><strong>Organic Audience Engagement</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nBWE6c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_6.png",
+            "title": "",
+            "text": "<p><strong>Ad Creative</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_x4c3EA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_7.png",
+            "title": "",
+            "text": "<p><strong>Email Stragegy</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_k3XrQU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_8.png",
+            "title": "",
+            "text": "<p><strong>Ad Strategy</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yw4RdW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_9.png",
+            "title": "",
+            "text": "<p><strong>Landing Page</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_488T4M": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_10.png",
+            "title": "",
+            "text": "<p><strong>Bonus</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_TNp6yR",
+        "column_DVeeBG",
+        "column_9yLHUq",
+        "column_i9Dmbi",
+        "column_dBMfXi",
+        "column_nBWE6c",
+        "column_x4c3EA",
+        "column_k3XrQU",
+        "column_yw4RdW",
+        "column_488T4M"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {justify-content: center;}",
+        "h2 {font-family: \"Assistant\";}",
+        "img {max-width: 100px;}"
+      ],
+      "settings": {
+        "title": "<strong>Areas of Focus</strong>",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_TLHJaH": {
+      "type": "rich-text",
+      "blocks": {
+        "text_pFL3A9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Areas of Focus</strong></p><ol><li>Inventory</li><li>Product Check</li><li>Offer</li><li>AOV Optimization</li><li>Organic Audience Engagement</li><li>Ad Creative</li><li>Email Stragegy</li><li>Ad Strategy</li><li>Landing Page</li></ol>"
+          }
+        },
+        "text_VVt7HY": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Results from following these suggestions</strong></p><p>This overall checklist has been put together by experts both in-house and at agencies with 10 years of experience running BFCM deals for over 100 different brands. We have seen the great, the good, and the bad strategies, our goal with this checklist is to set your company up for success and mitigate as much risk as possible this holiday season. </p><p><strong>Case Studies</strong></p><p>Here are examples from a handful of brands we scaled last year (some the previous year) during BFCM. Remember EVERYONE becomes a buyer during the holiday season which is why brands can have record seasons. People are looking for anything interesting to buy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_pFL3A9",
+        "text_VVt7HY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_3LYeQd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RjRkxw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.05.08_PM.png",
+            "title": "Childrens Toys",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9mH8fR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.05.37_PM.png",
+            "title": "Oral Care Market",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8VXD6Y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.06.38_PM.png",
+            "title": "Womens Underwear",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_C8bDY4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.10.20_PM.png",
+            "title": "Children Toys",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XQ3HH9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.11.33_PM.png",
+            "title": "Childrens Toys",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Whkkr8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.08.02_PM.png",
+            "title": "Home Goods",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Gx9mJ9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.08.42_PM.png",
+            "title": "Religious Paintings",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WXgef4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.09.06_PM.png",
+            "title": "Fashion",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CyxKQV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2024-08-16_at_2.12.40_PM.png",
+            "title": "Photography & Videography",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RjRkxw",
+        "column_9mH8fR",
+        "column_8VXD6Y",
+        "column_C8bDY4",
+        "column_XQ3HH9",
+        "column_Whkkr8",
+        "column_Gx9mJ9",
+        "column_WXgef4",
+        "column_CyxKQV"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_QrJUTg": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".p-20 {padding-inline: 1rem;}",
+        "@media screen and (max-width: 767px) {iframe {height: 750px; }}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"p-20\">\n<iframe\nsrc=\"https://crm.mpire.media/widget/form/4j90kexsicjgv6eUVK6I\"\n  style=\"width:100%;height:100%;border:none;border-radius:3px\"\n  id=\"block-4j90kexsicjgv6eUVK6I\" \n  data-layout=\"{'id':'INLINE'}\"\n  data-trigger-type=\"alwaysShow\"\n  data-trigger-value=\"\"\n  data-activation-type=\"alwaysActivated\"\n  data-activation-value=\"\"\n  data-deactivation-type=\"neverDeactivate\"\n  data-deactivation-value=\"\"\n  data-form-name=\"BFCM Form - GHL Thank You Page\"\n  data-height=\"433\"\n  data-layout-iframe-id=\"inline-4j90kexsicjgv6eUVK6I\"\n  data-form-id=\"4j90kexsicjgv6eUVK6I\"\n  title=\"BFCM Form - GHL Thank You Page\"\n      >\n</iframe>\n<script src=\"https://crm.mpire.media/js/form_embed.js\"></script>\n\n<p style=\"text-align: center; max-width: 650px; margin: auto;\">\nBy submitting you agree to receive SMS or e-mails from Mpire Media, LLC. Incoming message rates may be applied. Reply STOP to opt out.\n</p>\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 48,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_fyykxH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nrrXdp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Who is Mpire - What services do we offer?</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_DN4ndq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mpire Media is an elite group of ad buyers and creatives that focuses on paid advertising for E-Commerce brands & Serviced Based lead generation funnels.</p>"
+          }
+        },
+        "text_9EwNDi": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Here is a list of our services offered:<br/><br/>- Paid Ads Management<br/><br/>- Ad Creative Production<br/><br/>- Shopify Development<br/><br/>- Email Marketing</h5>"
+          }
+        },
+        "text_xdMhpe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We would love to help you crush this Q4. Book a call below to book a strategy call!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nrrXdp",
+        "text_DN4ndq",
+        "text_9EwNDi",
+        "text_xdMhpe"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 100rem;}",
+        "h2,.h2 {font-size: calc(var(--font-heading-scale) * 2rem);}",
+        "@media screen and (min-width: 990px) {h2, .h2 {font-size: calc(var(--font-heading-scale) * 2.5rem); }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_8RQFw3": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<!-- Motion embed begin -->\n<iframe src=\"https://app.usemotion.com/meet/mpire-media/meeting\" title=\"Motion Booking Page\" width=\"100%\" height=\"840px\" frameborder=\"0\"></iframe>\n<!-- Motion embed end -->",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter_mJKmxU": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_bKGcDb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Who is Mpire - What services do we offer?</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_Y6PepF": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Mpire Media is an elite group of ad buyers and creatives that focuses on paid advertising for E-Commerce brands & Serviced Based lead generation funnels.</p>"
+          }
+        },
+        "email_form_gFYrAM": {
+          "type": "email_form",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_bKGcDb",
+        "paragraph_Y6PepF",
+        "email_form_gFYrAM"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_7zeDmT",
+    "main",
+    "1724638146d4431512",
+    "custom_liquid_zciWTH",
+    "multicolumn_9iMaki",
+    "rich_text_TLHJaH",
+    "multicolumn_3LYeQd",
+    "custom_liquid_QrJUTg",
+    "rich_text_fyykxH",
+    "custom_liquid_8RQFw3",
+    "newsletter_mJKmxU"
+  ]
+}
