@@ -4,18 +4,6 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.15 | round: 0 }}px;
   }
 
-
-
-  #shopify-section-{{ section.id }} .brand-list {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    align-items: center;
-    padding: 0;
-    gap: 20px;
-    justify-content: center;
-  }
-
   #shopify-section-{{ section.id }} .brand-list .brand-item {
     height: 100px;
     width: 150px;
@@ -54,9 +42,7 @@
     }
 
     #shopify-section-{{ section.id }} .brand-list .brand-item {
-      margin: 0 20px;
-      width: 250px;
-      height: 250px;
+      width: 100%;
       background-color: #ffffff;
       border-radius: 20px;
     }
@@ -72,7 +58,7 @@
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %} overflow-x-hidden">
   <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding text-center">
     
-    <div class="flex justify-between gap-2">
+    <div class="flex justify-between gap-8">
       <h2
         class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} w-auto"
         {{ section.shopify_attributes }}
@@ -81,7 +67,7 @@
       </h2>
   
       <div class="brand-list-container flex-1">
-        <ul class="brand-list">
+        <ul class="brand-list grid grid-cols-5 gap-4">
         {% for block in section.blocks %}
           {%- case block.type -%}
             {%- when 'brand' -%}
