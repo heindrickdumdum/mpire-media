@@ -4,22 +4,16 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.15 | round: 0 }}px;
   }
 
-  @keyframes scroll {
-    0% {
-        transform: translateX(0)
-    }
 
-    to {
-        transform: translateX(calc(-250px * 24))
-    }
-}
 
   #shopify-section-{{ section.id }} .brand-list {
-    animation: scroll 40s linear infinite;
     display: flex;
-    width: calc(250px* 48);
+    flex-wrap: wrap;
     list-style-type: none;
     align-items: center;
+    padding: 0;
+    gap: 20px;
+    justify-content: center;
   }
 
   #shopify-section-{{ section.id }} .brand-list .brand-item {
@@ -38,8 +32,8 @@
   }
 
   #shopify-section-{{ section.id }} .brand-list-container {
-    position: relative;
-    overflow: hidden;
+    /* position: relative;
+    overflow: hidden; */
   }
   #shopify-section-{{ section.id }} .brand-list-container:before {
       left: 0;
@@ -52,15 +46,6 @@
       transform: rotate(180deg);
   }
 
-  #shopify-section-{{ section.id }} .brand-list-container:after,
-  #shopify-section-{{ section.id }} .brand-list-container:before {
-      background: linear-gradient(90deg, #fff 0, hsla(0, 0%, 100%, 0));
-      content: "";
-      height: 125px;
-      position: absolute;
-      width: 200px;
-      z-index: 2;
-  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -71,6 +56,9 @@
     #shopify-section-{{ section.id }} .brand-list .brand-item {
       margin: 0 20px;
       width: 250px;
+      height: 250px;
+      background-color: #ffffff;
+      border-radius: 20px;
     }
   }
 
@@ -84,49 +72,55 @@
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %} overflow-x-hidden">
   <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding text-center">
     
-    <h2
-      class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
-      {{ section.shopify_attributes }}
-    >
-      {{ section.settings.heading }}
-    </h2>
-
-    <div class="brand-list-container">
-    <ul class="brand-list">
-    {% for block in section.blocks %}
-      {%- case block.type -%}
-        {%- when 'brand' -%}
-          <li class="brand-item">
+    <div>
+      <h2
+        class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
+        {{ section.shopify_attributes }}
+      >
+        {{ section.settings.heading }}
+      </h2>
   
-            {{
-              block.settings.image
-              | image_url: width: 250
-              | image_tag:
-                loading: 'lazy',
-                widths: '250',
-                alt: block.settings.text
-            }}
-          </li>
-      {%- endcase -%}
-    {% endfor %}
-    {% for block in section.blocks %}
-      {%- case block.type -%}
-        {%- when 'brand' -%}
-          <li class="brand-item">
-    
-            {{
-              block.settings.image
-              | image_url: width: 250
-              | image_tag:
-                loading: 'lazy',
-                widths: '250',
-                alt: block.settings.text
-            }}
-          </li>
-      {%- endcase -%}
-    {% endfor %}
-    </ul>
-  </div>
+      <div class="brand-list-container">
+        <ul class="brand-list">
+        {% for block in section.blocks %}
+          {%- case block.type -%}
+            {%- when 'brand' -%}
+              {% if block.settings.image %}
+              <li class="brand-item">
+      
+                {{
+                  block.settings.image
+                  | image_url: width: 250
+                  | image_tag:
+                    loading: 'lazy',
+                    widths: '250',
+                    alt: block.settings.text
+                }}
+              </li>
+              {% endif %}
+          {%- endcase -%}
+        {% endfor %}
+        {% for block in section.blocks %}
+          {%- case block.type -%}
+            {%- when 'brand' -%}
+              {% if block.settings.image %}
+              <li class="brand-item">
+        
+                {{
+                  block.settings.image
+                  | image_url: width: 250
+                  | image_tag:
+                    loading: 'lazy',
+                    widths: '250',
+                    alt: block.settings.text
+                }}
+              </li>
+              {% endif %}
+          {%- endcase -%}
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
 
