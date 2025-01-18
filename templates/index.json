@@ -324,6 +324,12 @@
             "text": "Wild Willies",
             "image": "shopify://shop_images/wild-willies.png"
           }
+        },
+        "brand_wg6nEm": {
+          "type": "brand",
+          "settings": {
+            "text": "Brand"
+          }
         }
       },
       "block_order": [
@@ -363,7 +369,8 @@
         "brand_tPWhia",
         "brand_eYrKck",
         "brand_jphTYK",
-        "brand_M9eQBg"
+        "brand_M9eQBg",
+        "brand_wg6nEm"
       ],
       "settings": {
         "heading": "Our Clients",
@@ -376,6 +383,17 @@
     },
     "custom_tabs_BeV8rj": {
       "type": "custom-tabs",
+      "blocks": {
+        "image_HbP3JA": {
+          "type": "image",
+          "settings": {
+            "brand_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_HbP3JA"
+      ],
       "settings": {
         "heading": "WHAT WE CAN DO FOR YOU",
         "heading_size": "h2",
