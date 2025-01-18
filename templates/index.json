@@ -40,6 +40,7 @@
         "template--18499736731944__19da2b34-b6ad-4f4e-bf7f-38c6251f9b39-1680642343a313adbf-2"
       ],
       "custom_css": [
+        ".image-with-text {background: url(https://cdn.shopify.com/s/files/1/0741/9350/2504/files/banner-bg.png?v=1737184132); background-size: 100% 100%;}",
         "@media screen and (max-width: 749px) {.image-with-text__grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0; margin-bottom: 20px; } .image-with-text__heading {margin-bottom: 0; text-align: center; } .image-with-text__text {text-align: center; margin: 1rem 0; } .image-with-text__content .image-with-text__text + .button {margin: 0 auto; margin-top: 0; }}"
       ],
       "settings": {
@@ -54,8 +55,8 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "clients_jCUGk8": {
