@@ -72,15 +72,15 @@
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %} overflow-x-hidden">
   <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding text-center">
     
-    <div>
+    <div class="flex justify-between gap-2">
       <h2
-        class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
+        class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} w-auto"
         {{ section.shopify_attributes }}
       >
         {{ section.settings.heading }}
       </h2>
   
-      <div class="brand-list-container">
+      <div class="brand-list-container flex-1">
         <ul class="brand-list">
         {% for block in section.blocks %}
           {%- case block.type -%}
