@@ -1,0 +1,252 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.15 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.15 | round: 0 }}px;
+  }
+
+  @keyframes scroll {
+    0% {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(calc(-250px * 24))
+    }
+}
+
+  #shopify-section-{{ section.id }} .brand-list {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px* 48);
+    list-style-type: none;
+    align-items: center;
+  }
+
+  #shopify-section-{{ section.id }} .brand-list .brand-item {
+    height: 100px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  #shopify-section-{{ section.id }} .brand-list .brand-item img {
+    width: 80%;
+    height: auto;
+  }
+
+  #shopify-section-{{ section.id }} .brand-list-container {
+    position: relative;
+    overflow: hidden;
+  }
+  #shopify-section-{{ section.id }} .brand-list-container:before {
+      left: 0;
+      top: 0;
+  }
+
+  #shopify-section-{{ section.id }} .brand-list-container:after {
+      right: 0;
+      top: 0;
+      transform: rotate(180deg);
+  }
+
+  #shopify-section-{{ section.id }} .brand-list-container:after,
+  #shopify-section-{{ section.id }} .brand-list-container:before {
+      background: linear-gradient(90deg, #fff 0, hsla(0, 0%, 100%, 0));
+      content: "";
+      height: 125px;
+      position: absolute;
+      width: 200px;
+      z-index: 2;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    #shopify-section-{{ section.id }} .brand-list .brand-item {
+      margin: 0 20px;
+      width: 250px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    #shopify-section-{{ section.id }} .image-with-text__heading {
+        margin-bottom: 0 !important;
+    }
+  }
+{%- endstyle -%}
+
+<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %} overflow-x-hidden">
+  <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding text-center">
+    
+    <h2
+      class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
+      {{ section.shopify_attributes }}
+    >
+      {{ section.settings.heading }}
+    </h2>
+
+    <div class="brand-list-container">
+    <ul class="brand-list">
+    {% for block in section.blocks %}
+      {%- case block.type -%}
+        {%- when 'brand' -%}
+          <li class="brand-item">
+  
+            {{
+              block.settings.image
+              | image_url: width: 250
+              | image_tag:
+                loading: 'lazy',
+                widths: '250',
+                alt: block.settings.text
+            }}
+          </li>
+      {%- endcase -%}
+    {% endfor %}
+    {% for block in section.blocks %}
+      {%- case block.type -%}
+        {%- when 'brand' -%}
+          <li class="brand-item">
+    
+            {{
+              block.settings.image
+              | image_url: width: 250
+              | image_tag:
+                loading: 'lazy',
+                widths: '250',
+                alt: block.settings.text
+            }}
+          </li>
+      {%- endcase -%}
+    {% endfor %}
+    </ul>
+  </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Clients",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Our Clients",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": true,
+      "label": "t:sections.rich-text.settings.full_width.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "blocks": [
+    {
+      "type": "brand",
+      "name": "Brand",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Brand",
+          "label": "Brand Name"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Brand Logo"
+        }        
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Clients"
+    }
+  ]
+}
+{% endschema %}
