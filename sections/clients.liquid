@@ -43,6 +43,7 @@
 
     #shopify-section-{{ section.id }} .brand-list .brand-item {
       width: 100%;
+      height: 200px;
       background-color: #ffffff;
       border-radius: 20px;
     }
@@ -55,24 +56,24 @@
   }
 {%- endstyle -%}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %} overflow-x-hidden">
+<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %} tw-overflow-x-hidden">
   <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding text-center">
     
-    <div class="flex justify-between gap-8">
+    <div class="tw-flex tw-justify-between tw-gap-8">
       <h2
-        class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} w-auto"
+        class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} tw-w-auto"
         {{ section.shopify_attributes }}
       >
         {{ section.settings.heading }}
       </h2>
   
-      <div class="brand-list-container flex-1">
-        <ul class="brand-list grid grid-cols-5 gap-4">
+      <div class="brand-list-container tw-flex-1">
+        <ul class="brand-list tw-grid tw-grid-cols-5 tw-gap-4">
         {% for block in section.blocks %}
           {%- case block.type -%}
             {%- when 'brand' -%}
               {% if block.settings.image %}
-              <li class="brand-item">
+              <li class="brand-item tw-overflow-hidden">
       
                 {{
                   block.settings.image
@@ -90,7 +91,7 @@
           {%- case block.type -%}
             {%- when 'brand' -%}
               {% if block.settings.image %}
-              <li class="brand-item">
+              <li class="brand-item tw-overflow-hidden">
         
                 {{
                   block.settings.image

@@ -223,7 +223,7 @@
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
       {% comment %} General Styling CSS - Padding, Margins {% endcomment %}
-    {% comment %} {{ 'general-style.css' | asset_url | stylesheet_tag }} {% endcomment %}
+    {{ 'tailwind.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>

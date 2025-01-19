@@ -1,0 +1,39 @@
+.tw-flex {
+  display: flex
+}
+
+.tw-grid {
+  display: grid
+}
+
+.tw-w-auto {
+  width: auto
+}
+
+.tw-flex-1 {
+  flex: 1 1 0%
+}
+
+.tw-grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr))
+}
+
+.tw-justify-between {
+  justify-content: space-between
+}
+
+.tw-gap-4 {
+  gap: 1rem
+}
+
+.tw-gap-8 {
+  gap: 2rem
+}
+
+.tw-overflow-hidden {
+  overflow: hidden
+}
+
+.tw-overflow-x-hidden {
+  overflow-x: hidden
+}
