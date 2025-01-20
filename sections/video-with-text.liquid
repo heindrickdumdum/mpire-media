@@ -25,7 +25,20 @@
 
 <div class="image-with-text image-with-text--{{ section.settings.content_layout }}  isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} ">
   <div class="page-width section-{{ section.id }}-padding">
-    <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
+    <div class="image-with-text__content">
+      {%- for block in section.blocks -%}
+        {% case block.type %}
+          {%- when 'heading' -%}
+            <h2
+              class="image-with-text__heading inline-richtext tw-max-w-[65rem] {{ block.settings.heading_size }}"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.heading }}
+            </h2>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+    <div class="image-with-text__grid tw-items-start tw-mt-10 grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
       <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
         <div
           class="image-with-text__media image-with-text__video image-with-text__media--{{ section.settings.height }} {% if section.settings.image != blank %}global-media-settings {% endif %}{% if section.settings.image != blank %}media{% elsif section.settings.video_url == "" %}image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
@@ -64,17 +77,10 @@
       <div class="image-with-text__text-item grid__item">
         <div
           id="ImageWithText--{{ section.id }}"
-          class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container"
+          class="tw-py-0 image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container tw-p-0"
         >
           {%- for block in section.blocks -%}
             {% case block.type %}
-              {%- when 'heading' -%}
-                <h2
-                  class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
-                  {{ block.shopify_attributes }}
-                >
-                  {{ block.settings.heading }}
-                </h2>
               {%- when 'caption' -%}
                 <p
                   class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
@@ -83,7 +89,7 @@
                   {{ block.settings.caption | escape }}
                 </p>
               {%- when 'text' -%}
-                <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                <div class="image-with-text__text rte {{ block.settings.text_style }} tw-text-4xl" {{ block.shopify_attributes }}>
                   {{ block.settings.text }}
                 </div>
               {%- when 'button' -%}

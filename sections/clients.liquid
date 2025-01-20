@@ -6,12 +6,14 @@
 
   #shopify-section-{{ section.id }} .brand-list .brand-item {
     height: 100px;
-    width: 150px;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
     padding: 10px 0;
+    background-color: #ffffff;
+      border-radius: 20px;
   }
 
   #shopify-section-{{ section.id }} .brand-list .brand-item img {
@@ -44,8 +46,7 @@
     #shopify-section-{{ section.id }} .brand-list .brand-item {
       width: 100%;
       height: 200px;
-      background-color: #ffffff;
-      border-radius: 20px;
+      
     }
   }
 
@@ -59,7 +60,7 @@
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %} tw-overflow-x-hidden">
   <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding text-center">
     
-    <div class="tw-flex tw-justify-between tw-gap-8">
+    <div class="tw-flex tw-flex-col md:tw-flex-row tw-justify-between tw-gap-8">
       <h2
         class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} tw-w-auto"
         {{ section.shopify_attributes }}
@@ -67,8 +68,8 @@
         {{ section.settings.heading }}
       </h2>
   
-      <div class="brand-list-container tw-flex-1">
-        <ul class="brand-list tw-grid tw-grid-cols-5 tw-gap-4">
+      <div class="brand-list-container tw-flex-1 tw-max-h-[45rem] tw-overflow-hidden">
+        <ul class="brand-list tw-grid lg:tw-grid-cols-5 tw-grid-cols-3 tw-gap-[2rem] tw-p-0">
         {% for block in section.blocks %}
           {%- case block.type -%}
             {%- when 'brand' -%}
