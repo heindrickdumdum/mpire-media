@@ -385,7 +385,7 @@
     "custom_grid_images_xUEWwy": {
       "type": "custom-grid-images",
       "settings": {
-        "heading": "Grid images",
+        "heading": "",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "full_width": true,
