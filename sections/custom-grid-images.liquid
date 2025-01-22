@@ -4,6 +4,14 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  #shopify-section-{{ section.id }} .img-grid-wrapper::before {
+    content: '';
+    position: absolute;
+    background-color: rgb(21 18 49 / 40%);
+    height: 100%;
+    width: 100%;
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -14,18 +22,35 @@
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+    {% if section.settings.heading != blank  %}
     <h2
       class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
       {{ section.shopify_attributes }}
     >
       {{ section.settings.heading }}
     </h2>
+    {% endif %}
 
-    {% for block in section.blocks %}
-      {%- case block.type -%}
-        {%- when 'brand' -%}
-      {%- endcase -%}
-    {% endfor %}
+    <div class="page-width--narrow tw-mx-auto">
+        <div class="tw-grid tw-grid-cols-4 tw-gap-5 lg:tw-gap-14">
+          <div class="img-grid-wrapper tw-relative tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-rounded-3xl tw-col-span-2 tw-row-span-2">
+            <img src="https://cdn.shopify.com/s/files/1/0741/9350/2504/files/MPIRE_MEDIA_-_WEB_DESIGN-12.png?v=1737568907" alt="Image 1" class="tw-w-full tw-h-full tw-object-cover tw-scale-150">
+            <span class="tw-absolute tw-top-1/2 tw-left-0 tw-right-0 tw-text-center tw-transform tw--translate-y-1/2 tw-text-[26px] tw-font-bold">AD BUYING</span>
+          </div>
+          <div class="img-grid-wrapper tw-max-h-80 tw-relative tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-rounded-3xl tw-col-span-2 tw-row-span-1">
+            <img src="https://cdn.shopify.com/s/files/1/0741/9350/2504/files/MPIRE_MEDIA_-_WEB_DESIGN-12.png?v=1737568907" alt="Image 2" class="tw-w-full tw-h-full tw-object-cover tw-scale-150">
+            <span class="tw-absolute tw-top-1/2 tw-left-0 tw-right-0 tw-text-center tw-transform tw--translate-y-1/2 tw-text-[26px] tw-font-bold">CONTEN CREATION</span>
+          </div>
+          <div class="img-grid-wrapper tw-max-h-80 tw-relative tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-rounded-3xl tw-col-span-2 tw-row-span-1">
+            <img src="https://cdn.shopify.com/s/files/1/0741/9350/2504/files/MPIRE_MEDIA_-_WEB_DESIGN-12.png?v=1737568907" alt="Image 3" class="tw-w-full tw-h-full tw-object-cover tw-scale-150">
+            <span class="tw-absolute tw-top-1/2 tw-left-0 tw-right-0 tw-text-center tw-transform tw--translate-y-1/2 tw-text-[26px] tw-font-bold">EMAIL MARKETING</span>
+          </div>
+          <div class="img-grid-wrapper tw-max-h-80 tw-relative tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-rounded-3xl tw-col-span-4 tw-row-span-1">
+            <img src="https://cdn.shopify.com/s/files/1/0741/9350/2504/files/MPIRE_MEDIA_-_WEB_DESIGN-12.png?v=1737568907" alt="Image 3" class="tw-w-full tw-h-full tw-object-cover tw-scale-150">
+            <span class="tw-absolute tw-top-1/2 tw-left-0 tw-right-0 tw-text-center tw-transform tw--translate-y-1/2 tw-text-[26px] tw-font-bold">WEB DEVELOPMENT</span>
+          </div>
+        </div>
+    </div>
   </div>
 </div>
 
