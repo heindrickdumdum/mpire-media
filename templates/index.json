@@ -460,6 +460,9 @@
         "row_JRTDFQ"
       ],
       "settings": {
+        "heading": "WHAT WE DO",
+        "section_heading_size": "h1",
+        "color_scheme": "background-1",
         "image_height": "small",
         "desktop_image_width": "medium",
         "heading_size": "h1",
@@ -470,6 +473,51 @@
         "image_layout": "alternate-right",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_J6Jx8R": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fEx83z": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_gA3wLe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Targeting your ideal audience isnt just serving your ads<br/>to them, its resonating with them.<br/>• Resonating with your ideal customer sits in what we<br/>say to them, how we speak to them, and how we visually<br/>relate to their interests to turn our offer from an interest<br/>to a need.<br/>• Afterall...Good marketing makes your brand look<br/>smart, but great marketing makes the customer feel<br/>smart.<br/>We have</p>",
+            "text_style": "body"
+          }
+        },
+        "button_qiHHYd": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_fEx83z",
+        "text_gA3wLe",
+        "button_qiHHYd"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-17.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -934,6 +982,7 @@
     "clients_jCUGk8",
     "custom_grid_images_xUEWwy",
     "multirow_custom_FKdmAF",
+    "image_with_text_J6Jx8R",
     "custom_tabs_BeV8rj",
     "slideshow_custom_8hFBiq",
     "partners_section_VEfzXe",
