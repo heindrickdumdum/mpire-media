@@ -401,7 +401,7 @@
           "settings": {
             "caption": "",
             "heading": "",
-            "text": "<p><strong>Our team will plan a full-funnel<br/>advertising strategy</strong> with every possible<br/>interaction with your business and map out what<br/>we intend to learn from each interaction.</p>",
+            "text": "<p><strong>Our team will plan a full-funnel<br/>advertising strategy</strong> with every possible<br/>interaction with your business and map out what we intend to learn from each interaction.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -409,30 +409,40 @@
         "row_dE96w4": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "",
+            "heading": "",
+            "text": "<p><strong>What have you learned about your<br/>customers</strong> through your advertising efforts to know how to resonate with your customers?</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_EXdL7z": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "",
+            "heading": "",
+            "text": "<p><strong>The point of a marketing funnel</strong> is to<br/>create a practical purchasing experience for your target audience. To be effective, we need to understand as much as we can about our customers and their wants, needs, and concerns through the masterful distribution of purposeful content.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_Yt8wCN": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "",
+            "heading": "",
+            "text": "<p><strong>Most brands need help to scale their<br/>business</strong> because they focus too much of their marketing efforts on selling the benefits of their product or service or advertising the main problems their product/service solves without resolving the concerns of those who have expressed interest without purchasing. We want to leverage our marketing efforts to learn why those interested are NOT purchasing</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_JRTDFQ": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "",
+            "text": "<p><strong>A proper funnel strategy</strong> will include how<br/>we can resolve all customers’ concerns. When we learn how to resolve those concerns, we can apply what we have learned to our ads and website, which results in much higher conversion rates. A higher conversion rate means more scalable profitability.</p>",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -441,7 +451,8 @@
         "row_xXNxX8",
         "row_dE96w4",
         "row_EXdL7z",
-        "row_Yt8wCN"
+        "row_Yt8wCN",
+        "row_JRTDFQ"
       ],
       "settings": {
         "image_height": "medium",
@@ -451,7 +462,7 @@
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
+        "image_layout": "alternate-right",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
         "mobile_content_alignment": "left",
