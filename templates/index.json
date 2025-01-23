@@ -399,10 +399,10 @@
         "row_xXNxX8": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "",
+            "heading": "",
+            "text": "<p><strong>Our team will plan a full-funnel<br/>advertising strategy</strong> with every possible<br/>interaction with your business and map out what<br/>we intend to learn from each interaction.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -425,12 +425,23 @@
             "button_label": "Button label",
             "button_link": ""
           }
+        },
+        "row_Yt8wCN": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "row_xXNxX8",
         "row_dE96w4",
-        "row_EXdL7z"
+        "row_EXdL7z",
+        "row_Yt8wCN"
       ],
       "settings": {
         "image_height": "medium",
