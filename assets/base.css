@@ -292,7 +292,7 @@ html.no-js .no-js-hidden {
   }
 
   .page-width--medium {
-    padding: 0 9rem;
+    /* padding: 0 9rem; */
   }
 
   .page-width-desktop {
@@ -316,7 +316,7 @@ html.no-js .no-js-hidden {
   }
 
   .page-width--medium {
-    max-width: 80rem;
+    max-width: 90rem;
     padding: 0;
   }
 

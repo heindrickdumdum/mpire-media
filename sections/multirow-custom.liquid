@@ -54,7 +54,7 @@
 -%}
 
 <div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
-  <div class="multirow__inner page-width--medium !tw-gap-y-14">
+  <div class="multirow__inner page-width--medium !tw-gap-y-[7rem]">
     {% if section.settings.heading != blank  %}
       <h2
         class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} text-center"
@@ -91,7 +91,7 @@
               {%- endif -%}
             </div>
           </div>
-          <hr class="tw-w-[50px] tw-h-[3px] tw-bg-[#ffffff] hidden sm:!tw-block">
+          <hr class="tw-w-[50px] tw-h-[3px] tw-bg-[#ffffff] hidden md:!tw-block">
           <div class="image-with-text__text-item grid__item tw-flex tw-items-center tw-text-xl">
             <div class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.image_height }} content-container{% unless no_content_background and no_content_styles %} gradient color-{{ section.settings.row_color_scheme }}{% endunless %}">
               {%- if block.settings.caption != blank -%}
@@ -105,7 +105,7 @@
                 </h2>
               {%- endif -%}
               {%- if block.settings.text -%}
-                <div class="image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
+                <div class="image-with-text__text rte tw-text-2xl {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
               {%- if block.settings.button_label != blank -%}
                 <a
