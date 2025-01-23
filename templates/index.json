@@ -481,32 +481,16 @@
     "image_with_text_J6Jx8R": {
       "type": "image-with-text",
       "blocks": {
-        "heading_fEx83z": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
         "text_gA3wLe": {
           "type": "text",
           "settings": {
             "text": "<p>Targeting your ideal audience isnt just serving your ads<br/>to them, its resonating with them.<br/>• Resonating with your ideal customer sits in what we<br/>say to them, how we speak to them, and how we visually<br/>relate to their interests to turn our offer from an interest<br/>to a need.<br/>• Afterall...Good marketing makes your brand look<br/>smart, but great marketing makes the customer feel<br/>smart.<br/>We have</p>",
             "text_style": "body"
           }
-        },
-        "button_qiHHYd": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
-        "heading_fEx83z",
-        "text_gA3wLe",
-        "button_qiHHYd"
+        "text_gA3wLe"
       ],
       "settings": {
         "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-17.png",
