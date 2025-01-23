@@ -393,6 +393,61 @@
         "padding_bottom": 52
       }
     },
+    "multirow_custom_FKdmAF": {
+      "type": "multirow-custom",
+      "blocks": {
+        "row_xXNxX8": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_dE96w4": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_EXdL7z": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_xXNxX8",
+        "row_dE96w4",
+        "row_EXdL7z"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_tabs_BeV8rj": {
       "type": "custom-tabs",
       "blocks": {
@@ -851,6 +906,7 @@
     "19da2b34-b6ad-4f4e-bf7f-38c6251f9b39",
     "clients_jCUGk8",
     "custom_grid_images_xUEWwy",
+    "multirow_custom_FKdmAF",
     "custom_tabs_BeV8rj",
     "slideshow_custom_8hFBiq",
     "partners_section_VEfzXe",
