@@ -13,7 +13,7 @@
     margin: 0;
     padding: 10px 0;
     background-color: #ffffff;
-      border-radius: 20px;
+      border-radius: 10px;
   }
 
   #shopify-section-{{ section.id }} .brand-list .brand-item img {
@@ -45,7 +45,7 @@
 
     #shopify-section-{{ section.id }} .brand-list .brand-item {
       width: 100%;
-      height: 200px;
+      height: 125px;
       
     }
   }
@@ -62,13 +62,13 @@
     
     <div class="tw-flex tw-flex-col md:tw-flex-row tw-justify-between tw-gap-8">
       <h2
-        class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} tw-w-auto"
+        class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} tw-w-auto tw-text-left tw-max-w-[250px]"
         {{ section.shopify_attributes }}
       >
         {{ section.settings.heading }}
       </h2>
   
-      <div class="brand-list-container tw-flex-1 tw-max-h-[45rem] tw-overflow-hidden">
+      <div class="brand-list-container tw-flex-1 tw-max-h-[30rem] tw-overflow-hidden">
         <ul class="brand-list tw-grid lg:tw-grid-cols-5 tw-grid-cols-3 tw-gap-[2rem] tw-p-0">
         {% for block in section.blocks %}
           {%- case block.type -%}

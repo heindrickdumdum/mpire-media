@@ -71,6 +71,10 @@
   height: 100%
 }
 
+.tw-h-\[3px\] {
+  height: 3px
+}
+
 .tw-max-h-\[45rem\] {
   max-height: 45rem
 }
@@ -83,6 +87,10 @@
   max-height: 20rem
 }
 
+.tw-max-h-\[30rem\] {
+  max-height: 30rem
+}
+
 .tw-w-auto {
   width: auto
 }
@@ -91,8 +99,32 @@
   width: 100%
 }
 
+.tw-w-5 {
+  width: 1.25rem
+}
+
+.tw-w-\[100px\] {
+  width: 100px
+}
+
+.tw-w-\[70px\] {
+  width: 70px
+}
+
+.tw-w-\[50px\] {
+  width: 50px
+}
+
 .tw-max-w-\[65rem\] {
   max-width: 65rem
+}
+
+.tw-max-w-\[200px\] {
+  max-width: 200px
+}
+
+.tw-max-w-\[250px\] {
+  max-width: 250px
 }
 
 .tw-flex-1 {
@@ -134,6 +166,10 @@
   align-items: flex-start
 }
 
+.tw-items-center {
+  align-items: center
+}
+
 .tw-justify-between {
   justify-content: space-between
 }
@@ -162,6 +198,22 @@
   gap: 1.25rem
 }
 
+.tw-gap-y-5 {
+  row-gap: 1.25rem
+}
+
+.tw-gap-y-10 {
+  row-gap: 2.5rem
+}
+
+.\!tw-gap-y-10 {
+  row-gap: 2.5rem !important
+}
+
+.\!tw-gap-y-14 {
+  row-gap: 3.5rem !important
+}
+
 .tw-overflow-hidden {
   overflow: hidden
 }
@@ -182,6 +234,11 @@
   border-bottom-left-radius: 1.5rem
 }
 
+.tw-bg-\[\#ffffff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1))
+}
+
 .tw-object-cover {
   -o-object-fit: cover;
      object-fit: cover
@@ -194,6 +251,10 @@
 .tw-py-0 {
   padding-top: 0px;
   padding-bottom: 0px
+}
+
+.tw-text-left {
+  text-align: left
 }
 
 .tw-text-center {
@@ -214,6 +275,21 @@
   font-size: 26px
 }
 
+.tw-text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem
+}
+
+.tw-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem
+}
+
+.tw-text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem
+}
+
 .tw-font-bold {
   font-weight: 700
 }
@@ -225,6 +301,14 @@
 }
 
 @media (min-width: 640px) {
+  .sm\:tw-block {
+    display: block
+  }
+
+  .sm\:\!tw-block {
+    display: block !important
+  }
+
   .sm\:tw-grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr))
   }

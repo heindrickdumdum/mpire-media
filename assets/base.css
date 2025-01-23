@@ -253,6 +253,11 @@ html.no-js .no-js-hidden {
   padding: 0 1.5rem;
 }
 
+.page-width--medium {
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
 .page-width-full {
   max-width: var(--page-width-full);
   margin: 0 auto;
@@ -286,6 +291,10 @@ html.no-js .no-js-hidden {
     padding: 0 9rem;
   }
 
+  .page-width--medium {
+    padding: 0 9rem;
+  }
+
   .page-width-desktop {
     padding: 0;
   }
@@ -303,6 +312,11 @@ html.no-js .no-js-hidden {
 
   .page-width--narrow {
     max-width: 72.6rem;
+    padding: 0;
+  }
+
+  .page-width--medium {
+    max-width: 80rem;
     padding: 0;
   }
 
