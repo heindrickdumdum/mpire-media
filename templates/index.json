@@ -510,19 +510,56 @@
         "padding_bottom": 36
       }
     },
-    "custom_tabs_BeV8rj": {
-      "type": "custom-tabs",
+    "image_with_text_tCNVk8": {
+      "type": "image-with-text",
       "blocks": {
-        "image_HbP3JA": {
-          "type": "image",
+        "heading_tfqjny": {
+          "type": "heading",
           "settings": {
-            "brand_name": ""
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_kkx6Dg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_FmGY7b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "image_HbP3JA"
+        "heading_tfqjny",
+        "text_kkx6Dg",
+        "button_FmGY7b"
       ],
+      "settings": {
+        "section_heading": "CONTENT NEEDS PURPOSE",
+        "section_sub_heading": "Content is King. It’s true, but your content doesn'tneed a massive budget to get the results you need.Reduce that risk with a smarter approach to content. Too many brands fail to be effective with theircreative efforts because their ads lack purpose.",
+        "section_heading_size": "h1",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_tabs_BeV8rj": {
+      "type": "custom-tabs",
+      "disabled": true,
       "settings": {
         "heading": "WHAT WE CAN DO FOR YOU",
         "heading_size": "h2",
@@ -533,170 +570,9 @@
         "padding_bottom": 52
       }
     },
-    "slideshow_custom_8hFBiq": {
-      "type": "slideshow-custom",
-      "blocks": {
-        "slide_xmF99Y": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/slide0-opt.webp",
-            "show_banner_content": false,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_3M6nbG": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/slide1-opt.webp",
-            "show_banner_content": false,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_DUheWn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/slide2-opt.webp",
-            "show_banner_content": false,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_8dr7Qb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/slide3-opt.webp",
-            "show_banner_content": false,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_qCyynM": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/slide4-opt.webp",
-            "show_banner_content": false,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_wTga9j": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/slide5-opt.webp",
-            "show_banner_content": false,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_h8LCtj": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/slide6-opt.webp",
-            "show_banner_content": false,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_xmF99Y",
-        "slide_3M6nbG",
-        "slide_DUheWn",
-        "slide_8dr7Qb",
-        "slide_qCyynM",
-        "slide_wTga9j",
-        "slide_h8LCtj"
-      ],
-      "settings": {
-        "heading": "Case Studies",
-        "heading_size": "h2",
-        "section_background": "shopify://shop_images/caseStudiesBackground.2ef894c4_1-opt.webp",
-        "layout": "grid",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 7,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "partners_section_VEfzXe": {
       "type": "partners-section",
+      "disabled": true,
       "settings": {
         "heading": "WHAT TO EXPECT WORKING WITH US",
         "heading_size": "h2",
@@ -782,6 +658,7 @@
         "collapsible_row_pkw9X9",
         "collapsible_row_LaTnUD"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Frequently Asked Questions",
@@ -874,6 +751,7 @@
         "service_jTmDpM",
         "service_PfMXKd"
       ],
+      "disabled": true,
       "settings": {
         "heading": "TRANSPARENT PRICING",
         "sub_heading": "Ad Account Management",
@@ -924,6 +802,7 @@
         "service_7XReHc",
         "service_ajEdYa"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "sub_heading": "Email marketing",
@@ -952,6 +831,7 @@
       "block_order": [
         "service_GnUYDz"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "sub_heading": "Shopify Development",
@@ -970,8 +850,8 @@
     "custom_grid_images_xUEWwy",
     "multirow_custom_FKdmAF",
     "image_with_text_J6Jx8R",
+    "image_with_text_tCNVk8",
     "custom_tabs_BeV8rj",
-    "slideshow_custom_8hFBiq",
     "partners_section_VEfzXe",
     "collapsible_content_3X3LVb",
     "pricing_section_A3riTh",
