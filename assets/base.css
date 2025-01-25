@@ -3217,3 +3217,33 @@ details-disclosure > details {
   }
 }
 
+
+.back-light-pink::before {
+  content: " ";
+  background: url(https://cdn.shopify.com/s/files/1/0741/9350/2504/files/light-pink.png?v=1737837865);
+  position: absolute;
+  width: 70%;
+  height: 400px;
+  bottom: -140px;
+  left: -120px;
+  z-index: -1;
+  /* z-index: 9999; */
+  /* background-color: red; */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.back-light-purple::after {
+  content: " ";
+  background: url(https://cdn.shopify.com/s/files/1/0741/9350/2504/files/light-purple.png?v=1737837864);
+  position: absolute;
+  width: 70%;
+  height: 400px;
+  top: -140px;
+  right: -120px;
+  z-index: -1;
+  /* z-index: 9999; */
+  /* background-color: red; */
+  background-size: contain;
+  background-repeat: no-repeat;
+}

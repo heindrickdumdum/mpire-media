@@ -12,18 +12,58 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  #shopify-section-{{ section.id }} .image-with-text .image-with-text__media-item::before {
+    background: url(https://cdn.shopify.com/s/files/1/0741/9350/2504/files/light-pink.png?v=1737837865);
+    bottom: -110px;
+    right: -100px;
+  }
+
+  #shopify-section-{{ section.id }} .image-with-text .image-with-text__media-item::after {
+    background: url(https://cdn.shopify.com/s/files/1/0741/9350/2504/files/light-purple.png?v=1737837864);
+    top: -170px;
+    left: -90px;
+  }
+
+  #shopify-section-{{ section.id }} .image-with-text .image-with-text__media-item::before,
+  #shopify-section-{{ section.id }} .image-with-text .image-with-text__media-item::after  {
+    content: " ";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    #shopify-section-{{ section.id }} .image-with-text__media--small {
+      height: 20rem;
+    }
+  }
 {%- endstyle -%}
-{% if section.settings.heading != blank  %}
+{% if section.settings.section_heading != blank  %}
   <h2
-    class="image-with-text__heading inline-richtext {{ section.settings.heading_size }} text-center"
+    class="image-with-text__heading inline-richtext {{ section.settings.section_heading_size }} text-center"
     {{ section.shopify_attributes }}
   >
-    {{ section.settings.heading }}
+    {{ section.settings.section_heading }}
   </h2>
 {% endif %}
 
+{% if section.settings.section_sub_heading %}
+  <div class="tw-max-w-[40rem] tw-mx-auto tw-text-center">
+    <p>{{ section.settings.section_sub_heading }}</p>
+  </div>
+{% endif %}
+
 <div class="image-with-text image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
-  <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
+  <div class="image-with-text__grid grid grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
     <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
       <div
         class="image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
@@ -111,9 +151,15 @@
   "settings": [
     {
       "type": "inline_richtext",
-      "id": "block_heading",
-      "default": "WHAT WE DO",
+      "id": "section_heading",
+      "default": "ASK YOURSELF:",
       "label": "Heading"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "section_sub_heading",
+      "default": "What are the top 5 reasons why someone would be interested in your offer but not purchase?”:",
+      "label": "Sub Heading"
     },
     {
       "type": "select",

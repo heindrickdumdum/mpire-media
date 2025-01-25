@@ -43,6 +43,10 @@
   margin-top: 2.5rem
 }
 
+.tw-inline {
+  display: inline
+}
+
 .tw-flex {
   display: flex
 }
@@ -85,6 +89,10 @@
 
 .tw-max-w-\[65rem\] {
   max-width: 65rem
+}
+
+.tw-max-w-\[40rem\] {
+  max-width: 40rem
 }
 
 .tw-flex-1 {
@@ -146,14 +154,6 @@
   gap: 2rem
 }
 
-.\!tw-gap-y-14 {
-  row-gap: 3.5rem !important
-}
-
-.\!tw-gap-y-\[5rem\] {
-  row-gap: 5rem !important
-}
-
 .\!tw-gap-y-\[7rem\] {
   row-gap: 7rem !important
 }
@@ -174,9 +174,17 @@
   border-radius: 0.5rem
 }
 
+.tw-rounded-\[2rem\] {
+  border-radius: 2rem
+}
+
 .tw-bg-\[\#ffffff\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1))
+}
+
+.tw-bg-transparent {
+  background-color: transparent
 }
 
 .tw-object-cover {
@@ -201,6 +209,11 @@
   text-align: center
 }
 
+.tw-text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem
+}
+
 .tw-text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem
@@ -215,21 +228,6 @@
   line-height: 1.75rem
 }
 
-.tw-text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem
-}
-
-.tw-text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem
-}
-
-.tw-text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem
-}
-
 .tw-font-bold {
   font-weight: 700
 }
@@ -238,12 +236,6 @@
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
-}
-
-@media (min-width: 640px) {
-  .sm\:\!tw-block {
-    display: block !important
-  }
 }
 
 @media (min-width: 768px) {
