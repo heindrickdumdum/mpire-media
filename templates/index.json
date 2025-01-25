@@ -513,13 +513,6 @@
     "image_with_text_tCNVk8": {
       "type": "image-with-text",
       "blocks": {
-        "heading_tfqjny": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
         "text_kkx6Dg": {
           "type": "text",
           "settings": {
@@ -536,7 +529,6 @@
         }
       },
       "block_order": [
-        "heading_tfqjny",
         "text_kkx6Dg",
         "button_FmGY7b"
       ],
