@@ -40,7 +40,7 @@
         "template--18499736731944__19da2b34-b6ad-4f4e-bf7f-38c6251f9b39-1680642343a313adbf-2"
       ],
       "custom_css": [
-        ".image-with-text {background: url(https://cdn.shopify.com/s/files/1/0741/9350/2504/files/banner-bg.png?v=1737184132); background-size: 100% 100%;}",
+        ".image-with-text {background: url(https://cdn.shopify.com/s/files/1/0741/9350/2504/files/banner-bg-v2.png?v=1737837608); background-size: 100% 100%;}",
         "@media screen and (max-width: 749px) {.image-with-text__grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0; margin-bottom: 20px; } .image-with-text__heading {margin-bottom: 0; text-align: center; } .image-with-text__text {text-align: center; margin: 1rem 0; } .image-with-text__content .image-with-text__text + .button {margin: 0 auto; margin-top: 0; }}"
       ],
       "settings": {
@@ -493,6 +493,8 @@
         "text_gA3wLe"
       ],
       "settings": {
+        "block_heading": "WHAT WE DO",
+        "section_heading_size": "h1",
         "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-17.png",
         "height": "adapt",
         "desktop_image_width": "medium",
