@@ -69,6 +69,7 @@
       "block_order": [
         "text_MCNWjJ"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "footer_logo": "shopify://shop_images/MpireMediaLogo.png",
