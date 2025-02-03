@@ -167,7 +167,7 @@
       "settings": {
         "heading": "WHAT WE CAN DO FOR YOU",
         "heading_size": "h1",
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "medium",
         "slider_visual": "counter",
         "auto_rotate": false,
