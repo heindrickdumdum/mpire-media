@@ -44,7 +44,7 @@
       #Slider-{{ section.id }} .media::before,
       #Slider-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
         padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
-        content: '';
+        /* content: ''; */
         display: block;
       }
     }
@@ -53,7 +53,7 @@
       #Slider-{{ section.id }}::before,
       #Slider-{{ section.id }} .media::before {
         padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
-        content: '';
+        /* content: ''; */
         display: block;
       }
     }
@@ -149,7 +149,7 @@
   {%- endif -%}
 
   <div
-    class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
+    class="slideshow banner--{{ section.settings.slide_height }} grid grid--3-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
     id="Slider-{{ section.id }}"
     aria-live="polite"
     aria-atomic="true"
@@ -172,7 +172,7 @@
         tabindex="-1"
       >
         <div class="slideshow__media slideshow__media banner__media-custom media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %} bg-none">
-          <div class="page-width deferred-media__poster-button">
+          <div class="deferred-media__poster-button">
             {%- if block.settings.image -%}
               {%- liquid
                 assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
