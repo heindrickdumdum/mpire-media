@@ -12,12 +12,54 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "page_narrow": true,
+        "custom_heading": "",
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "grid_images_FAPktR": {
+      "type": "grid-images",
+      "blocks": {
+        "image_V3mVUm": {
+          "type": "image",
+          "settings": {
+            "grid_image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-03.png",
+            "grid_title": ""
+          }
+        },
+        "image_xUVVFD": {
+          "type": "image",
+          "settings": {
+            "grid_image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-04.png",
+            "grid_title": ""
+          }
+        },
+        "image_LhrLP4": {
+          "type": "image",
+          "settings": {
+            "grid_image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-05.png",
+            "grid_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_V3mVUm",
+        "image_xUVVFD",
+        "image_LhrLP4"
+      ],
+      "settings": {
+        "heading": "Our Clients",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "grid_images_FAPktR"
   ]
 }
