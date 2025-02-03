@@ -12,16 +12,23 @@
   }
 
   #shopify-section-{{ section.id }} .boxes-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
+    /* display: flex; */
+    /* flex-direction: column;
+    gap: 5rem; */
   }
 
   #shopify-section-{{ section.id }} .box-item {
     border-radius: 2rem;
-    padding: 5rem 5rem;
+    padding: 1rem 2rem 1rem 3rem;
     background: rgb(69,45,102);
     background: linear-gradient(0deg, rgba(69,45,102,1) 0%, rgba(32,25,57,1) 100%);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #shopify-section-{{ section.id }} .box-item p {
+    margin: 0;
   }
 
 
@@ -40,15 +47,21 @@
     </div>
     {% endif %}
 
-    <div class="boxes-wrapper">
+    <div class="boxes-wrapper tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-12">
         {% for block in section.blocks %}
             {%- case block.type -%}
               {%- when 'box' -%}
-                 <div class="box-item">
-                   {{ block.settings.box_content }}
+                 <div class="box-item tw-justify-between">
+                   <div class="tw-flex tw-gap-4">
+                    <span class="index">{{ forloop.index }}.</span> {{ block.settings.box_content }}
+                   </div>
+                   
+                   <div class="tw-w-[70px] tw-h-[70px]">
+                    {% render 'icon-checkbox' %}
+                   </div>
                  </div>
             {%- endcase -%}
-          {% endfor %}
+        {% endfor %}
     </div>
   </div>
 </div>
@@ -87,6 +100,18 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+        "type": "text",
+        "id": "button_label",
+        "default": "Button label",
+        "label": "t:sections.image-with-text.blocks.button.settings.button_label.label",
+        "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"
+    },
+    {
+        "type": "url",
+        "id": "button_link",
+        "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
     },
     {
       "type": "select",
