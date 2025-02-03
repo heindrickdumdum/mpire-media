@@ -226,10 +226,33 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "gradient_content_box_WrPkLh": {
+      "type": "gradient-content-box",
+      "blocks": {
+        "box_Cc3eAF": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>We don’t like to hide anything</strong> which is why we don’t do long term contracts. Everything is month to month in our<br/>pricing. Only Pay for what you need. We believe in earning your trust.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "box_Cc3eAF"
+      ],
+      "settings": {
+        "heading": "TRANSPARENCY IS OUR THING",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "slideshow_custom_eRFBxj"
+    "slideshow_custom_eRFBxj",
+    "gradient_content_box_WrPkLh"
   ]
 }
