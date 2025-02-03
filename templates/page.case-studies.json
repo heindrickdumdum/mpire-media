@@ -248,11 +248,92 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "gradient_content_box_NexGec": {
+      "type": "gradient-content-box",
+      "blocks": {
+        "box_bR9j9h": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>$10,000/mo (full team efforts at the cost of one in-house marketing expert.)<br/>• Ad Buying management on as many ad platforms as needed. (ex. Google Ads, Meta Ads, TikTok Ads, etc.)<br/>• Ad Creative (2 scripted videos, 3 motion graphics, 25 images)<br/>• Organic Creative (5 micro videos, 25 images)<br/>• Email Marketing</p>"
+          }
+        }
+      },
+      "block_order": [
+        "box_bR9j9h"
+      ],
+      "settings": {
+        "heading": "BUNDLE AND SAVE",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "gradient_content_box_NAQEYE": {
+      "type": "gradient-content-box",
+      "blocks": {
+        "box_rjKxJp": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>Ad Buying Services:<br/>• $3,000/mo for One Ad Platform Managed.<br/>• $5,000/mo for Two Ad Platforms Managed.<br/>• $6,000/mo for Three or More Ad Platforms Managed.</p>"
+          }
+        },
+        "box_8PyetD": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>Consulting Services:<br/>• $1,000/mo for a One Hour Video Consultation to strategize, optimize, and implement plans for the following<br/>weeks efforts.</p>"
+          }
+        },
+        "box_pEBq3U": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>Email Marketing Services:<br/>• $1,000/mo Management<br/>• $500 One Time Fee for Initial Set Up.<br/>• $500 One Time Fee for migration from one email platform to another.<br/>• $500/mo for Email Graphic Design</p>"
+          }
+        },
+        "box_RMRchx": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>Shopify Development Services:<br/>$50/hr</p>"
+          }
+        },
+        "box_HWbbTW": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>Content Creation Services: (includes 9x16, 4x5, and 1x1 ratios)<br/>• $5,500 Package (8 videos/35 photos)<br/>• 2 scripted videos (One in a studio setting, one set location)<br/>• 6 motion graphics videos<br/>• 50 professional photos for ads or social content.<br/>• $3,500 (5 videos/20 photos)<br/>• 2 scripted videos (In studio only)<br/>• 3 motion graphics videos<br/>• 20 professional photos for ads or social content.</p>"
+          }
+        },
+        "box_MgCTnm": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>Local Business Listings on Google My Business<br/>• $500/mo</p>"
+          }
+        }
+      },
+      "block_order": [
+        "box_rjKxJp",
+        "box_8PyetD",
+        "box_pEBq3U",
+        "box_RMRchx",
+        "box_HWbbTW",
+        "box_MgCTnm"
+      ],
+      "settings": {
+        "heading": "A-LA-CART",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "slideshow_custom_eRFBxj",
-    "gradient_content_box_WrPkLh"
+    "gradient_content_box_WrPkLh",
+    "gradient_content_box_NexGec",
+    "gradient_content_box_NAQEYE"
   ]
 }
