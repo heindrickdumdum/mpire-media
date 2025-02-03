@@ -18,89 +18,163 @@
         "padding_bottom": 28
       }
     },
-    "grid_images_FAPktR": {
-      "type": "grid-images",
+    "slideshow_custom_eRFBxj": {
+      "type": "slideshow-custom",
       "blocks": {
-        "image_V3mVUm": {
-          "type": "image",
+        "slide_hpWntL": {
+          "type": "slide",
           "settings": {
-            "grid_image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-03.png",
-            "grid_title": ""
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-03.png",
+            "show_banner_content": false,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "image_xUVVFD": {
-          "type": "image",
+        "slide_QMhm4A": {
+          "type": "slide",
           "settings": {
-            "grid_image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-04.png",
-            "grid_title": ""
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-04.png",
+            "show_banner_content": false,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "image_LhrLP4": {
-          "type": "image",
+        "slide_rg8QhY": {
+          "type": "slide",
           "settings": {
-            "grid_image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-05.png",
-            "grid_title": ""
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-05.png",
+            "show_banner_content": false,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "image_hztd4m": {
-          "type": "image",
+        "slide_eGzg6q": {
+          "type": "slide",
           "settings": {
-            "grid_image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-06.png",
-            "grid_title": ""
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-06.png",
+            "show_banner_content": false,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "image_JFxyGF": {
-          "type": "image",
+        "slide_nFM9Uc": {
+          "type": "slide",
           "settings": {
-            "grid_image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-07.png",
-            "grid_title": ""
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-07.png",
+            "show_banner_content": false,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "image_UppFeM": {
-          "type": "image",
+        "slide_zjcjGB": {
+          "type": "slide",
           "settings": {
-            "grid_image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-08.png",
-            "grid_title": ""
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-10.png",
+            "show_banner_content": false,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "image_nikLLi": {
-          "type": "image",
+        "slide_BtLkYB": {
+          "type": "slide",
           "settings": {
-            "grid_image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-09.png",
-            "grid_title": ""
-          }
-        },
-        "image_bFpzML": {
-          "type": "image",
-          "settings": {
-            "grid_image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-10.png",
-            "grid_title": ""
-          }
-        },
-        "image_pmTMxq": {
-          "type": "image",
-          "settings": {
-            "grid_image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-11.png",
-            "grid_title": ""
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-11.png",
+            "show_banner_content": false,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "image_V3mVUm",
-        "image_xUVVFD",
-        "image_LhrLP4",
-        "image_hztd4m",
-        "image_JFxyGF",
-        "image_UppFeM",
-        "image_nikLLi",
-        "image_bFpzML",
-        "image_pmTMxq"
+        "slide_hpWntL",
+        "slide_QMhm4A",
+        "slide_rg8QhY",
+        "slide_eGzg6q",
+        "slide_nFM9Uc",
+        "slide_zjcjGB",
+        "slide_BtLkYB"
       ],
       "settings": {
-        "heading": "",
+        "heading": "WHAT WE CAN DO FOR YOU",
         "heading_size": "h1",
-        "color_scheme": "background-1",
-        "full_width": true,
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -108,6 +182,6 @@
   },
   "order": [
     "main",
-    "grid_images_FAPktR"
+    "slideshow_custom_eRFBxj"
   ]
 }
