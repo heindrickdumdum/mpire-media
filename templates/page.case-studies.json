@@ -327,6 +327,98 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "gradient_checklist_GRXJpz": {
+      "type": "gradient-checklist",
+      "blocks": {
+        "box_QrDdbG": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>MEET US</p>"
+          }
+        },
+        "box_UMUJz7": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>FOLLOW UP WITH A QUESTIONNAIRE</p>"
+          }
+        },
+        "box_dYUPbX": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>REQUEST ACCESS TO YOUR EXISTING<br/>ADVERTISING PLATFORMS</p>"
+          }
+        },
+        "box_U3RdWR": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>SEND OVER AGREEMENT / CONTRACT TO</p>"
+          }
+        },
+        "box_CK8jhz": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>ESTABLISH COMMUNICATION PREFERENCE AND EXPECTATIONS</p>"
+          }
+        },
+        "box_Tfpeq9": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>DISCUSS GROWTH GOALS</p>"
+          }
+        },
+        "box_bN7rxX": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>TRANSITION/ HANDOFF</p>"
+          }
+        },
+        "box_EMzLHq": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>OPTIMIZING</p>"
+          }
+        },
+        "box_we7Mje": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>SCALING</p>"
+          }
+        },
+        "box_c3wpih": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>REPORTING</p>"
+          }
+        },
+        "box_EmkJM6": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>CREATIVE</p>"
+          }
+        }
+      },
+      "block_order": [
+        "box_QrDdbG",
+        "box_UMUJz7",
+        "box_dYUPbX",
+        "box_U3RdWR",
+        "box_CK8jhz",
+        "box_Tfpeq9",
+        "box_bN7rxX",
+        "box_EMzLHq",
+        "box_we7Mje",
+        "box_c3wpih",
+        "box_EmkJM6"
+      ],
+      "settings": {
+        "heading": "GETTING STARTED WITH US",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -334,6 +426,7 @@
     "slideshow_custom_eRFBxj",
     "gradient_content_box_WrPkLh",
     "gradient_content_box_NexGec",
-    "gradient_content_box_NAQEYE"
+    "gradient_content_box_NAQEYE",
+    "gradient_checklist_GRXJpz"
   ]
 }
