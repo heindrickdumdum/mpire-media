@@ -182,6 +182,14 @@
   border-radius: 2rem
 }
 
+.tw-border-0 {
+  border-width: 0px
+}
+
+.\!tw-border-0 {
+  border-width: 0px !important
+}
+
 .tw-bg-\[\#ffffff\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1))
