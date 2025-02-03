@@ -35,6 +35,9 @@
   margin-bottom: 3rem;
   letter-spacing: normal;
 }
+
+
+
 {% endstyle %}
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
@@ -47,6 +50,8 @@
         /* content: ''; */
         display: block;
       }
+
+
     }
 
     @media screen and (min-width: 750px) {
@@ -56,6 +61,10 @@
         /* content: ''; */
         display: block;
       }
+
+      #Slider-{{ section.id }} .slider-counter__link:last-child {
+        /* display: none; */
+      }
     }
   {%- endstyle -%}
 {%- endif -%}
@@ -63,6 +72,7 @@
 
 
 <slideshow-component
+  id="slider-component-{{ section.id }}"
   class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %} section-{{ section.id }}-padding"
   role="region"
   aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
@@ -149,7 +159,7 @@
   {%- endif -%}
 
   <div
-    class="slideshow banner--{{ section.settings.slide_height }} grid grid--3-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
+    class="slideshow banner--{{ section.settings.slide_height }} grid grid--1-col grid--2-col-tablet grid--3-col-desktop slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
     id="Slider-{{ section.id }}"
     aria-live="polite"
     aria-atomic="true"
@@ -157,11 +167,11 @@
     data-speed="{{ section.settings.change_slides_speed }}"
   >
     {%- for block in section.blocks -%}
-      <style>
+      {% comment %} <style>
         #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
           opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
         }
-      </style>
+      </style> {% endcomment %}
       <div
         class="slideshow__slide grid__item grid--1-col slider__slide"
         id="Slide-{{ section.id }}-{{ forloop.index }}"
@@ -172,7 +182,7 @@
         tabindex="-1"
       >
         <div class="slideshow__media slideshow__media banner__media-custom media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %} bg-none">
-          <div class="deferred-media__poster-button">
+          <div class="!tw-relative !tw-h-auto">
             {%- if block.settings.image -%}
               {%- liquid
                 assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
@@ -197,42 +207,55 @@
               {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
           </div>
+
+          {% if block.settings.show_banner_content %}
+            <div class="slide-hover-content flex tw-opacity-0 slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} {% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
+              <div class="slideshow__text content-container content-container--full-width-mobile slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
+                {%- if block.settings.logo -%}
+                {{
+                  block.settings.logo
+                  | image_url: width: 1000
+                  | image_tag:
+                    loading: 'lazy'
+                }}
+                {%- else -%}
+                  {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+                {%- if block.settings.heading != blank -%}
+                  <h2 class=" inline-richtext text-center">
+                    {{ block.settings.heading }}
+                  </h2>
+                {%- endif -%}
+                {%- if block.settings.subheading != blank -%}
+                  <div class="banner__text rte" {{ block.shopify_attributes }}>
+                    <p>{{ block.settings.subheading }}</p>
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.button_label != blank -%}
+                  <div class="banner__buttons">
+                    <a
+                      {% if block.settings.link %}
+                        href="{{ block.settings.link }}"
+                      {% else %}
+                        role="link" aria-disabled="true"
+                      {% endif %}
+                      class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
+                    >
+                      {{- block.settings.button_label | escape -}}
+                    </a>
+                  </div>
+                {%- endif -%}
+              </div>
+            </div>
+            {% endif %}
         </div>
 
-        {% if block.settings.show_banner_content %}
-        <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
-          <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
-            {%- if block.settings.heading != blank -%}
-              <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
-                {{ block.settings.heading }}
-              </h2>
-            {%- endif -%}
-            {%- if block.settings.subheading != blank -%}
-              <div class="banner__text rte" {{ block.shopify_attributes }}>
-                <p>{{ block.settings.subheading }}</p>
-              </div>
-            {%- endif -%}
-            {%- if block.settings.button_label != blank -%}
-              <div class="banner__buttons">
-                <a
-                  {% if block.settings.link %}
-                    href="{{ block.settings.link }}"
-                  {% else %}
-                    role="link" aria-disabled="true"
-                  {% endif %}
-                  class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
-                >
-                  {{- block.settings.button_label | escape -}}
-                </a>
-              </div>
-            {%- endif -%}
-          </div>
-        </div>
-        {% endif %}
+        
 
 
       </div>
     {%- endfor -%}
+    
   </div>
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
@@ -505,6 +528,11 @@
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.slideshow.blocks.slide.settings.image.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
         },
         {
           "type": "checkbox",
