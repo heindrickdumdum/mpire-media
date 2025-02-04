@@ -25,7 +25,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-03.png",
-            "logo": "shopify://shop_images/Saalt_logo_for_web_gray_blue_1white.png",
+            "logo": "shopify://shop_images/transparent-labs.png",
             "show_banner_content": true,
             "heading": "Image slide",
             "heading_size": "h1",
@@ -65,7 +65,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-05.png",
-            "logo": "shopify://shop_images/Saalt_logo_for_web_gray_blue_1white.png",
+            "logo": "shopify://shop_images/mrcool.png",
             "show_banner_content": true,
             "heading": "Image slide",
             "heading_size": "h1",
@@ -125,7 +125,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-08.png",
-            "logo": "shopify://shop_images/Woobies_black_logo_with_box_779cb760-6e32-4a66-9617-4ef33f09cbb4_240x_2x-2white.png",
+            "logo": "shopify://shop_images/vanessa.png",
             "show_banner_content": true,
             "heading": "Image slide",
             "heading_size": "h1",
@@ -145,7 +145,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-09.png",
-            "logo": "shopify://shop_images/Woobies_black_logo_with_box_779cb760-6e32-4a66-9617-4ef33f09cbb4_240x_2x-2white.png",
+            "logo": "shopify://shop_images/aeromixer.png",
             "show_banner_content": true,
             "heading": "Image slide",
             "heading_size": "h1",
@@ -165,7 +165,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-10.png",
-            "logo": "shopify://shop_images/compressed_brands_tamaraklogo_3745872a-c174-42f6-8a86-8ec3a7a6fb69.png",
+            "logo": "shopify://shop_images/dylink.png",
             "show_banner_content": true,
             "heading": "Image slide",
             "heading_size": "h1",
@@ -185,6 +185,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-11.png",
+            "logo": "shopify://shop_images/dirt_locker.png",
             "show_banner_content": true,
             "heading": "Image slide",
             "heading_size": "h1",
