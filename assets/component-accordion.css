@@ -23,12 +23,21 @@
 .accordion {
   margin-top: 2.5rem;
   margin-bottom: 2rem;
-  border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
-  border: 0.5px solid #cccccc !important;
-  background-color: #1e1e1e !important;
+  
+  background: rgb(203,125,180);
+  background: -moz-linear-gradient(90deg, rgba(203,125,180,1) 0%, rgba(72,44,133,1) 68%);
+  background: -webkit-linear-gradient(90deg, rgba(203,125,180,1) 0%, rgba(72,44,133,1) 68%);
+  background: linear-gradient(90deg, rgba(203,125,180,1) 0%, rgba(72,44,133,1) 68%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cb7db4",endColorstr="#482c85",GradientType=1);
+
   border-radius: 10px !important;
-  padding: 1.6rem;
+  padding: 2px;
+}
+
+.accordion > details {
+  background-color: var(--gradient-background);
+  padding: 3rem;
+  border-radius: 9px;
 }
 
 .accordion__title {

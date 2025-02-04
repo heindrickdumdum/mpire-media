@@ -212,7 +212,7 @@
 
           {% if block.settings.show_banner_content %}
             <div class="slide-hover-content flex tw-opacity-0 slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} {% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
-              <div class="slideshow__text content-container content-container--full-width-mobile slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
+              <div class="slideshow__text content-container tw-p-10 content-container--full-width-mobile slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
                 {%- if block.settings.logo -%}
                 {{
                   block.settings.logo

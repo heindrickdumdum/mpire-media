@@ -51,6 +51,14 @@
   margin-top: 5rem
 }
 
+.tw-mb-\[3rem\] {
+  margin-bottom: 3rem
+}
+
+.tw-mb-\[5rem\] {
+  margin-bottom: 5rem
+}
+
 .tw-inline {
   display: inline
 }
@@ -121,6 +129,10 @@
 
 .tw-max-w-\[70px\] {
   max-width: 70px
+}
+
+.tw-max-w-\[2rem\] {
+  max-width: 2rem
 }
 
 .tw-flex-1 {
@@ -230,6 +242,14 @@
 
 .tw-p-0 {
   padding: 0px
+}
+
+.tw-p-5 {
+  padding: 1.25rem
+}
+
+.tw-p-10 {
+  padding: 2.5rem
 }
 
 .tw-py-0 {
