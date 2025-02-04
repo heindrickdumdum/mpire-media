@@ -24,7 +24,13 @@
   #shopify-section-{{ section.id }} .brand-list-container {
     /* position: relative;
     overflow: hidden; */
+    transition: 0.3s cubic-bezier(0.52, 0, 0.61, 0.99) all;
   }
+
+  #shopify-section-{{ section.id }} .brand-list-container.expanded {
+    max-height: 5000px;
+  }
+
   #shopify-section-{{ section.id }} .brand-list-container:before {
       left: 0;
       top: 0;
@@ -68,49 +74,62 @@
         {{ section.settings.heading }}
       </h2>
   
-      <div class="brand-list-container tw-flex-1 tw-max-h-[30rem] tw-overflow-hidden">
-        <ul class="brand-list tw-grid lg:tw-grid-cols-5 tw-grid-cols-3 tw-gap-[2rem] tw-p-0">
-        {% for block in section.blocks %}
-          {%- case block.type -%}
-            {%- when 'brand' -%}
-              {% if block.settings.image %}
-              <li class="brand-item tw-overflow-hidden">
-      
-                {{
-                  block.settings.image
-                  | image_url: width: 250
-                  | image_tag:
-                    loading: 'lazy',
-                    widths: '250',
-                    alt: block.settings.text
-                }}
-              </li>
-              {% endif %}
-          {%- endcase -%}
-        {% endfor %}
-        {% for block in section.blocks %}
-          {%- case block.type -%}
-            {%- when 'brand' -%}
-              {% if block.settings.image %}
-              <li class="brand-item tw-overflow-hidden">
+      <div class="tw-flex-1">
+        <div class="brand-list-container  tw-max-h-[30rem] tw-overflow-hidden">
+          <ul class="brand-list tw-grid lg:tw-grid-cols-5 tw-grid-cols-3 tw-gap-[2rem] tw-p-0">
+          {% for block in section.blocks %}
+            {%- case block.type -%}
+              {%- when 'brand' -%}
+                {% if block.settings.image %}
+                <li class="brand-item tw-overflow-hidden">
         
-                {{
-                  block.settings.image
-                  | image_url: width: 250
-                  | image_tag:
-                    loading: 'lazy',
-                    widths: '250',
-                    alt: block.settings.text
-                }}
-              </li>
-              {% endif %}
-          {%- endcase -%}
-        {% endfor %}
-        </ul>
+                  {{
+                    block.settings.image
+                    | image_url: width: 250
+                    | image_tag:
+                      loading: 'lazy',
+                      widths: '250',
+                      alt: block.settings.text
+                  }}
+                </li>
+                {% endif %}
+            {%- endcase -%}
+          {% endfor %}
+          {% for block in section.blocks %}
+            {%- case block.type -%}
+              {%- when 'brand' -%}
+                {% if block.settings.image %}
+                <li class="brand-item tw-overflow-hidden">
+          
+                  {{
+                    block.settings.image
+                    | image_url: width: 250
+                    | image_tag:
+                      loading: 'lazy',
+                      widths: '250',
+                      alt: block.settings.text
+                  }}
+                </li>
+                {% endif %}
+            {%- endcase -%}
+          {% endfor %}
+          </ul>
+  
+          
+        </div>
+        <button class="btn-expand tw-border-0 tw-bg-transparent tw-cursor-pointer">
+          <img src="https://cdn.shopify.com/s/files/1/0741/9350/2504/files/arrow-expand.png?v=1738666834" alt="expand-arrow" class="tw-w-full tw-h-auto tw-object-cover tw-scale-150 tw-overflow-hidden">
+        </button>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  document.querySelector('.btn-expand').onclick = function(){
+    document.querySelector('.brand-list-container').classList.toggle('expanded');
+  }
+</script>
 
 {% schema %}
 {

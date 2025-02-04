@@ -98,23 +98,25 @@
           </div>
         </div>
       </div>
+
+      {%- if section.settings.button_label != blank -%}
+        <div class="text-center tw-mt-10">
+          <a
+            {% if section.settings.button_link == blank %}
+              role="link" aria-disabled="true"
+            {% else %}
+              href="{{ section.settings.button_link }}"
+            {% endif %}
+            class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} color-{{ section.settings.button_color_scheme }}"
+            {{ section.shopify_attributes }}
+          >
+            {{ section.settings.button_label | escape }}
+          </a>
+        </div>
+      {%- endif -%}
     </div>
 
-    {%- if section.settings.button_label != blank -%}
-      <div class="text-center ">
-        <a
-          {% if section.settings.button_link == blank %}
-            role="link" aria-disabled="true"
-          {% else %}
-            href="{{ section.settings.button_link }}"
-          {% endif %}
-          class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} color-{{ section.settings.button_color_scheme }}"
-          {{ section.shopify_attributes }}
-        >
-          {{ section.settings.button_label | escape }}
-        </a>
-      </div>
-    {%- endif -%}
+   
   </div>
 </div>
 

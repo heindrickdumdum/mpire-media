@@ -41,7 +41,7 @@
       ],
       "custom_css": [
         ".image-with-text {background: url(https://cdn.shopify.com/s/files/1/0741/9350/2504/files/banner-bg-v2.png?v=1737837608); background-size: 100% 100%;}",
-        "@media screen and (max-width: 749px) {.image-with-text__grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0; margin-bottom: 20px; } .image-with-text__heading {margin-bottom: 0; text-align: center; } .image-with-text__text {text-align: center; margin: 1rem 0; } .image-with-text__content .image-with-text__text + .button {margin: 0 auto; margin-top: 0; }}"
+        "@media screen and (max-width: 749px) {.image-with-text__grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0; margin-bottom: 20px; } .image-with-text__heading {margin-bottom: 0; text-align: center; } .image-with-text__text {text-align: center; margin: 1rem 0; width: 100%; } .image-with-text__content .image-with-text__text + .button {margin: 0 auto; margin-top: 0; }}"
       ],
       "settings": {
         "video_url": "https://cdn.shopify.com/videos/c/o/v/f8310cec46b04c77a3464c8747d1b361.mp4",
