@@ -31,6 +31,14 @@
     margin: 0;
   }
 
+  #shopify-section-{{ section.id }} .button--secondary {
+    --color-background: 102, 204, 227;
+  }
+
+  #shopify-section-{{ section.id }} .button--secondary:after {
+    --border-opacity: 0;
+  }
+
 
 {%- endstyle -%}
 
@@ -56,13 +64,29 @@
                     <span class="index">{{ forloop.index }}.</span> {{ block.settings.box_content }}
                    </div>
                    
-                   <div class="tw-w-[70px] tw-h-[70px]">
+                   <div class="tw-w-full tw-max-w-[70px] tw-h-[70px]">
                     {% render 'icon-checkbox' %}
                    </div>
                  </div>
             {%- endcase -%}
         {% endfor %}
     </div>
+
+    {%- if section.settings.button_label != blank -%}
+      <div class="tw-text-center tw-mt-20">
+        <a
+          {% if section.settings.button_link == blank %}
+            role="link" aria-disabled="true"
+          {% else %}
+            href="{{ section.settings.button_link }}"
+          {% endif %}
+          class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+          {{ block.shopify_attributes }}
+        >
+          {{ section.settings.button_label | escape }}
+        </a>
+      </div>
+    {%- endif -%}
   </div>
 </div>
 
@@ -112,6 +136,12 @@
         "type": "url",
         "id": "button_link",
         "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_style_secondary",
+      "label": "t:sections.slideshow.blocks.slide.settings.secondary_style.label",
+      "default": false
     },
     {
       "type": "select",

@@ -71,12 +71,12 @@
   height: 3px
 }
 
-.tw-h-full {
-  height: 100%
-}
-
 .tw-h-\[70px\] {
   height: 70px
+}
+
+.tw-h-full {
+  height: 100%
 }
 
 .tw-max-h-\[25rem\] {
@@ -91,20 +91,16 @@
   width: 50px
 }
 
+.tw-w-\[70px\] {
+  width: 70px
+}
+
 .tw-w-auto {
   width: auto
 }
 
 .tw-w-full {
   width: 100%
-}
-
-.tw-w-1\/2 {
-  width: 50%
-}
-
-.tw-w-\[70px\] {
-  width: 70px
 }
 
 .tw-max-w-\[250px\] {
@@ -117,6 +113,14 @@
 
 .tw-max-w-\[65rem\] {
   max-width: 65rem
+}
+
+.tw-max-w-\[\[70px\]\] {
+  max-width: [70px]
+}
+
+.tw-max-w-\[70px\] {
+  max-width: 70px
 }
 
 .tw-flex-1 {
@@ -134,20 +138,16 @@
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
+.tw-grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr))
+}
+
 .tw-grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr))
 }
 
 .tw-grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr))
-}
-
-.tw-grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr))
-}
-
-.tw-grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr))
 }
 
 .tw-flex-col {
@@ -170,6 +170,14 @@
   gap: 2.5rem
 }
 
+.tw-gap-12 {
+  gap: 3rem
+}
+
+.tw-gap-4 {
+  gap: 1rem
+}
+
 .tw-gap-5 {
   gap: 1.25rem
 }
@@ -180,18 +188,6 @@
 
 .tw-gap-\[2rem\] {
   gap: 2rem
-}
-
-.tw-gap-4 {
-  gap: 1rem
-}
-
-.tw-gap-6 {
-  gap: 1.5rem
-}
-
-.tw-gap-12 {
-  gap: 3rem
 }
 
 .\!tw-gap-y-\[7rem\] {
@@ -212,10 +208,6 @@
 
 .tw-rounded-\[2rem\] {
   border-radius: 2rem
-}
-
-.tw-border-0 {
-  border-width: 0px
 }
 
 .\!tw-border-0 {
@@ -283,10 +275,6 @@
 }
 
 @media (min-width: 640px) {
-  .sm\:tw-grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr))
-  }
-
   .sm\:tw-text-\[26px\] {
     font-size: 26px
   }
