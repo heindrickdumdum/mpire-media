@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "page_narrow": true,
         "custom_heading": "",
@@ -214,7 +215,7 @@
         "slide_BtLkYB"
       ],
       "settings": {
-        "heading": "",
+        "heading": "CASE STUDIES",
         "heading_size": "h1",
         "layout": "grid",
         "slide_height": "adapt_image",
