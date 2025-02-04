@@ -429,36 +429,63 @@
         "collapsible_row_azzLgp": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Do we manage your social media accounts?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>No, we do not. Our efforts focus on making you money through purchased data media buying.</p>",
             "page": ""
           }
         },
         "collapsible_row_eHcHKM": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How long have we been doing this?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Mpire Media has been in business since 2015. Each media buyer on the team has been vetted through their work as media buyers and has at least five years of performance growth marketing.</p>",
             "page": ""
           }
         },
         "collapsible_row_CVmnjg": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What should you expect the ad budget to be?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>You can win on just about any budget. The difference is how fast you will get results. There are benefits to spending more money (more algorithmic learnings, quicker results, etc.). If you are on a tight budget, we recommend spending a minimum of 3x your Average Order Value each day for a week (7 days). We recommend that because purchase behaviors online are different each day of the week, and 3x your AOV is enough for us to see some purchases roll through typically. The higher level metrics point us in directions for improvement from there.</p>",
             "page": ""
           }
         },
         "collapsible_row_EYPhVg": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Why are other agencies so expensive?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>We get asked this question a lot. Short answer: so the owners can drive Lamborghinis on your dollar. There is no reason why any agency should charge a percentage of ad spend plus steep minimums. On the contrary, if any agency is charging too little, they are using AI to do their ads for them, which is already proven to not go over well in performance.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_q9Ddhj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why not hire an in-house ad buyer?",
+            "icon": "none",
+            "row_content": "<p>If you want the best performance from your media buying, you should hire an ad buyer who knows what they are doing. The cost of a skilled in-house media buyer will be a minimum $80k salary if you are lucky. That would cost your business $6,600/mo at least. Working with us, you get a hive mind of top-tier ad buyers for less than hiring one in-house media buyer.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HJ78CA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why doesn’t Mpire Media offer creative services?",
+            "icon": "none",
+            "row_content": "<p>Out of experience, it is best to stick to our lane. Yes, we could hire an in-house creative team, but when we already know teams that are very good at what they do, and with a strategic partnership, we could ensure each brand works with the creative teams that their brand needs. We too often see all-in-one agencies fail because every creative team has its own style. One or another agency's style might NOT be the best for your brand.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cJrH48": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is Mpire Media so affordable?",
+            "icon": "none",
+            "row_content": "<p>We have structured our business to act as a network of highly skilled media buyers and pay them half of the earnings of each client they manage. Each ad buyer is incentivized to perform in their assigned clients, allowing them to choose how much they want to earn. No team member is allowed to manage more than eight accounts to ensure they have the time in each account to meet client needs/goals.</p>",
             "page": ""
           }
         }
@@ -467,7 +494,10 @@
         "collapsible_row_azzLgp",
         "collapsible_row_eHcHKM",
         "collapsible_row_CVmnjg",
-        "collapsible_row_EYPhVg"
+        "collapsible_row_EYPhVg",
+        "collapsible_row_q9Ddhj",
+        "collapsible_row_HJ78CA",
+        "collapsible_row_cJrH48"
       ],
       "settings": {
         "caption": "",
@@ -481,9 +511,9 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "button_label": "",
-        "button_link": "",
-        "button_style_secondary": false,
+        "button_label": "WORK WITH US",
+        "button_link": "#",
+        "button_style_secondary": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
