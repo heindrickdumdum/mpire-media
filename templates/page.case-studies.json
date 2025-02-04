@@ -414,6 +414,8 @@
       "settings": {
         "heading": "GETTING STARTED WITH US",
         "heading_size": "h1",
+        "button_label": "Button label",
+        "button_link": "#",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
