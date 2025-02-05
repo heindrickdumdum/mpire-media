@@ -46,6 +46,8 @@
               {%- when 'box' -%}
                  <div class="box-item">
                    {{ block.settings.box_content }}
+
+                   {{ block.settings.box_content_liquid }}
                  </div>
             {%- endcase -%}
           {% endfor %}
@@ -156,6 +158,11 @@
           "type": "richtext",
           "id": "box_content",
           "label": "Box Content"
+        },
+        {
+          "type": "liquid",
+          "id": "box_content_liquid",
+          "label": "Box Content Liquid"
         }
       ]
     }
