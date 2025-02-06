@@ -258,8 +258,8 @@
         "box_bR9j9h": {
           "type": "box",
           "settings": {
-            "box_content": "<p>$10,000/mo (full team efforts at the cost of one in-house marketing expert.)<br/>• Ad Buying management on as many ad platforms as needed. (ex. Google Ads, Meta Ads, TikTok Ads, etc.)<br/>• Ad Creative (2 scripted videos, 3 motion graphics, 25 images)<br/>• Organic Creative (5 micro videos, 25 images)<br/>• Email Marketing</p>",
-            "box_content_liquid": ""
+            "box_content": "<p>$10,000/mo (full team efforts at the cost of one in-house marketing expert.)</p>",
+            "box_content_liquid": "<ul>\n<li>\nAd Buying management on as many ad platforms as needed. (ex. Google Ads, Meta Ads, TikTok Ads, etc.)\n</li>\n\n<li>\nAd Creative (2 scripted videos, 3 motion graphics, 25 images)\n</li>\n\n<li>\nOrganic Creative (5 micro videos, 25 images)\n</li>\n\n<li>\nEmail Marketing\n</li>\n</ul>"
           }
         }
       },
