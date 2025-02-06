@@ -281,29 +281,29 @@
         "box_rjKxJp": {
           "type": "box",
           "settings": {
-            "box_content": "<p>Ad Buying Services:<br/>• $3,000/mo for One Ad Platform Managed.<br/>• $5,000/mo for Two Ad Platforms Managed.<br/>• $6,000/mo for Three or More Ad Platforms Managed.</p>",
-            "box_content_liquid": ""
+            "box_content": "<p>Ad Buying Services:</p>",
+            "box_content_liquid": "<ul>\n<li>$3,000/mo for One Ad Platform Managed.</li>\n<li>$5,000/mo for Two Ad Platforms Managed.</li>\n<li>$6,000/mo for Three or More Ad Platforms Managed.</li>\n</ul>"
           }
         },
         "box_8PyetD": {
           "type": "box",
           "settings": {
-            "box_content": "<p>Consulting Services:<br/>• $1,000/mo for a One Hour Video Consultation to strategize, optimize, and implement plans for the following<br/>weeks efforts.</p>",
-            "box_content_liquid": ""
+            "box_content": "<p>Consulting Services:</p>",
+            "box_content_liquid": "<ul>\n<li>$1,000/mo for a One Hour Video Consultation to strategize, optimize, and implement plans for the followingweeks efforts.</li>\n<ul>"
           }
         },
         "box_pEBq3U": {
           "type": "box",
           "settings": {
-            "box_content": "<p>Email Marketing Services:<br/>• $1,000/mo Management<br/>• $500 One Time Fee for Initial Set Up.<br/>• $500 One Time Fee for migration from one email platform to another.<br/>• $500/mo for Email Graphic Design</p>",
-            "box_content_liquid": ""
+            "box_content": "<p>Email Marketing Services:</p>",
+            "box_content_liquid": "<ul>\n<li>$1,000/mo Management</li>\n<li>$500 One Time Fee for Initial Set Up.</li>\n<li>$500 One Time Fee for migration from one email platform to another.</li>\n<li>$500/mo for Email Graphic Design</li>\n</ul>"
           }
         },
         "box_RMRchx": {
           "type": "box",
           "settings": {
-            "box_content": "<p>Shopify Development Services:<br/>$50/hr</p>",
-            "box_content_liquid": ""
+            "box_content": "<p>Shopify Development Services:</p>",
+            "box_content_liquid": "<ul>\n<li>$50/hr</li>\n</ul>"
           }
         },
         "box_HWbbTW": {
@@ -316,8 +316,8 @@
         "box_MgCTnm": {
           "type": "box",
           "settings": {
-            "box_content": "<p>Local Business Listings on Google My Business<br/>• $500/mo</p>",
-            "box_content_liquid": ""
+            "box_content": "<p>Local Business Listings on Google My Business</p>",
+            "box_content_liquid": "<ul>\n<li>$500/mo</li>\n</ul>"
           }
         }
       },
