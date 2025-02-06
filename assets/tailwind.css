@@ -43,20 +43,16 @@
   margin-right: auto
 }
 
+.tw-mb-\[5rem\] {
+  margin-bottom: 5rem
+}
+
 .tw-mt-10 {
   margin-top: 2.5rem
 }
 
 .tw-mt-20 {
   margin-top: 5rem
-}
-
-.tw-mb-\[3rem\] {
-  margin-bottom: 3rem
-}
-
-.tw-mb-\[5rem\] {
-  margin-bottom: 5rem
 }
 
 .tw-inline {
@@ -83,12 +79,12 @@
   height: 70px
 }
 
-.tw-h-full {
-  height: 100%
-}
-
 .tw-h-auto {
   height: auto
+}
+
+.tw-h-full {
+  height: 100%
 }
 
 .tw-max-h-\[25rem\] {
@@ -103,10 +99,6 @@
   width: 50px
 }
 
-.tw-w-\[70px\] {
-  width: 70px
-}
-
 .tw-w-auto {
   width: auto
 }
@@ -119,24 +111,20 @@
   max-width: 250px
 }
 
+.tw-max-w-\[2rem\] {
+  max-width: 2rem
+}
+
 .tw-max-w-\[40rem\] {
   max-width: 40rem
 }
 
+.tw-max-w-\[50px\] {
+  max-width: 50px
+}
+
 .tw-max-w-\[65rem\] {
   max-width: 65rem
-}
-
-.tw-max-w-\[\[70px\]\] {
-  max-width: [70px]
-}
-
-.tw-max-w-\[70px\] {
-  max-width: 70px
-}
-
-.tw-max-w-\[2rem\] {
-  max-width: 2rem
 }
 
 .tw-flex-1 {
@@ -247,10 +235,6 @@
   background-color: transparent
 }
 
-.tw-bg-none {
-  background-image: none
-}
-
 .tw-object-cover {
   -o-object-fit: cover;
      object-fit: cover
@@ -258,10 +242,6 @@
 
 .tw-p-0 {
   padding: 0px
-}
-
-.tw-p-5 {
-  padding: 1.25rem
 }
 
 .tw-p-10 {
