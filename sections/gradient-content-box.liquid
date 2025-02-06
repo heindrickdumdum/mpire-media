@@ -22,6 +22,10 @@
     padding: 5rem 5rem;
     background: rgb(69,45,102);
     background: linear-gradient(0deg, rgba(69,45,102,1) 0%, rgba(32,25,57,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
   }
 
 
@@ -44,11 +48,25 @@
         {% for block in section.blocks %}
             {%- case block.type -%}
               {%- when 'box' -%}
-                 <div class="box-item">
-                   {{ block.settings.box_content }}
+                <div class="box-item">
+                  <div>
+                    {{ block.settings.box_content }}
+                    {{ block.settings.box_content_liquid }}
+                  </div>
+                  {% if block.settings.box_icon %}
 
-                   {{ block.settings.box_content_liquid }}
-                 </div>
+                    <div>
+                      {{
+                        block.settings.box_icon
+                        | image_url: width: 70
+                        | image_tag:
+                          loading: 'lazy',
+                          widths: '70',
+                          alt: block.settings.text
+                      }}
+                    </div>
+                  {% endif %}
+                </div>
             {%- endcase -%}
           {% endfor %}
     </div>
@@ -163,6 +181,11 @@
           "type": "liquid",
           "id": "box_content_liquid",
           "label": "Box Content Liquid"
+        },
+        {
+          "type": "image_picker",
+          "id": "box_icon",
+          "label": "Box Icon"
         }
       ]
     }
