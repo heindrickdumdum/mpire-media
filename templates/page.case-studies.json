@@ -235,7 +235,8 @@
         "box_Cc3eAF": {
           "type": "box",
           "settings": {
-            "box_content": "<p><strong>We don’t like to hide anything</strong> which is why we don’t do long term contracts. Everything is month to month in our pricing. Only Pay for what you need. We believe in earning your trust.</p>"
+            "box_content": "<p><strong>We don’t like to hide anything</strong> which is why we don’t do long term contracts. Everything is month to month in our pricing. Only Pay for what you need. We believe in earning your trust.</p>",
+            "box_content_liquid": ""
           }
         }
       },
@@ -257,7 +258,8 @@
         "box_bR9j9h": {
           "type": "box",
           "settings": {
-            "box_content": "<p>$10,000/mo (full team efforts at the cost of one in-house marketing expert.)<br/>• Ad Buying management on as many ad platforms as needed. (ex. Google Ads, Meta Ads, TikTok Ads, etc.)<br/>• Ad Creative (2 scripted videos, 3 motion graphics, 25 images)<br/>• Organic Creative (5 micro videos, 25 images)<br/>• Email Marketing</p>"
+            "box_content": "<p>$10,000/mo (full team efforts at the cost of one in-house marketing expert.)<br/>• Ad Buying management on as many ad platforms as needed. (ex. Google Ads, Meta Ads, TikTok Ads, etc.)<br/>• Ad Creative (2 scripted videos, 3 motion graphics, 25 images)<br/>• Organic Creative (5 micro videos, 25 images)<br/>• Email Marketing</p>",
+            "box_content_liquid": ""
           }
         }
       },
@@ -279,37 +281,43 @@
         "box_rjKxJp": {
           "type": "box",
           "settings": {
-            "box_content": "<p>Ad Buying Services:<br/>• $3,000/mo for One Ad Platform Managed.<br/>• $5,000/mo for Two Ad Platforms Managed.<br/>• $6,000/mo for Three or More Ad Platforms Managed.</p>"
+            "box_content": "<p>Ad Buying Services:<br/>• $3,000/mo for One Ad Platform Managed.<br/>• $5,000/mo for Two Ad Platforms Managed.<br/>• $6,000/mo for Three or More Ad Platforms Managed.</p>",
+            "box_content_liquid": ""
           }
         },
         "box_8PyetD": {
           "type": "box",
           "settings": {
-            "box_content": "<p>Consulting Services:<br/>• $1,000/mo for a One Hour Video Consultation to strategize, optimize, and implement plans for the following<br/>weeks efforts.</p>"
+            "box_content": "<p>Consulting Services:<br/>• $1,000/mo for a One Hour Video Consultation to strategize, optimize, and implement plans for the following<br/>weeks efforts.</p>",
+            "box_content_liquid": ""
           }
         },
         "box_pEBq3U": {
           "type": "box",
           "settings": {
-            "box_content": "<p>Email Marketing Services:<br/>• $1,000/mo Management<br/>• $500 One Time Fee for Initial Set Up.<br/>• $500 One Time Fee for migration from one email platform to another.<br/>• $500/mo for Email Graphic Design</p>"
+            "box_content": "<p>Email Marketing Services:<br/>• $1,000/mo Management<br/>• $500 One Time Fee for Initial Set Up.<br/>• $500 One Time Fee for migration from one email platform to another.<br/>• $500/mo for Email Graphic Design</p>",
+            "box_content_liquid": ""
           }
         },
         "box_RMRchx": {
           "type": "box",
           "settings": {
-            "box_content": "<p>Shopify Development Services:<br/>$50/hr</p>"
+            "box_content": "<p>Shopify Development Services:<br/>$50/hr</p>",
+            "box_content_liquid": ""
           }
         },
         "box_HWbbTW": {
           "type": "box",
           "settings": {
-            "box_content": "<p>Content Creation Services: (includes 9x16, 4x5, and 1x1 ratios)<br/>• $5,500 Package (8 videos/35 photos)<br/>• 2 scripted videos (One in a studio setting, one set location)<br/>• 6 motion graphics videos<br/>• 50 professional photos for ads or social content.<br/>• $3,500 (5 videos/20 photos)<br/>• 2 scripted videos (In studio only)<br/>• 3 motion graphics videos<br/>• 20 professional photos for ads or social content.</p>"
+            "box_content": "",
+            "box_content_liquid": "<p>Content Creation Services: (includes 9x16, 4x5, and 1x1 ratios)</p>\n<ul>\n<li>\n<p>$5,500 Package (8 videos/35 photos)</p>\n<ul>\n<li>2 scripted videos (One in a studio setting, one set location)</li>\n<li>6 motion graphics videos</li>\n<li>50 professional photos for ads or social content.</li>\n</ul>\n</li>\n\n<li>\n<p>$3,500 (5 videos/20 photos)</p>\n<ul>\n<li>2 scripted videos (In studio only)</li>\n<li>3 motion graphics videos</li>\n<li>20 professional photos for ads or social content.</li>\n</ul>\n\n</li>\n</ul>"
           }
         },
         "box_MgCTnm": {
           "type": "box",
           "settings": {
-            "box_content": "<p>Local Business Listings on Google My Business<br/>• $500/mo</p>"
+            "box_content": "<p>Local Business Listings on Google My Business<br/>• $500/mo</p>",
+            "box_content_liquid": ""
           }
         }
       },
