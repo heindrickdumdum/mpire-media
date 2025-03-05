@@ -389,28 +389,44 @@
           "type": "image",
           "settings": {
             "brand_logo": "shopify://shop_images/woman-searching-something-internet-using-her-smartphone-while-being-home.jpg",
-            "brand_name": "Ad Buying"
+            "brand_name": "Ad Buying",
+            "column_span": "tw-col-span-2",
+            "row_span": "tw-row-span-2"
           }
         },
         "image_7EjcpX": {
           "type": "image",
           "settings": {
             "brand_logo": "shopify://shop_images/photography-1850469_1280.jpg",
-            "brand_name": "Content Creation"
+            "brand_name": "Content Creation",
+            "column_span": "tw-col-span-2",
+            "row_span": "tw-row-span-1"
           }
         },
         "image_nAVGzF": {
           "type": "image",
           "settings": {
             "brand_logo": "shopify://shop_images/top-view-email-icon-with-two-messages_1134-66.jpg",
-            "brand_name": "Email Marketing"
+            "brand_name": "Email Marketing",
+            "column_span": "tw-col-span-2",
+            "row_span": "tw-row-span-1"
+          }
+        },
+        "image_zAAYjx": {
+          "type": "image",
+          "settings": {
+            "brand_logo": "shopify://shop_images/programming-background-with-person-working-with-codes-computer.jpg",
+            "brand_name": "Web Development",
+            "column_span": "tw-col-span-1",
+            "row_span": "tw-row-span-4"
           }
         }
       },
       "block_order": [
         "image_RL7EQm",
         "image_7EjcpX",
-        "image_nAVGzF"
+        "image_nAVGzF",
+        "image_zAAYjx"
       ],
       "settings": {
         "heading": "",
