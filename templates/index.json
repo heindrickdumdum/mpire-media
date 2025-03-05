@@ -384,6 +384,34 @@
     },
     "custom_grid_images_xUEWwy": {
       "type": "custom-grid-images",
+      "blocks": {
+        "image_RL7EQm": {
+          "type": "image",
+          "settings": {
+            "brand_logo": "shopify://shop_images/woman-searching-something-internet-using-her-smartphone-while-being-home.jpg",
+            "brand_name": "Ad Buying"
+          }
+        },
+        "image_7EjcpX": {
+          "type": "image",
+          "settings": {
+            "brand_logo": "shopify://shop_images/photography-1850469_1280.jpg",
+            "brand_name": "Content Creation"
+          }
+        },
+        "image_nAVGzF": {
+          "type": "image",
+          "settings": {
+            "brand_logo": "shopify://shop_images/top-view-email-icon-with-two-messages_1134-66.jpg",
+            "brand_name": "Email Marketing"
+          }
+        }
+      },
+      "block_order": [
+        "image_RL7EQm",
+        "image_7EjcpX",
+        "image_nAVGzF"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
