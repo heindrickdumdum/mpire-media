@@ -417,8 +417,8 @@
           "settings": {
             "brand_logo": "shopify://shop_images/programming-background-with-person-working-with-codes-computer.jpg",
             "brand_name": "Web Development",
-            "column_span": "tw-col-span-1",
-            "row_span": "tw-row-span-4"
+            "column_span": "tw-col-span-4",
+            "row_span": "tw-row-span-1"
           }
         }
       },
