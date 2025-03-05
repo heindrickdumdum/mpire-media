@@ -64,7 +64,7 @@
     <div class="page-width tw-mx-auto">
         <div class="tw-grid tw-grid-cols-4 tw-gap-5 lg:tw-gap-14">
           {% for block in section.blocks %}
-            <div class="img-grid-wrapper tw-relative tw-shadow-lg tw-rounded-3xl {{ block.settings.column_span }} {{ block.settings.row_span }}">
+            <div class="img-grid-wrapper tw-relative tw-shadow-lg tw-rounded-3xl {{ block.settings.column_span }} {{ block.settings.row_span }}" {% if block.settings.max_height != blank %}style="max-height: {{ block.settings.max_height }}px"{% endif %}>
               <div class="tw-inline overlay">
                 <img src="{{ block.settings.brand_logo | image_url }}" alt="{{ block.settings.brand_name }}" class="tw-w-full tw-h-full tw-object-cover tw-scale-150 tw-overflow-hidden tw-rounded-[2rem]">
               <span class="tw-absolute tw-top-1/2 tw-left-0 tw-right-0 tw-text-center tw-translate-y-[-50%] tw-text-2xl tw-leading-1 sm:tw-text-[26px] tw-font-bold">{{ block.settings.brand_name }}</span>
@@ -227,7 +227,7 @@
             },
           ],
           "default": "tw-col-span-1",
-          "label": "t:sections.all.colors.label"
+          "label": "Column Span"
         },
         {
           "type": "select",
@@ -251,7 +251,12 @@
             },
           ],
           "default": "tw-row-span-1",
-          "label": "t:sections.all.colors.label"
+          "label": "Row Span"
+        },
+        {
+          "type": "number",
+          "id": "max_height",
+          "label": "Max Height"
         }
       ]
     }
