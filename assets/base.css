@@ -3261,3 +3261,17 @@ slideshow-component .banner__content.slide-hover-content {
 slideshow-component .banner__content .slideshow__text.banner__box {
   min-width: auto;
 }
+
+.gradient-box {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  
+  background: rgb(203,125,180);
+  background: -moz-linear-gradient(90deg, rgba(203,125,180,1) 0%, rgba(72,44,133,1) 68%);
+  background: -webkit-linear-gradient(90deg, rgba(203,125,180,1) 0%, rgba(72,44,133,1) 68%);
+  background: linear-gradient(90deg, rgba(203,125,180,1) 0%, rgba(72,44,133,1) 68%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cb7db4",endColorstr="#482c85",GradientType=1);
+
+  border-radius: 10px !important;
+  padding: 2px;
+}
