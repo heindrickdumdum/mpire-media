@@ -18,6 +18,11 @@
   <div class="{{ section.settings.custom_class }} rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
+
+        {% if section.settings.is_gradient_box == true %}
+          <div class="gradient-box">
+            <div class="gradient-box-content">
+        {% endif %}
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
@@ -70,6 +75,11 @@
               </div>
           {%- endcase -%}
         {%- endfor -%}
+        
+        {% if section.settings.is_gradient_box == true %}
+            </div>
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>
@@ -187,6 +197,12 @@
       "type": "text",
       "id": "custom_class",
       "label": "Custom Class"
+    },
+    {
+      "type": "checkbox",
+      "id": "is_gradient_box",
+      "default": false,
+      "label": "Is Gradient Box"
     }
   ],
   "blocks": [
