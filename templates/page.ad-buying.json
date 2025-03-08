@@ -24,7 +24,7 @@
         "text_7aigdL": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p><strong>Ultimately, it's our job to make YOU money and grow your brand. Ad buying is key to scaling your ad campaigns and growing your business.</strong> In today's day and age, Algorithm's have become smart, so these platforms have made it easy for anyone to learn how to ad buy. We aren't just anyone; our team is stacked with media buyers behind over $500 MILLION in tracked ad revenue. Our team expects at least a 30% improvement in results by simply restructuring campaigns of existing content. In today's era of ad buying, it's less about how targeted you are and more about how you manipulate the Algorithm to give you lower costs, better reach, and better learnings.</p>"
           }
         }
       },
@@ -34,7 +34,19 @@
       "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_class": ""
+      }
+    },
+    "ad_buying_wx8Nt3": {
+      "type": "ad-buying",
+      "settings": {
+        "heading": "Our Clients",
+        "heading_size": "h1",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -44,6 +56,7 @@
   },
   "order": [
     "main",
-    "rich_text_Rwcpxj"
+    "rich_text_Rwcpxj",
+    "ad_buying_wx8Nt3"
   ]
 }
