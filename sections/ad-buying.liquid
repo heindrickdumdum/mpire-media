@@ -11,11 +11,16 @@
     }
   }
 
-  #shopify-section-{{ section.id }} {}
+  #shopify-section-{{ section.id }} {
+    margin-top: 0;
+    background: url(https://cdn.shopify.com/s/files/1/0741/9350/2504/files/Asset_3_bb3ef51f-4884-4629-bc3b-3840ae355b85.png?v=1741447112);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+  <div class="page-width color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding tw-bg-transparent">
     <h2
       class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
       {{ section.shopify_attributes }}
@@ -35,6 +40,17 @@
            </div>
           </div>
         </div>
+      {%- when 'content-images' -%}
+      <div class="page-width tw-my-14">
+        <div class="tw-grid tw-grid-cols-2 md:tw-grid-cols-5 tw-gap-10 md:tw-gap-20 tw-items-center">
+          <div class="tw-col-span-1 md:tw-col-span-3 md:tw-pr-10">
+            <img class="tw-w-full" src="{{ block.settings.image_left | img_url: 'master' }}" alt="">
+          </div>
+          <div class="tw-col-span-1 md:tw-col-span-2">
+            <img class="tw-w-full" src="{{ block.settings.image_right | img_url: 'master' }}" alt="">
+          </div>
+        </div>
+      </div>
       {%- endcase -%}
     {% endfor %}
   </div>
