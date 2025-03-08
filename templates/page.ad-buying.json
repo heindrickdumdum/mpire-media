@@ -73,43 +73,50 @@
         "box_Y7WPMQ": {
           "type": "box",
           "settings": {
-            "box_content": "<p>We Audit historical data to review efforts that have been made in the past and look for missed opportunities, strengths, and weaknesses in the ad-buying strategy.</p>"
+            "box_content": "<p>We Audit historical data to review efforts that have been made in the past and look for missed opportunities, strengths, and weaknesses in the ad-buying strategy.</p>",
+            "item_top_margin": "0"
           }
         },
         "box_fCeTEx": {
           "type": "box",
           "settings": {
-            "box_content": "<p>We plan out and execute specific budget allocations to maximize efficiency in our advertising funnel efforts. A healthy ad account will see a healthy efficiency ratio similar to the ratio’s below:<br/>◦ 60% Top-of-Funnel Efforts<br/>◦ 20% Mid-Funnel Efforts<br/>◦ 10% Bottom Funnel Efforts<br/>◦ 10% Retention Effort</p>"
+            "box_content": "<p>We plan out and execute specific budget allocations to maximize efficiency in our advertising funnel efforts. A healthy ad account will see a healthy efficiency ratio similar to the ratio’s below:<br/>◦ 60% Top-of-Funnel Efforts<br/>◦ 20% Mid-Funnel Efforts<br/>◦ 10% Bottom Funnel Efforts<br/>◦ 10% Retention Effort</p>",
+            "item_top_margin": "0"
           }
         },
         "box_mNkGja": {
           "type": "box",
           "settings": {
-            "box_content": "<p>We must establish a preference for a practical communication platform (we mold it to your comfort). Daily communication is a big key to moving fast and succeeding. We can conform to whatever communications platform your company prefers.</p>"
+            "box_content": "<p>We must establish a preference for a practical communication platform (we mold it to your comfort). Daily communication is a big key to moving fast and succeeding. We can conform to whatever communications platform your company prefers.</p>",
+            "item_top_margin": "-130"
           }
         },
         "box_AxxbYz": {
           "type": "box",
           "settings": {
-            "box_content": "<p>We base our optimizations on your business goals and needs with the ultimate goal of making you money. We make many optimization goals daily. We use data to make decisions rather than personal opinions. We use analytics to understand what we are learning from the data, tell us our next move, and communicate what we are learning with your team and ours.</p>"
+            "box_content": "<p>We base our optimizations on your business goals and needs with the ultimate goal of making you money. We make many optimization goals daily. We use data to make decisions rather than personal opinions. We use analytics to understand what we are learning from the data, tell us our next move, and communicate what we are learning with your team and ours.</p>",
+            "item_top_margin": "0"
           }
         },
         "box_tGCkXj": {
           "type": "box",
           "settings": {
-            "box_content": "<p>Messaging is essential, so we will work with your team to determine effective ad copy variations and determine what language to use with each audience we target to ensure each ad delivers its purpose.</p>"
+            "box_content": "<p>Messaging is essential, so we will work with your team to determine effective ad copy variations and determine what language to use with each audience we target to ensure each ad delivers its purpose.</p>",
+            "item_top_margin": "-170"
           }
         },
         "box_iXAj4a": {
           "type": "box",
           "settings": {
-            "box_content": "<p>If you run an e-commerce business, we want to ensure your catalog is set up and managed properly. Product catalog buildouts can be tedious but oftentimes drive the top-performing campaigns. Let us take that work off your plates so you don’t have to think about it.</p>"
+            "box_content": "<p>If you run an e-commerce business, we want to ensure your catalog is set up and managed properly. Product catalog buildouts can be tedious but oftentimes drive the top-performing campaigns. Let us take that work off your plates so you don’t have to think about it.</p>",
+            "item_top_margin": "0"
           }
         },
         "box_PV8CVa": {
           "type": "box",
           "settings": {
-            "box_content": "<p>Tracking is one of the most significant headache issues in most brands. We ensure we track appropriate events that feed the algorithms the information needed to deliver you the best performance possible. Plus, tracking helps with reporting and optimizations on our end.</p>"
+            "box_content": "<p>Tracking is one of the most significant headache issues in most brands. We ensure we track appropriate events that feed the algorithms the information needed to deliver you the best performance possible. Plus, tracking helps with reporting and optimizations on our end.</p>",
+            "item_top_margin": "-180"
           }
         }
       },
