@@ -18,6 +18,17 @@
         "padding_bottom": 28
       }
     },
+    "ad_buying_wx8Nt3": {
+      "type": "ad-buying",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_Rwcpxj": {
       "type": "rich-text",
       "blocks": {
@@ -140,25 +151,13 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "ad_buying_wx8Nt3": {
-      "type": "ad-buying",
-      "disabled": true,
-      "settings": {
-        "heading": "Our Clients",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
+    "ad_buying_wx8Nt3",
     "rich_text_Rwcpxj",
     "rich_text_amwPwY",
-    "grid_rich_texts_YGJFrG",
-    "ad_buying_wx8Nt3"
+    "grid_rich_texts_YGJFrG"
   ]
 }
