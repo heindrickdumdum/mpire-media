@@ -71,16 +71,16 @@
   margin-bottom: 5rem
 }
 
+.tw-mt-0 {
+  margin-top: 0px
+}
+
 .tw-mt-10 {
   margin-top: 2.5rem
 }
 
 .tw-mt-20 {
   margin-top: 5rem
-}
-
-.tw-mt-0 {
-  margin-top: 0px
 }
 
 .tw-inline {
@@ -131,6 +131,10 @@
   width: 100%
 }
 
+.\!tw-max-w-none {
+  max-width: none !important
+}
+
 .tw-max-w-\[250px\] {
   max-width: 250px
 }
@@ -149,14 +153,6 @@
 
 .tw-max-w-\[65rem\] {
   max-width: 65rem
-}
-
-.tw-max-w-none {
-  max-width: none
-}
-
-.\!tw-max-w-none {
-  max-width: none !important
 }
 
 .tw-flex-1 {

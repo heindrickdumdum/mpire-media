@@ -25,7 +25,21 @@
 
     {% for block in section.blocks %}
       {%- case block.type -%}
-        {%- when 'brand' -%}
+      {%- when 'gradient-box' -%}
+        <div class="box-item tw-justify-between " style="margin-top: {{ block.settings.item_top_margin }}px;">
+          <div class="gradient-box tw-m-0">
+           <div class="gradient-box-content">
+               <div class="tw-flex tw-gap-4">
+                   {% if section.settings.custom_index !=blank %}
+                       <span class="index">{{ section.settings.custom_index }}.</span> 
+                   {% else %}
+                       <span class="index">{{ forloop.index }}.</span> 
+                   {% endif %}
+                   {{ block.settings.box_content }}
+               </div>
+           </div>
+          </div>
+        </div>
       {%- endcase -%}
     {% endfor %}
   </div>
@@ -127,22 +141,35 @@
   ],
   "blocks": [
     {
-      "type": "image",
-      "name": "Brand",
+      "type": "gradient-box",
+      "name": "Gradient Box",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+          "label": "t:sections.rich-text.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "content-images",
+      "name": "Content Images",
       "limit": 3,
       "settings": [
         {
           "type": "image_picker",
-          "id": "brand_logo",
-          "label": "Brand Logo"
+          "id": "image_left",
+          "label": "Image Left"
         },
         {
-          "type": "text",
-          "id": "brand_name",
-          "label": "Brand Name"
-        }
+          "type": "image_picker",
+          "id": "image_right",
+          "label": "Image Right"
+        },
       ]
-    }
+    },
   ],
   "presets": [
     {
