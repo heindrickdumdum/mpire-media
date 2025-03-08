@@ -3275,3 +3275,9 @@ slideshow-component .banner__content .slideshow__text.banner__box {
   border-radius: 10px !important;
   padding: 2px;
 }
+
+.gradient-box > .gradient-box-content {
+  background-color: var(--gradient-background);
+  padding: 3rem;
+  border-radius: 9px;
+}
