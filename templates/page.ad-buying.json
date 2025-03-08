@@ -39,7 +39,8 @@
         "full_width": false,
         "padding_top": 40,
         "padding_bottom": 52,
-        "custom_class": "gradient-box"
+        "custom_class": "",
+        "is_gradient_box": false
       }
     },
     "ad_buying_wx8Nt3": {
