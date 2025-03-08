@@ -43,8 +43,33 @@
         "is_gradient_box": true
       }
     },
+    "rich_text_amwPwY": {
+      "type": "rich-text",
+      "blocks": {
+        "text_RTmkhC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Our team understands your business needs, not just ROAS.</strong> It’s essential to understand your business growth goals and expenses. By understanding the costs involved in your business, we can understand the margins and returns needed to give you peace of mind while growing your business. We don’t just rely on in-platform metrics to know which campaigns or new initiatives are working. We marry in-platform data with back-end information like Return purchasers, new purchases, Average order value, and more to correctly correlate the campaigns in the ad accounts contributing to those levels of the funnel. We have an agency partnership with 1st party data providers to get hyper-targeted results. We also have agency support from representatives at each ad platform. We manage to get all the new updates on the algorithm, new features, etc.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_RTmkhC"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_class": "",
+        "is_gradient_box": true
+      }
+    },
     "ad_buying_wx8Nt3": {
       "type": "ad-buying",
+      "disabled": true,
       "settings": {
         "heading": "Our Clients",
         "heading_size": "h1",
@@ -58,6 +83,7 @@
   "order": [
     "main",
     "rich_text_Rwcpxj",
+    "rich_text_amwPwY",
     "ad_buying_wx8Nt3"
   ]
 }
