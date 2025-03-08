@@ -30,11 +30,6 @@
           <div class="gradient-box tw-m-0">
            <div class="gradient-box-content">
                <div class="tw-flex tw-gap-4">
-                   {% if section.settings.custom_index !=blank %}
-                       <span class="index">{{ section.settings.custom_index }}.</span> 
-                   {% else %}
-                       <span class="index">{{ forloop.index }}.</span> 
-                   {% endif %}
                    {{ block.settings.box_content }}
                </div>
            </div>
@@ -147,9 +142,14 @@
       "settings": [
         {
           "type": "richtext",
-          "id": "text",
-          "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-          "label": "t:sections.rich-text.blocks.text.settings.text.label"
+          "id": "box_content",
+          "label": "Box Content"
+        },
+        {
+          "type": "text",
+          "id": "item_top_margin",
+          "default": "0",
+          "label": "Item Top Margin"
         }
       ]
     },
