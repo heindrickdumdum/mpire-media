@@ -1,4 +1,5 @@
 {%- style -%}
+
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
@@ -48,7 +49,7 @@
 
 {%- endstyle -%}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
+<div class="!mt-0 isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="page-width color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     {% if section.settings.heading != blank %}
     <div class="text-center">
@@ -105,7 +106,7 @@
 {
   "name": "Rich Text Items",
   "tag": "section",
-  "class": "section",
+  "class": "tw-mt-0",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
