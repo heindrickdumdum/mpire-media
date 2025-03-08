@@ -143,6 +143,14 @@
   max-width: 65rem
 }
 
+.tw-max-w-none {
+  max-width: none
+}
+
+.\!tw-max-w-none {
+  max-width: none !important
+}
+
 .tw-flex-1 {
   flex: 1 1 0%
 }
