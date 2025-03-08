@@ -18,13 +18,13 @@
   }
 
   #shopify-section-{{ section.id }} .box-item {
-    border-radius: 2rem;
+    /* border-radius: 2rem;
     padding: 1rem 2rem 1rem 3rem;
     background: rgb(69,45,102);
     background: linear-gradient(0deg, rgba(69,45,102,1) 0%, rgba(32,25,57,1) 100%);
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1rem; */
   }
 
   #shopify-section-{{ section.id }} .box-item p {
@@ -59,13 +59,18 @@
         {% for block in section.blocks %}
             {%- case block.type -%}
               {%- when 'box' -%}
-                 <div class="box-item tw-justify-between">
-                   <div class="tw-flex tw-gap-4">
-                    <span class="index">{{ forloop.index }}.</span> {{ block.settings.box_content }}
-                   </div>
-                   
-                   <div class="tw-w-full tw-max-w-[50px]">
-                    {% render 'icon-checkbox' %}
+                 <div class="box-item tw-justify-between " style="margin-top: {{ block.settings.item_top_margin }}px;">
+                   <div class="gradient-box tw-m-0">
+                    <div class="gradient-box-content">
+                        <div class="tw-flex tw-gap-4">
+                            {% if section.settings.custom_index !=blank %}
+                                <span class="index">{{ section.settings.custom_index }}.</span> 
+                            {% else %}
+                                <span class="index">{{ forloop.index }}.</span> 
+                            {% endif %}
+                            {{ block.settings.box_content }}
+                        </div>
+                    </div>
                    </div>
                  </div>
             {%- endcase -%}
@@ -208,9 +213,20 @@
       "name": "Box",
       "settings": [
         {
+            "type": "number",
+            "id": "custom_index",
+            "label": "Custom Index"
+        },
+        {
           "type": "richtext",
           "id": "box_content",
           "label": "Box Content"
+        },
+        {
+        "type": "text",
+        "id": "item_top_margin",
+        "default": "0",
+        "label": "Item Top Margin"
         }
       ]
     }
