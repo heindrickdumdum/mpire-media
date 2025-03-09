@@ -276,6 +276,31 @@
         "margin_bottom": 0
       }
     },
+    "rich_text_RMHVfx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HB83k9": {
+          "type": "heading",
+          "settings": {
+            "heading": "CREATIVE PRICING",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HB83k9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "custom_class": "",
+        "is_gradient_box": false
+      }
+    },
     "gradient_border_box_VKdedc": {
       "type": "gradient-border-box",
       "blocks": {
@@ -296,8 +321,10 @@
         "heading_size": "h1",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 20
       }
     },
     "gradient_border_box_TTKqQa": {
@@ -328,8 +355,10 @@
         "heading_size": "h1",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 20
       }
     },
     "rich_text_z7rnDj": {
@@ -378,7 +407,9 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 40
       }
     }
   },
@@ -391,6 +422,7 @@
     "rich_text_LEFdLW",
     "ads_list_89gMYm",
     "ads_list_jRgbyd",
+    "rich_text_RMHVfx",
     "gradient_border_box_VKdedc",
     "gradient_border_box_TTKqQa",
     "rich_text_z7rnDj",
