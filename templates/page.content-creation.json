@@ -20,9 +20,30 @@
     },
     "content_creation_ERqgHF": {
       "type": "content-creation",
+      "blocks": {
+        "box_KMaAdx": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>Our content offerings can be everything you need</strong> or act as a stepping stone to becoming a brand that grows into a big production studio for mass market share growth. We find it challenging to meet creative teams that have a fullfunnel strategy that teaches us what we need to know about our customers, which is why we took content creation into our own hands.</p>",
+            "box_content_liquid": ""
+          }
+        },
+        "box_4Kyjpx": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>We take the current best practices</strong> in content and make affordable packages that not only deliver on performance, but deliver at scale. Our content packages can be anything you need but are mostly designed for Pointing out benefits, Hitting on problems the product solves, or resolving concerns the customer might have about your product/service. Every creative serves a specific purpose. That’s our secret sauce for success. This isn’t a game of “this is working best, so let’s make more of this.” We want to have confidence in understanding WHY a creative performed or not.</p>",
+            "box_content_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "box_KMaAdx",
+        "box_4Kyjpx"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
+        "section_banner": "shopify://shop_images/Asset_4_b4228870-8338-4837-9153-eed80954f17f.png",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
