@@ -82,7 +82,7 @@
     <div class="video-list">
       {% for block in section.blocks %}
         {%- case block.type -%}
-          {%- when 'brand' -%}
+          {%- when 'ads' -%}
             <div class="video-item" data-video-url="{{ block.settings.video_url }}">
               <img src="{{ block.settings.video_thumbnail_url }}" alt="Video Thumbnail">
             </div>
@@ -247,7 +247,7 @@
   ],
   "blocks": [
     {
-      "type": "image",
+      "type": "ads",
       "name": "Brand",
       "limit": 3,
       "settings": [
