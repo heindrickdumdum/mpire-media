@@ -17,30 +17,30 @@
     gap: 5rem;
   }
 
-  #shopify-section-{{ section.id }} .box-item {
-    border-radius: 2rem;
-    padding: 5rem 5rem;
-    background: rgb(69,45,102);
-    background: linear-gradient(0deg, rgba(69,45,102,1) 0%, rgba(32,25,57,1) 100%);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+  #shopify-section-{{ section.id }} .gradient-box {
+    border-radius: 3rem !important;
+  }
+  #shopify-section-{{ section.id }} .gradient-box-content {
+    border-radius: 2.9rem !important;
   }
 
 
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="page-width color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+  <div class="page-width--narrow tw-mx-auto color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     {% if section.settings.heading != blank %}
     <div class="text-center">
-        <h2
-            class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
+          <p
+            class="image-with-text__heading inline-richtext tw-text-4xl tw-font-bold"
             {{ section.shopify_attributes }}
           >
             {{ section.settings.heading }}
-          </h2>
+          </p>
+
+          {% if section.settings.sub_heading != blank %}
+            {{ section.settings.sub_heading }}
+          {% endif %}
     </div>
     {% endif %}
 
@@ -48,27 +48,29 @@
         {% for block in section.blocks %}
             {%- case block.type -%}
               {%- when 'box' -%}
-                <div class="box-item">
-                  <div>
-                    {{ block.settings.box_content }}
-                    {{ block.settings.box_content_liquid }}
-                  </div>
-                  {% if block.settings.box_icon %}
-
+                <div class="box-item gradient-box">
+                  <div class="gradient-box-content">
                     <div>
-                      {{
-                        block.settings.box_icon
-                        | image_url: width: 70
-                        | image_tag:
-                          loading: 'lazy',
-                          widths: '70',
-                          alt: block.settings.text
-                      }}
+                      {{ block.settings.box_content }}
+                      {{ block.settings.box_content_liquid }}
                     </div>
-                  {% endif %}
+                    {% if block.settings.box_icon %}
+
+                      <div>
+                        {{
+                          block.settings.box_icon
+                          | image_url: width: 70
+                          | image_tag:
+                            loading: 'lazy',
+                            widths: '70',
+                            alt: block.settings.text
+                        }}
+                      </div>
+                    {% endif %}
+                  </div>
                 </div>
             {%- endcase -%}
-          {% endfor %}
+        {% endfor %}
     </div>
   </div>
 </div>
@@ -87,6 +89,11 @@
       "id": "heading",
       "default": "Our Clients",
       "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "sub_heading",
+      "label": "Sub Heading"
     },
     {
       "type": "select",
