@@ -91,14 +91,200 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52,
-        "margin_top": 40,
-        "margin_bottom": 52
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "ads_list_VQMJh4": {
+      "type": "ads-list",
+      "blocks": {
+        "image_ad_kQetHY": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image": "shopify://shop_images/photography-1850469_1280.jpg",
+            "image_url": ""
+          }
+        },
+        "image_ad_qieGwY": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-13.png",
+            "image_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ad_kQetHY",
+        "image_ad_qieGwY"
+      ],
+      "settings": {
+        "heading": "MOTION GRAPHIC ADS:",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "ads_list_wdbfCf": {
+      "type": "ads-list",
+      "blocks": {
+        "image_ad_67dpUH": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        },
+        "image_ad_K76jPq": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        },
+        "image_ad_JXFaym": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ad_67dpUH",
+        "image_ad_K76jPq",
+        "image_ad_JXFaym"
+      ],
+      "settings": {
+        "heading": "IMAGE ADS:",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "rich_text_LEFdLW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NJHA9Y": {
+          "type": "heading",
+          "settings": {
+            "heading": "ORGANIC CREATIVE",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NJHA9Y"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_class": "",
+        "is_gradient_box": false
+      }
+    },
+    "ads_list_89gMYm": {
+      "type": "ads-list",
+      "blocks": {
+        "image_ad_3VQdLd": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        },
+        "video_ad_btyqjW": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "",
+            "video_url": "",
+            "video_thumbnail_url": ""
+          }
+        },
+        "video_ad_9EAtmi": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "",
+            "video_url": "",
+            "video_thumbnail_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ad_3VQdLd",
+        "video_ad_btyqjW",
+        "video_ad_9EAtmi"
+      ],
+      "settings": {
+        "heading": "Our Clients",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "ads_list_jRgbyd": {
+      "type": "ads-list",
+      "blocks": {
+        "image_ad_e3qXkx": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        },
+        "image_ad_XMwEyP": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        },
+        "image_ad_jacx4t": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ad_e3qXkx",
+        "image_ad_XMwEyP",
+        "image_ad_jacx4t"
+      ],
+      "settings": {
+        "heading": "MAGES:",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     }
   },
   "order": [
     "main",
     "content_creation_ERqgHF",
-    "ads_list_PU88Ng"
+    "ads_list_PU88Ng",
+    "ads_list_VQMJh4",
+    "ads_list_wdbfCf",
+    "rich_text_LEFdLW",
+    "ads_list_89gMYm",
+    "ads_list_jRgbyd"
   ]
 }
