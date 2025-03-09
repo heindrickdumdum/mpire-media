@@ -12,12 +12,26 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "page_narrow": true,
+        "custom_heading": "",
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "content_creation_ERqgHF": {
+      "type": "content-creation",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "content_creation_ERqgHF"
   ]
 }
