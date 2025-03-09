@@ -275,6 +275,108 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "gradient_border_box_VKdedc": {
+      "type": "gradient-border-box",
+      "blocks": {
+        "box_MDH8LN": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>$10,000/mo (full team efforts at the cost of one in-house marketing expert.)</strong></p>",
+            "box_content_liquid": "<ul>\n    <li>Ad Buying management on as many ad platforms as needed. (ex. Google Ads, Meta Ads, TikTok Ads, etc.)</li>\n    <li>Ad Creative (2 scripted videos, 3 motion graphics, 25 images)</li>\n    <li>Organic Creative (5 micro videos, 25 images)</li>\n    <li>Email Marketing</li>\n</ul>"
+          }
+        }
+      },
+      "block_order": [
+        "box_MDH8LN"
+      ],
+      "settings": {
+        "heading": "BUNDLE AND SAVE",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "gradient_border_box_TTKqQa": {
+      "type": "gradient-border-box",
+      "blocks": {
+        "box_JADCHX": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>$5,500 Package</strong> (8 videos/35 photos)</p>",
+            "box_content_liquid": "<ul>\n    <li>◦ 2 scripted videos (One in a studio setting, one set location)</li>\n    <li>◦ 6 motion graphics videos</li>\n    <li>◦ 50 professional photos for ads or social content.</li>\n</ul>"
+          }
+        },
+        "box_6G8n9r": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>$3,500</strong> (5 videos/20 photos)</p>",
+            "box_content_liquid": "<ul>\n<li>◦ 2 scripted videos (In studio only)</li>\n<li>◦ 3 motion graphics videos</li>\n<li>◦ 20 professional photos for ads or social content.</li>\n</ul>"
+          }
+        }
+      },
+      "block_order": [
+        "box_JADCHX",
+        "box_6G8n9r"
+      ],
+      "settings": {
+        "heading": "A-LA-CART",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_z7rnDj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Urzfaw": {
+          "type": "heading",
+          "settings": {
+            "heading": "EMAIL MARKETING",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Urzfaw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_class": "",
+        "is_gradient_box": false
+      }
+    },
+    "gradient_border_box_XxAR89": {
+      "type": "gradient-border-box",
+      "blocks": {
+        "box_3wjr3h": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>Management of email creative design, automations, and flows.</p>",
+            "box_content_liquid": "<p>Email Marketing Services:</p>\n\n<ul>\n    <li>◦ $1,000/mo Management</li>\n    <li>◦ $500 One Time Fee for Initial Set Up.</li>\n    <li>◦ $500 One Time Fee for migration from one email platform to another.</li>\n    <li>◦ $500/mo for Email Creative Needs</li>\n</ul>"
+          }
+        }
+      },
+      "block_order": [
+        "box_3wjr3h"
+      ],
+      "settings": {
+        "heading": "Our Clients",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -285,6 +387,10 @@
     "ads_list_wdbfCf",
     "rich_text_LEFdLW",
     "ads_list_89gMYm",
-    "ads_list_jRgbyd"
+    "ads_list_jRgbyd",
+    "gradient_border_box_VKdedc",
+    "gradient_border_box_TTKqQa",
+    "rich_text_z7rnDj",
+    "gradient_border_box_XxAR89"
   ]
 }
