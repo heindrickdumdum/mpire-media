@@ -21,15 +21,17 @@
     }
   }
 
-  #shopify-section-{{ section.id }} .video-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
-  }
 
   #shopify-section-{{ section.id }} .video-item {
     position: relative;
     cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    height: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    overflow: hidden;
   }
 
   #shopify-section-{{ section.id }} .video-item img {
@@ -50,13 +52,17 @@
   }
 
   #shopify-section-{{ section.id }} .modal-content {
-    position: relative;
     margin: auto;
     padding: 1rem;
     width: 80%;
     max-width: 800px;
     background-color: #fff;
     border-radius: 0.5rem;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   #shopify-section-{{ section.id }} .close {
@@ -71,21 +77,44 @@
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    <h2
-      class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
-      {{ section.shopify_attributes }}
-    >
-      {{ section.settings.heading }}
-    </h2>
+  <div class="page-width color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+    <div class="tw-flex tw-justify-center tw-mb-10 tw-items-center tw-gap-10">
+        <p
+        class="tw-m-0 image-with-text__heading inline-richtext tw-font-bold"
+        style="min-width: max-content;"
+        {{ section.shopify_attributes }}
+        >
+        {{ section.settings.heading }}
+        </p>
+        <hr class="tw-m-0 tw-h-[0.2rem] tw-bg-accent-1 tw-w-full tw-mx-auto tw-bg-white">
+    </div>
 
-    <div class="video-list">
+    <div class="video-list tw-flex tw-flex-wrap tw-gap-10 tw-justify-center lg:tw-justify-start">
       {% for block in section.blocks %}
         {%- case block.type -%}
-          {%- when 'ads' -%}
+          {%- when 'video_ad' -%}
             <div class="video-item" data-video-url="{{ block.settings.video_url }}">
-              <img src="{{ block.settings.video_thumbnail_url }}" alt="Video Thumbnail">
+              {% comment %} <img src="{{ block.settings.video_thumbnail_url }}" alt="Video Thumbnail"> {% endcomment %}
+               <div class="!tw-block tw-bg-cover tw-bg-center tw-absolute tw-inset-0" style="background-image: url('{{ block.settings.video_thumbnail_url }}');"></div>
             </div>
+            <div class="video-item" data-video-url="{{ block.settings.video_url }}">
+                {% comment %} <img src="{{ block.settings.video_thumbnail_url }}" alt="Video Thumbnail"> {% endcomment %}
+                 <div class="!tw-block tw-bg-cover tw-bg-center tw-absolute tw-inset-0" style="background-image: url('{{ block.settings.video_thumbnail_url }}');"></div>
+              </div>
+              <div class="video-item" data-video-url="{{ block.settings.video_url }}">
+                {% comment %} <img src="{{ block.settings.video_thumbnail_url }}" alt="Video Thumbnail"> {% endcomment %}
+                 <div class="!tw-block tw-bg-cover tw-bg-center tw-absolute tw-inset-0" style="background-image: url('{{ block.settings.video_thumbnail_url }}');"></div>
+              </div>
+            {%- when 'image_ad' -%}
+                {% if block.settings.image %}
+                    <a href="{{ block.settings.image }}" target="_blank">
+                        <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.ad_title }}">
+                    </a>
+                    {% else %}
+                    <a href="{{ block.settings.image_url }}" target="_blank">
+                        <img src="{{ block.settings.image_url | img_url: 'master' }}" alt="{{ block.settings.ad_title }}">
+                    </a>
+                {% endif %}
         {%- endcase -%}
       {% endfor %}
     </div>
@@ -107,8 +136,8 @@
 
     document.querySelectorAll('.video-item').forEach(function(item) {
       item.addEventListener('click', function() {
-        var videoUrl = this.getAttribute('data-video-url');
-        videoContainer.innerHTML = '<iframe width="100%" height="400" src="' + videoUrl + '" frameborder="0" allowfullscreen></iframe>';
+        var videoUrl = this.getAttribute('data-video-url')  + '?autoplay=1';
+        videoContainer.innerHTML = '<iframe width="100%" height="400" src="' + videoUrl + '" frameborder="0" allow="autoplay" allowfullscreen></iframe>';
         modal.style.display = 'block';
       });
     });
@@ -141,26 +170,6 @@
       "id": "heading",
       "default": "Our Clients",
       "label": "Heading"
-    },
-    {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        }
-      ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
     },
     {
       "type": "select",
@@ -247,10 +256,14 @@
   ],
   "blocks": [
     {
-      "type": "ads",
-      "name": "Ad",
-      "limit": 3,
+      "type": "video_ad",
+      "name": "Video Ad",
       "settings": [
+        {
+            "type": "text",
+            "id": "ad_title",
+            "label": "Ad Title"
+        },
         {
             "type": "url",
             "id": "video_url",
@@ -262,7 +275,28 @@
             "label": "Video Thumbnail URL"
         }
       ]
-    }
+    },
+    {
+        "type": "image_ad",
+        "name": "Image Ad",
+        "settings": [
+            {
+                "type": "text",
+                "id": "ad_title",
+                "label": "Ad Title"
+            },
+          {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Image"
+          },
+          {
+              "type": "url",
+              "id": "image_url",
+              "label": "Image URL"
+          }
+        ]
+      }
   ],
   "presets": [
     {
