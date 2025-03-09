@@ -292,6 +292,7 @@
       ],
       "settings": {
         "heading": "BUNDLE AND SAVE",
+        "sub_heading": "",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "full_width": true,
@@ -323,6 +324,7 @@
       ],
       "settings": {
         "heading": "A-LA-CART",
+        "sub_heading": "<p><strong>Content Creation Services:</strong> (includes 9x16, 4x5, and 1x1 ratios)</p>",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "full_width": true,
@@ -350,7 +352,7 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52,
+        "padding_bottom": 40,
         "custom_class": "",
         "is_gradient_box": false
       }
@@ -370,12 +372,13 @@
         "box_3wjr3h"
       ],
       "settings": {
-        "heading": "Our Clients",
+        "heading": "",
+        "sub_heading": "",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
