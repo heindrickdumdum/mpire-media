@@ -55,28 +55,38 @@
     "ads_list_PU88Ng": {
       "type": "ads-list",
       "blocks": {
-        "ads_yrqKRY": {
-          "type": "ads",
+        "video_ad_tn7M77": {
+          "type": "video_ad",
           "settings": {
+            "ad_title": "",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/f8310cec46b04c77a3464c8747d1b361.mp4",
             "video_thumbnail_url": "https://cdn.shopify.com/s/files/1/0741/9350/2504/files/Artwork1_dc6422a9-e339-4cef-b0f2-8bb9f6ee25de.png?v=1737183838"
           }
         },
-        "ads_YNb3CB": {
-          "type": "ads",
+        "image_ad_tYKLhX": {
+          "type": "image_ad",
           "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/f8310cec46b04c77a3464c8747d1b361.mp4",
-            "video_thumbnail_url": "https://cdn.shopify.com/s/files/1/0741/9350/2504/files/Asset_1_c232515a-4b02-4799-a28b-4ce75f019a2d.png?v=1741445372"
+            "ad_title": "",
+            "image": "shopify://shop_images/Asset_1_c232515a-4b02-4799-a28b-4ce75f019a2d.png",
+            "image_url": ""
+          }
+        },
+        "image_ad_XBGnJx": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image": "shopify://shop_images/woman-searching-something-internet-using-her-smartphone-while-being-home.jpg",
+            "image_url": ""
           }
         }
       },
       "block_order": [
-        "ads_yrqKRY",
-        "ads_YNb3CB"
+        "video_ad_tn7M77",
+        "image_ad_tYKLhX",
+        "image_ad_XBGnJx"
       ],
       "settings": {
         "heading": "SCRIPTED VIDEO ADS:",
-        "heading_size": "h2",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
