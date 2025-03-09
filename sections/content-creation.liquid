@@ -11,29 +11,79 @@
     }
   }
 
-  #shopify-section-{{ section.id }} {}
+  #shopify-section-{{ section.id }} .boxes-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  #shopify-section-{{ section.id }} .box-item {
+    border-radius: 2rem;
+    padding: 5rem 5rem;
+    background: rgb(69,45,102);
+    background: linear-gradient(0deg, rgba(69,45,102,1) 0%, rgba(32,25,57,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    <h2
-      class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
-      {{ section.shopify_attributes }}
-    >
-      {{ section.settings.heading }}
-    </h2>
+  <div class="page-width color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+    {% if section.settings.heading != blank %}
+    <div class="text-center">
+        <h2
+            class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
+            {{ section.shopify_attributes }}
+          >
+            {{ section.settings.heading }}
+          </h2>
+    </div>
+    {% endif %}
 
-    {% for block in section.blocks %}
-      {%- case block.type -%}
-        {%- when 'brand' -%}
-      {%- endcase -%}
-    {% endfor %}
+    
+    {% if section.settings.section_banner %}
+        <div>
+            <img src="{{ section.settings.section_banner | img_url: 'master' }}" alt="{{ section.settings.heading }}">
+        </div>
+    {% endif %}
+    
+
+    <div class="boxes-wrapper">
+        {% for block in section.blocks %}
+            {%- case block.type -%}
+              {%- when 'box' -%}
+                <div class="box-item">
+                  <div>
+                    {{ block.settings.box_content }}
+                    {{ block.settings.box_content_liquid }}
+                  </div>
+                  {% if block.settings.box_icon %}
+
+                    <div>
+                      {{
+                        block.settings.box_icon
+                        | image_url: width: 70
+                        | image_tag:
+                          loading: 'lazy',
+                          widths: '70',
+                          alt: block.settings.text
+                      }}
+                    </div>
+                  {% endif %}
+                </div>
+            {%- endcase -%}
+          {% endfor %}
+    </div>
   </div>
 </div>
 
 {% schema %}
 {
-  "name": "Content Creation Section",
+  "name": "Content Creation",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -65,6 +115,11 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+        "type": "image_picker",
+        "id": "section_banner",
+        "label": "Section Banner"
     },
     {
       "type": "select",
@@ -127,26 +182,30 @@
   ],
   "blocks": [
     {
-      "type": "image",
-      "name": "Brand",
-      "limit": 3,
+      "type": "box",
+      "name": "Box",
       "settings": [
         {
-          "type": "image_picker",
-          "id": "brand_logo",
-          "label": "Brand Logo"
+          "type": "richtext",
+          "id": "box_content",
+          "label": "Box Content"
         },
         {
-          "type": "text",
-          "id": "brand_name",
-          "label": "Brand Name"
+          "type": "liquid",
+          "id": "box_content_liquid",
+          "label": "Box Content Liquid"
+        },
+        {
+          "type": "image_picker",
+          "id": "box_icon",
+          "label": "Box Icon"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "Content Creation Section"
+      "name": "Content Creation"
     }
   ]
 }
