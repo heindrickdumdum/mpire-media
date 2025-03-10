@@ -1,0 +1,513 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "page_narrow": true,
+        "custom_heading": "",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "content_creation_ERqgHF": {
+      "type": "content-creation",
+      "blocks": {
+        "box_KMaAdx": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>Our content offerings can be everything you need</strong> or act as a stepping stone to becoming a brand that grows into a big production studio for mass market share growth. We find it challenging to meet creative teams that have a fullfunnel strategy that teaches us what we need to know about our customers, which is why we took content creation into our own hands.</p>",
+            "box_content_liquid": ""
+          }
+        },
+        "box_4Kyjpx": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>We take the current best practices</strong> in content and make affordable packages that not only deliver on performance, but deliver at scale. Our content packages can be anything you need but are mostly designed for Pointing out benefits, Hitting on problems the product solves, or resolving concerns the customer might have about your product/service. Every creative serves a specific purpose. That’s our secret sauce for success. This isn’t a game of “this is working best, so let’s make more of this.” We want to have confidence in understanding WHY a creative performed or not.</p>",
+            "box_content_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "box_KMaAdx",
+        "box_4Kyjpx"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "section_banner": "shopify://shop_images/Asset_4_b4228870-8338-4837-9153-eed80954f17f.png",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 52
+      }
+    },
+    "ads_list_PU88Ng": {
+      "type": "ads-list",
+      "blocks": {
+        "video_ad_tn7M77": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/f8310cec46b04c77a3464c8747d1b361.mp4",
+            "video_thumbnail_url": "https://cdn.shopify.com/s/files/1/0741/9350/2504/files/Artwork1_dc6422a9-e339-4cef-b0f2-8bb9f6ee25de.png?v=1737183838"
+          }
+        },
+        "image_ad_tYKLhX": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image": "shopify://shop_images/Asset_1_c232515a-4b02-4799-a28b-4ce75f019a2d.png",
+            "image_url": ""
+          }
+        },
+        "image_ad_XBGnJx": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image": "shopify://shop_images/woman-searching-something-internet-using-her-smartphone-while-being-home.jpg",
+            "image_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_ad_tn7M77",
+        "image_ad_tYKLhX",
+        "image_ad_XBGnJx"
+      ],
+      "settings": {
+        "heading": "SCRIPTED VIDEO ADS:",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "ads_list_VQMJh4": {
+      "type": "ads-list",
+      "blocks": {
+        "image_ad_kQetHY": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image": "shopify://shop_images/photography-1850469_1280.jpg",
+            "image_url": ""
+          }
+        },
+        "image_ad_qieGwY": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-13.png",
+            "image_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ad_kQetHY",
+        "image_ad_qieGwY"
+      ],
+      "settings": {
+        "heading": "MOTION GRAPHIC ADS:",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "ads_list_wdbfCf": {
+      "type": "ads-list",
+      "blocks": {
+        "image_ad_67dpUH": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        },
+        "image_ad_K76jPq": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        },
+        "image_ad_JXFaym": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ad_67dpUH",
+        "image_ad_K76jPq",
+        "image_ad_JXFaym"
+      ],
+      "settings": {
+        "heading": "IMAGE ADS:",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "rich_text_LEFdLW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NJHA9Y": {
+          "type": "heading",
+          "settings": {
+            "heading": "ORGANIC CREATIVE",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NJHA9Y"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_class": "",
+        "is_gradient_box": false
+      }
+    },
+    "ads_list_89gMYm": {
+      "type": "ads-list",
+      "blocks": {
+        "image_ad_3VQdLd": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        },
+        "video_ad_btyqjW": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "",
+            "video_url": "",
+            "video_thumbnail_url": ""
+          }
+        },
+        "video_ad_9EAtmi": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "",
+            "video_url": "",
+            "video_thumbnail_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ad_3VQdLd",
+        "video_ad_btyqjW",
+        "video_ad_9EAtmi"
+      ],
+      "settings": {
+        "heading": "Our Clients",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "ads_list_jRgbyd": {
+      "type": "ads-list",
+      "blocks": {
+        "image_ad_e3qXkx": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        },
+        "image_ad_XMwEyP": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        },
+        "image_ad_jacx4t": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ad_e3qXkx",
+        "image_ad_XMwEyP",
+        "image_ad_jacx4t"
+      ],
+      "settings": {
+        "heading": "MAGES:",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "rich_text_RMHVfx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HB83k9": {
+          "type": "heading",
+          "settings": {
+            "heading": "CREATIVE PRICING",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HB83k9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "custom_class": "",
+        "is_gradient_box": false
+      }
+    },
+    "gradient_border_box_VKdedc": {
+      "type": "gradient-border-box",
+      "blocks": {
+        "box_MDH8LN": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>$10,000/mo (full team efforts at the cost of one in-house marketing expert.)</strong></p>",
+            "box_content_liquid": "<ul>\n    <li>Ad Buying management on as many ad platforms as needed. (ex. Google Ads, Meta Ads, TikTok Ads, etc.)</li>\n    <li>Ad Creative (2 scripted videos, 3 motion graphics, 25 images)</li>\n    <li>Organic Creative (5 micro videos, 25 images)</li>\n    <li>Email Marketing</li>\n</ul>"
+          }
+        }
+      },
+      "block_order": [
+        "box_MDH8LN"
+      ],
+      "settings": {
+        "heading": "BUNDLE AND SAVE",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 20
+      }
+    },
+    "gradient_border_box_TTKqQa": {
+      "type": "gradient-border-box",
+      "blocks": {
+        "box_JADCHX": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>$5,500 Package</strong> (8 videos/35 photos)</p>",
+            "box_content_liquid": "<ul>\n    <li>◦ 2 scripted videos (One in a studio setting, one set location)</li>\n    <li>◦ 6 motion graphics videos</li>\n    <li>◦ 50 professional photos for ads or social content.</li>\n</ul>"
+          }
+        },
+        "box_6G8n9r": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>$3,500</strong> (5 videos/20 photos)</p>",
+            "box_content_liquid": "<ul>\n<li>◦ 2 scripted videos (In studio only)</li>\n<li>◦ 3 motion graphics videos</li>\n<li>◦ 20 professional photos for ads or social content.</li>\n</ul>"
+          }
+        }
+      },
+      "block_order": [
+        "box_JADCHX",
+        "box_6G8n9r"
+      ],
+      "settings": {
+        "heading": "A-LA-CART",
+        "sub_heading": "<p><strong>Content Creation Services:</strong> (includes 9x16, 4x5, and 1x1 ratios)</p>",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 20
+      }
+    },
+    "rich_text_z7rnDj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Urzfaw": {
+          "type": "heading",
+          "settings": {
+            "heading": "EMAIL MARKETING",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Urzfaw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "custom_class": "",
+        "is_gradient_box": false
+      }
+    },
+    "gradient_border_box_XxAR89": {
+      "type": "gradient-border-box",
+      "blocks": {
+        "box_3wjr3h": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>Management of email creative design, automations, and flows.</p>",
+            "box_content_liquid": "<p>Email Marketing Services:</p>\n\n<ul>\n    <li>◦ $1,000/mo Management</li>\n    <li>◦ $500 One Time Fee for Initial Set Up.</li>\n    <li>◦ $500 One Time Fee for migration from one email platform to another.</li>\n    <li>◦ $500/mo for Email Creative Needs</li>\n</ul>"
+          }
+        }
+      },
+      "block_order": [
+        "box_3wjr3h"
+      ],
+      "settings": {
+        "heading": "",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 40
+      }
+    },
+    "slideshow_custom_wnEY3K": {
+      "type": "slideshow-custom",
+      "blocks": {
+        "slide_zdMeJU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Asset_11.png",
+            "show_banner_content": false,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_YJU3Ea": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Asset_22.png",
+            "show_banner_content": false,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_MKThpz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Asset_33.png",
+            "show_banner_content": false,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_zdMeJU",
+        "slide_YJU3Ea",
+        "slide_MKThpz"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "content_creation_ERqgHF",
+    "ads_list_PU88Ng",
+    "ads_list_VQMJh4",
+    "ads_list_wdbfCf",
+    "rich_text_LEFdLW",
+    "ads_list_89gMYm",
+    "ads_list_jRgbyd",
+    "rich_text_RMHVfx",
+    "gradient_border_box_VKdedc",
+    "gradient_border_box_TTKqQa",
+    "rich_text_z7rnDj",
+    "gradient_border_box_XxAR89",
+    "slideshow_custom_wnEY3K"
+  ]
+}
