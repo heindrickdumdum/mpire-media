@@ -37,49 +37,51 @@
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="page-width--narrow tw-mx-auto color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    {% if section.settings.heading != blank %}
-    <div class="text-center">
-          <p
-            class="image-with-text__heading inline-richtext tw-text-4xl tw-font-bold"
-            {{ section.shopify_attributes }}
-          >
-            {{ section.settings.heading }}
-          </p>
+  <div class="page-width">
+    <div class="page-width--narrow tw-mx-auto color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+      {% if section.settings.heading != blank %}
+      <div class="text-center">
+            <p
+              class="image-with-text__heading inline-richtext tw-text-4xl tw-font-bold"
+              {{ section.shopify_attributes }}
+            >
+              {{ section.settings.heading }}
+            </p>
 
-          {% if section.settings.sub_heading != blank %}
-            {{ section.settings.sub_heading }}
-          {% endif %}
-    </div>
-    {% endif %}
+            {% if section.settings.sub_heading != blank %}
+              {{ section.settings.sub_heading }}
+            {% endif %}
+      </div>
+      {% endif %}
 
-    <div class="boxes-wrapper tw-gap-10">
-        {% for block in section.blocks %}
-            {%- case block.type -%}
-              {%- when 'box' -%}
-                <div class="box-item gradient-box tw-m-0">
-                  <div class="gradient-box-content">
-                    <div>
-                      {{ block.settings.box_content }}
-                      {{ block.settings.box_content_liquid }}
-                    </div>
-                    {% if block.settings.box_icon %}
-
+      <div class="boxes-wrapper tw-gap-10">
+          {% for block in section.blocks %}
+              {%- case block.type -%}
+                {%- when 'box' -%}
+                  <div class="box-item gradient-box tw-m-0">
+                    <div class="gradient-box-content">
                       <div>
-                        {{
-                          block.settings.box_icon
-                          | image_url: width: 70
-                          | image_tag:
-                            loading: 'lazy',
-                            widths: '70',
-                            alt: block.settings.text
-                        }}
+                        {{ block.settings.box_content }}
+                        {{ block.settings.box_content_liquid }}
                       </div>
-                    {% endif %}
+                      {% if block.settings.box_icon %}
+
+                        <div>
+                          {{
+                            block.settings.box_icon
+                            | image_url: width: 70
+                            | image_tag:
+                              loading: 'lazy',
+                              widths: '70',
+                              alt: block.settings.text
+                          }}
+                        </div>
+                      {% endif %}
+                    </div>
                   </div>
-                </div>
-            {%- endcase -%}
-        {% endfor %}
+              {%- endcase -%}
+          {% endfor %}
+      </div>
     </div>
   </div>
 </div>
