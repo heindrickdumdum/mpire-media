@@ -108,6 +108,9 @@
         "text_aTnVgA",
         "buttons_pbK4X6"
       ],
+      "custom_css": [
+        ".banner {margin-bottom: 5rem;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Asset_44.png",
         "image_overlay_opacity": 0,
