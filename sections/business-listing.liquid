@@ -21,38 +21,52 @@
     }
   }
 
-  #shopify-section-{{ section.id }} {}
+  #shopify-section-{{ section.id }} .gradient-box,
+  #shopify-section-{{ section.id }} .gradient-box > .gradient-box-content {
+    border-radius: 2.9rem !important;
+  }
+
+  
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+  <div class="page-width color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+    {% if section.settings.heading %}
     <h2
       class="image-with-text__heading inline-richtext {{ section.settings.heading_size }}"
       {{ section.shopify_attributes }}
     >
       {{ section.settings.heading }}
     </h2>
+    {% endif %}
 
-    <div>
-        <div class="gradient-box tw-m-0">
-            <div class="gradient-box-content">
-                <div class="tw-flex tw-gap-4">
-                    {{ section.settings.richtext_content }}
-                </div>
-            </div>
+   <div class="tw-max-w-[100rem] tw-mx-auto tw-px-4 sm:tw-px-6 lg:tw-px-8">
+    <div class="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-16">
+        <div>
+         <div class="gradient-box tw-m-0">
+             <div class="gradient-box-content">
+                 <div class="tw-flex tw-gap-4">
+                     {{ section.settings.richtext_content }}
+                 </div>
+             </div>
+         </div>
         </div>
-    </div>
-
-    <ul>
-    {% for block in section.blocks %}
-      {%- case block.type -%}
-        {%- when 'service' -%}
-            <li>{{ block.settings.service_name }}</li>
-      {%- else -%}
-            <li>No service available</li>
-      {%- endcase -%}
-    {% endfor %}
-    </ul>
+     
+         <div>
+            {% if section.settings.services_heading %}
+            <p class="tw-text-4xl tw-font-bold tw-mb-5 tw-mt-0">{{ section.settings.services_heading }}</p>
+            {% endif %}
+             <ul class="tw-flex tw-flex-col tw-gap-8 tw-p-0">
+                 {% for block in section.blocks %}
+                   {%- case block.type -%}
+                     {%- when 'service' -%}
+                         <li class="gradient-box-item tw-p-5 tw-px-10">{{ block.settings.service_name }}</li>
+                   {%- endcase -%}
+                 {% endfor %}
+             </ul>
+         </div>
+     </div>
+   </div>
   </div>
 </div>
 
@@ -95,7 +109,14 @@
         "type": "richtext",
         "id": "richtext_content",
         "label": "Content",
-        "default": "<p>Content goes here</p>"},
+        "default": "<p>Content goes here</p>"
+    },
+    {
+        "type": "text",
+        "id": "services_heading",
+        "default": "Services include:",
+        "label": "Services Heading"
+    },
     {
       "type": "select",
       "id": "color_scheme",

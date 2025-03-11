@@ -3273,11 +3273,22 @@ slideshow-component .banner__content .slideshow__text.banner__box {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cb7db4",endColorstr="#482c85",GradientType=1);
 
   border-radius: 10px !important;
-  padding: 2px;
+  padding: 3px;
 }
 
 .gradient-box > .gradient-box-content {
   background-color: var(--gradient-background);
   padding: 3rem;
   border-radius: 9px;
+}
+
+.gradient-box-item {
+  border-radius: 2rem;
+  padding: 5rem 5rem;
+  background: rgb(69,45,102);
+  background: linear-gradient(0deg, rgba(69,45,102,1) 0%, rgba(32,25,57,1) 100%);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  height: 100%;
 }

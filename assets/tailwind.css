@@ -100,6 +100,14 @@
   margin-top: 5rem
 }
 
+.tw-mb-4 {
+  margin-bottom: 1rem
+}
+
+.tw-mb-5 {
+  margin-bottom: 1.25rem
+}
+
 .\!tw-block {
   display: block !important
 }
@@ -178,6 +186,14 @@
 
 .tw-max-w-\[65rem\] {
   max-width: 65rem
+}
+
+.tw-max-w-7xl {
+  max-width: 80rem
+}
+
+.tw-max-w-\[100rem\] {
+  max-width: 100rem
 }
 
 .tw-flex-1 {
@@ -267,6 +283,10 @@
   gap: 2rem
 }
 
+.tw-gap-16 {
+  gap: 4rem
+}
+
 .\!tw-gap-y-\[7rem\] {
   row-gap: 7rem !important
 }
@@ -330,9 +350,23 @@
   padding: 2.5rem
 }
 
+.tw-p-5 {
+  padding: 1.25rem
+}
+
 .tw-py-0 {
   padding-top: 0px;
   padding-bottom: 0px
+}
+
+.tw-px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem
+}
+
+.tw-px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem
 }
 
 .tw-text-left {
@@ -388,6 +422,11 @@
 }
 
 @media (min-width: 640px) {
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem
+  }
+
   .sm\:tw-text-\[26px\] {
     font-size: 26px
   }
@@ -438,5 +477,10 @@
 
   .lg\:tw-gap-14 {
     gap: 3.5rem
+  }
+
+  .lg\:tw-px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem
   }
 }
