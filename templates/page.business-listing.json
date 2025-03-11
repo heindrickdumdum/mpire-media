@@ -15,7 +15,7 @@
         "page_narrow": true,
         "custom_heading": "",
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 0
       }
     },
     "business_listing_Mjta8f": {
@@ -65,10 +65,10 @@
         "richtext_content": "<p>Optimizing your Google Business Profile can significantly boost your business’s online visibility, helping potential customers find you more easily. It improves local search rankings, showcases essential information like hours, services, and contact details, and enables you to attract and engage customers through reviews, photos, and updates. A well-maintained profile builds trust, drives more traffic to your website, and converts online searches into real-world visits or inquiries, ultimately increasing revenue and strengthening your brand presence.</p>",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "margin_top": 40,
-        "margin_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "margin_top": 20,
+        "margin_bottom": 0
       }
     },
     "image_banner_BTNUTj": {
