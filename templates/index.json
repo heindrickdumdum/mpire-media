@@ -44,7 +44,7 @@
         "@media screen and (max-width: 749px) {.image-with-text__grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0; margin-bottom: 20px; } .image-with-text__heading {margin-bottom: 0; text-align: center; } .image-with-text__text {text-align: center; margin: 1rem 0; width: 100%; } .image-with-text__content .image-with-text__text + .button {margin: 0 auto; margin-top: 0; }}"
       ],
       "settings": {
-        "video_url": "https://youtu.be/zBnJasPPclw",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/c076cdf6506b455586868c3052459575.mp4",
         "video_image_url": "",
         "height": "adapt",
         "desktop_image_width": "medium",
