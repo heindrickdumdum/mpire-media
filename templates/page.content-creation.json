@@ -301,6 +301,84 @@
         "is_gradient_box": false
       }
     },
+    "gradient_border_box_PyCWrP": {
+      "type": "gradient-border-box",
+      "blocks": {
+        "box_zwxg8q": {
+          "type": "box",
+          "settings": {
+            "box_content": "",
+            "box_content_liquid": "STARTER PACKAGE: Refresh existing content: EDIT-ONLY ($3,500)\n<ul>\n<li>Perfect for: Brands with existing footage needing professional polish</li>\n<li>Includes: Professional editing, color grading, basic motion graphics</li>\n<li>Deliverables: 5 videos (15-30 seconds each)</li>\n<li>Production: No shooting (client provides all footage)</li>\n<li>Timeline: 2-week turnaround</li>\n</ul>\n\nGROWTH PACKAGE: Create new campaign assets: SHOOT + EDIT ($6,000)\n<ul>\n<li>Perfect for: Single-location campaigns needing fresh content</li>\n<li>Includes: Half-day shoot, 3 scripted videos, 3 motion graphic videos</li>\n<li>Deliverables: 6 videos total (15-30 seconds each)</li>\n<li>Production: 1 location, 1 actor, 1-2-person crew, basic equipment</li>\n<li>Timeline: 3-week turnaround</li>\n</ul>\nIMPACT PACKAGE: Multi-location brand storytelling: MULTI-LOCATION ($11,000)\n<ul>\n<li>Perfect for: Brands needing diverse content across multiple settings</li>\n<li>Includes: Full-day shoot, 4 scripted videos, 4 motion graphic videos</li>\n<li>Deliverables: 8 videos total (15-30 seconds each)</li>\n<li>Production: 3 locations, 3 actors, 3-5-person crew, premium equipment</li>\n<li>Timeline: 4-week turnaround</li>\n</ul>\nCUSTOM PACKAGE: LET’S CHAT\n<ul>\n<li>Perfect for: Complex projects with specific requirements</li>\n<li>Starting at: $12,000+ (based on scope)</li>\n<li>We’ll build a tailored solution for your unique project needs</li>\n</ul>"
+          }
+        }
+      },
+      "block_order": [
+        "box_zwxg8q"
+      ],
+      "settings": {
+        "heading": "STANDARD PACKAGES",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 40,
+        "margin_bottom": 52
+      }
+    },
+    "gradient_border_box_rcA98F": {
+      "type": "gradient-border-box",
+      "blocks": {
+        "box_Np3XGT": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>CUSTOMIZE ANY PACKAGE WITH THESE ADD-ONS:</p>",
+            "box_content_liquid": "TALENT & LOCATIONS\n<ul>\n<li>Additional Talent: $1,000 per person (includes casting & coordination)</li>\n<li>Additional Location: $1,000 per site (includes permits & coordination)</li>\n<li>Studio Rental: $1,500 (controlled environment for product shots)</li>\n</ul>\nCONTENT UPGRADES\n<ul>\n<li>Additional Scripted Video: $2,000 per video</li>\n<li>Additional Motion Graphic Video: $500 per video</li>\n<li>Extended Duration Videos (30s): $750 per video</li>\n</ul>\nPRODUCTION ENHANCEMENTS\n<ul>\n<li>Drone Footage: $1,200 per location</li>\n<li>Extended Shoot Day: $3,000 per day</li>\n</ul>\nPOST-PRODUCTION SERVICES\n<ul>\n<li>Rush Delivery (50% faster turnaround): $1,500</li>\n<li>Additional Revision Round: $500</li>\n<li>Social Media-Optimized Crops: $150 per video (1x1,9x16, 16x9, etc)</li>\n</ul>"
+          }
+        }
+      },
+      "block_order": [
+        "box_Np3XGT"
+      ],
+      "settings": {
+        "heading": "ADD ONS",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 40,
+        "margin_bottom": 52
+      }
+    },
+    "gradient_border_box_FxyQEQ": {
+      "type": "gradient-border-box",
+      "blocks": {
+        "box_m9rWPR": {
+          "type": "box",
+          "settings": {
+            "box_content": "",
+            "box_content_liquid": "NOTE ON PRODUCTION VARIABLES:\n<ul>\n<li>Pricing assumes local production within 50 miles of our office</li>\n<li>Travel fees apply for distant locations: $X per day plus expenses</li>\n<li>Weather contingency options available for outdoor shoots</li>\n<li>Complex locations may require additional permits/fees (quoted separately)</li>\n</ul>\nTYPICAL PRODUCTION TIMELINE:\n<ul>\n<li>Creative: 1-2 weeks</li>\n<li>Pre-production planning: 1-2 weeks</li>\n<li>Production: 1 day (Standard) to 3 days (Premium)</li>\n<li>Post-production: 2-3 weeks</li>\n<li>Revisions: Up to 2 rounds included</li>\n</ul>\nCLIENT PROVIDES:\n<ul>\n<li>Brand guidelines/assets</li>\n<li>Product samples (if applicable)</li>\n<li>Approval of talent/locations</li>\n<li>Timely feedback (within 3 business days)</li>\n</ul>"
+          }
+        }
+      },
+      "block_order": [
+        "box_m9rWPR"
+      ],
+      "settings": {
+        "heading": "EXPECTATIONS",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 40,
+        "margin_bottom": 52
+      }
+    },
     "gradient_border_box_VKdedc": {
       "type": "gradient-border-box",
       "blocks": {
@@ -315,6 +393,7 @@
       "block_order": [
         "box_MDH8LN"
       ],
+      "disabled": true,
       "settings": {
         "heading": "BUNDLE AND SAVE",
         "sub_heading": "",
@@ -349,6 +428,7 @@
         "box_JADCHX",
         "box_6G8n9r"
       ],
+      "disabled": true,
       "settings": {
         "heading": "A-LA-CART",
         "sub_heading": "<p><strong>Content Creation Services:</strong> (includes 9x16, 4x5, and 1x1 ratios)</p>",
@@ -372,6 +452,9 @@
     "ads_list_89gMYm",
     "ads_list_jRgbyd",
     "rich_text_RMHVfx",
+    "gradient_border_box_PyCWrP",
+    "gradient_border_box_rcA98F",
+    "gradient_border_box_FxyQEQ",
     "gradient_border_box_VKdedc",
     "gradient_border_box_TTKqQa"
   ]
