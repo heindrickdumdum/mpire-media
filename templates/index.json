@@ -886,6 +886,523 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+
+    "slideshow_custom_eRFBxj": {
+      "type": "slideshow-custom",
+      "blocks": {
+        "slide_hpWntL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-03.png",
+            "logo": "shopify://shop_images/transparent-labs.png",
+            "show_banner_content": true,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_QMhm4A": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-04.png",
+            "logo": "shopify://shop_images/compressed_brands_mixherslogo_d0535c30-77d1-4195-9e74-916bdd659fd3.png",
+            "show_banner_content": true,
+            "heading": "Our Strategy",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_rg8QhY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-05.png",
+            "logo": "shopify://shop_images/mrcool.png",
+            "show_banner_content": true,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_eGzg6q": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-06.png",
+            "logo": "shopify://shop_images/Saalt_logo_for_web_gray_blue_1white.png",
+            "show_banner_content": true,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_nFM9Uc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-07.png",
+            "logo": "shopify://shop_images/Woobies_black_logo_with_box_779cb760-6e32-4a66-9617-4ef33f09cbb4_240x_2x-2white.png",
+            "show_banner_content": true,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_9ke6fW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-08.png",
+            "logo": "shopify://shop_images/vanessa.png",
+            "show_banner_content": true,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Jcy6wD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-09.png",
+            "logo": "shopify://shop_images/aeromixer.png",
+            "show_banner_content": true,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_zjcjGB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-10.png",
+            "logo": "shopify://shop_images/dylink.png",
+            "show_banner_content": true,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_BtLkYB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-11.png",
+            "logo": "shopify://shop_images/dirt_locker.png",
+            "show_banner_content": true,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_hpWntL",
+        "slide_QMhm4A",
+        "slide_rg8QhY",
+        "slide_eGzg6q",
+        "slide_nFM9Uc",
+        "slide_9ke6fW",
+        "slide_Jcy6wD",
+        "slide_zjcjGB",
+        "slide_BtLkYB"
+      ],
+      "settings": {
+        "heading": "CASE STUDIES",
+        "heading_size": "h1",
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "gradient_content_box_WrPkLh": {
+      "type": "gradient-content-box",
+      "blocks": {
+        "box_Cc3eAF": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>We don’t like to hide anything</strong> which is why we don’t do long term contracts. Everything is month to month in our pricing. Only Pay for what you need. We believe in earning your trust.</p>",
+            "box_content_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "box_Cc3eAF"
+      ],
+      "settings": {
+        "heading": "TRANSPARENCY IS OUR THING",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "gradient_content_box_NexGec": {
+      "type": "gradient-content-box",
+      "blocks": {
+        "box_bR9j9h": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>$10,000/mo (full team efforts at the cost of one in-house marketing expert.)</p>",
+            "box_content_liquid": "<ul>\n<li>\nAd Buying management on as many ad platforms as needed. (ex. Google Ads, Meta Ads, TikTok Ads, etc.)\n</li>\n\n<li>\nAd Creative (2 scripted videos, 3 motion graphics, 25 images)\n</li>\n\n<li>\nOrganic Creative (5 micro videos, 25 images)\n</li>\n\n<li>\nEmail Marketing\n</li>\n</ul>",
+            "box_icon": "shopify://shop_images/Asset_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "box_bR9j9h"
+      ],
+      "settings": {
+        "heading": "BUNDLE AND SAVE",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "gradient_content_box_NAQEYE": {
+      "type": "gradient-content-box",
+      "blocks": {
+        "box_rjKxJp": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>Ad Buying Services:</strong></p>",
+            "box_content_liquid": "<ul>\n<li>$3,000/mo for One Ad Platform Managed.</li>\n<li>$5,000/mo for Two Ad Platforms Managed.</li>\n<li>$6,000/mo for Three or More Ad Platforms Managed.</li>\n</ul>",
+            "box_icon": "shopify://shop_images/Asset_2.png"
+          }
+        },
+        "box_8PyetD": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>Consulting Services:</strong></p>",
+            "box_content_liquid": "<ul>\n<li>$1,000/mo for a One Hour Video Consultation to strategize, optimize, and implement plans for the followingweeks efforts.</li>\n<ul>",
+            "box_icon": "shopify://shop_images/Asset_3.png"
+          }
+        },
+        "box_pEBq3U": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>Email Marketing Services:</strong></p>",
+            "box_content_liquid": "<ul>\n<li>$1,000/mo Management</li>\n<li>$500 One Time Fee for Initial Set Up.</li>\n<li>$500 One Time Fee for migration from one email platform to another.</li>\n<li>$500/mo for Email Graphic Design</li>\n</ul>",
+            "box_icon": "shopify://shop_images/Asset_4.png"
+          }
+        },
+        "box_RMRchx": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>Shopify Development Services:</strong></p>",
+            "box_content_liquid": "<ul>\n<li>$50/hr</li>\n</ul>",
+            "box_icon": "shopify://shop_images/Asset_5.png"
+          }
+        },
+        "box_HWbbTW": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>Content Creation Services: (includes 9x16, 4x5, and 1x1 ratios)</strong></p>",
+            "box_content_liquid": "<ul>\n<li>\n<p>$5,500 Package (8 videos/35 photos)</p>\n<ul>\n<li>2 scripted videos (One in a studio setting, one set location)</li>\n<li>6 motion graphics videos</li>\n<li>50 professional photos for ads or social content.</li>\n</ul>\n</li>\n\n<li>\n<p>$3,500 (5 videos/20 photos)</p>\n<ul>\n<li>2 scripted videos (In studio only)</li>\n<li>3 motion graphics videos</li>\n<li>20 professional photos for ads or social content.</li>\n</ul>\n\n</li>\n</ul>",
+            "box_icon": "shopify://shop_images/Asset_6.png"
+          }
+        },
+        "box_MgCTnm": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p><strong>Local Business Listings on Google My Business</strong></p>",
+            "box_content_liquid": "<ul>\n<li>$500/mo</li>\n</ul>",
+            "box_icon": "shopify://shop_images/Asset_7.png"
+          }
+        }
+      },
+      "block_order": [
+        "box_rjKxJp",
+        "box_8PyetD",
+        "box_pEBq3U",
+        "box_RMRchx",
+        "box_HWbbTW",
+        "box_MgCTnm"
+      ],
+      "settings": {
+        "heading": "A-LA-CART",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "gradient_checklist_GRXJpz": {
+      "type": "gradient-checklist",
+      "blocks": {
+        "box_QrDdbG": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>MEET US</p>"
+          }
+        },
+        "box_UMUJz7": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>FOLLOW UP WITH A QUESTIONNAIRE</p>"
+          }
+        },
+        "box_dYUPbX": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>REQUEST ACCESS TO YOUR EXISTING<br/>ADVERTISING PLATFORMS</p>"
+          }
+        },
+        "box_U3RdWR": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>SEND OVER AGREEMENT / CONTRACT TO</p>"
+          }
+        },
+        "box_CK8jhz": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>ESTABLISH COMMUNICATION PREFERENCE AND EXPECTATIONS</p>"
+          }
+        },
+        "box_Tfpeq9": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>DISCUSS GROWTH GOALS</p>"
+          }
+        },
+        "box_bN7rxX": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>TRANSITION/ HANDOFF</p>"
+          }
+        },
+        "box_EMzLHq": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>OPTIMIZING</p>"
+          }
+        },
+        "box_we7Mje": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>SCALING</p>"
+          }
+        },
+        "box_c3wpih": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>REPORTING</p>"
+          }
+        },
+        "box_EmkJM6": {
+          "type": "box",
+          "settings": {
+            "box_content": "<p>CREATIVE</p>"
+          }
+        }
+      },
+      "block_order": [
+        "box_QrDdbG",
+        "box_UMUJz7",
+        "box_dYUPbX",
+        "box_U3RdWR",
+        "box_CK8jhz",
+        "box_Tfpeq9",
+        "box_bN7rxX",
+        "box_EMzLHq",
+        "box_we7Mje",
+        "box_c3wpih",
+        "box_EmkJM6"
+      ],
+      "settings": {
+        "heading": "GETTING STARTED WITH US",
+        "heading_size": "h1",
+        "button_label": "Button label",
+        "button_link": "#",
+        "button_style_secondary": true,
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_ehtN7p": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_azzLgp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do we manage your social media accounts?",
+            "icon": "none",
+            "row_content": "<p>No, we do not. Our efforts focus on making you money through purchased data media buying.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eHcHKM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long have we been doing this?",
+            "icon": "none",
+            "row_content": "<p>Mpire Media has been in business since 2015. Each media buyer on the team has been vetted through their work as media buyers and has at least five years of performance growth marketing.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CVmnjg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What should you expect the ad budget to be?",
+            "icon": "none",
+            "row_content": "<p>You can win on just about any budget. The difference is how fast you will get results. There are benefits to spending more money (more algorithmic learnings, quicker results, etc.). If you are on a tight budget, we recommend spending a minimum of 3x your Average Order Value each day for a week (7 days). We recommend that because purchase behaviors online are different each day of the week, and 3x your AOV is enough for us to see some purchases roll through typically. The higher level metrics point us in directions for improvement from there.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EYPhVg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why are other agencies so expensive?",
+            "icon": "none",
+            "row_content": "<p>We get asked this question a lot. Short answer: so the owners can drive Lamborghinis on your dollar. There is no reason why any agency should charge a percentage of ad spend plus steep minimums. On the contrary, if any agency is charging too little, they are using AI to do their ads for them, which is already proven to not go over well in performance.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_q9Ddhj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why not hire an in-house ad buyer?",
+            "icon": "none",
+            "row_content": "<p>If you want the best performance from your media buying, you should hire an ad buyer who knows what they are doing. The cost of a skilled in-house media buyer will be a minimum $80k salary if you are lucky. That would cost your business $6,600/mo at least. Working with us, you get a hive mind of top-tier ad buyers for less than hiring one in-house media buyer.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HJ78CA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why doesn’t Mpire Media offer creative services?",
+            "icon": "none",
+            "row_content": "<p>Out of experience, it is best to stick to our lane. Yes, we could hire an in-house creative team, but when we already know teams that are very good at what they do, and with a strategic partnership, we could ensure each brand works with the creative teams that their brand needs. We too often see all-in-one agencies fail because every creative team has its own style. One or another agency's style might NOT be the best for your brand.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cJrH48": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is Mpire Media so affordable?",
+            "icon": "none",
+            "row_content": "<p>We have structured our business to act as a network of highly skilled media buyers and pay them half of the earnings of each client they manage. Each ad buyer is incentivized to perform in their assigned clients, allowing them to choose how much they want to earn. No team member is allowed to manage more than eight accounts to ensure they have the time in each account to meet client needs/goals.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_azzLgp",
+        "collapsible_row_eHcHKM",
+        "collapsible_row_CVmnjg",
+        "collapsible_row_EYPhVg",
+        "collapsible_row_q9Ddhj",
+        "collapsible_row_HJ78CA",
+        "collapsible_row_cJrH48"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FREQUENTLY ASKED QUESTIONS",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "button_color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "button_label": "WORK WITH US",
+        "button_link": "#",
+        "button_style_secondary": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -900,6 +1417,14 @@
     "collapsible_content_3X3LVb",
     "pricing_section_A3riTh",
     "pricing_section_Mp4Twi",
-    "pricing_section_KTzVXC"
+    "pricing_section_KTzVXC",
+
+
+    "slideshow_custom_eRFBxj",
+    "gradient_content_box_WrPkLh",
+    "gradient_content_box_NexGec",
+    "gradient_content_box_NAQEYE",
+    "gradient_checklist_GRXJpz",
+    "collapsible_content_ehtN7p"
   ]
 }
