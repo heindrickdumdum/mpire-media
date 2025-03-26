@@ -887,7 +887,6 @@
         "padding_bottom": 0
       }
     },
-
     "slideshow_custom_eRFBxj": {
       "type": "slideshow-custom",
       "blocks": {
@@ -1300,7 +1299,7 @@
       "settings": {
         "heading": "GETTING STARTED WITH US",
         "heading_size": "h1",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "#",
         "button_style_secondary": true,
         "color_scheme": "background-1",
@@ -1418,8 +1417,6 @@
     "pricing_section_A3riTh",
     "pricing_section_Mp4Twi",
     "pricing_section_KTzVXC",
-
-
     "slideshow_custom_eRFBxj",
     "gradient_content_box_WrPkLh",
     "gradient_content_box_NexGec",
