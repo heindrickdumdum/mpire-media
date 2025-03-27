@@ -1135,6 +1135,7 @@
       "block_order": [
         "box_bR9j9h"
       ],
+      "disabled": true,
       "settings": {
         "heading": "BUNDLE AND SAVE",
         "heading_size": "h1",
