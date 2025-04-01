@@ -18,6 +18,30 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_TAVTGr": {
+      "type": "rich-text",
+      "blocks": {
+        "text_zAkTQG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All your email marketing needs from strategy to development and execution. We can manage everything from your timely smart automations, work with you on the visual design of your emails crafted by our designers that follow your brand guidelines, assist in migrating to the most effective email service platforms for your business, list management, and create flows that drive an impactful experience that your customers will remember about your brand.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_zAkTQG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "custom_class": "",
+        "is_gradient_box": false
+      }
+    },
     "gradient_border_box_XxAR89": {
       "type": "gradient-border-box",
       "blocks": {
@@ -128,6 +152,7 @@
   },
   "order": [
     "main",
+    "rich_text_TAVTGr",
     "gradient_border_box_XxAR89",
     "slideshow_custom_wnEY3K"
   ]
