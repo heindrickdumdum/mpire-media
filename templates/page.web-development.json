@@ -109,7 +109,8 @@
         "row_xP4eDF"
       ],
       "custom_css": [
-        ".image-with-text__media {height: auto;}"
+        ".image-with-text__media {height: auto !important; border-radius: 5px;}",
+        ".image-with-text__media img {position: relative; border-radius: 0;}"
       ],
       "settings": {
         "section_heading": "",
