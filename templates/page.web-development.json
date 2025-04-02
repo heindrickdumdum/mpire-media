@@ -48,6 +48,7 @@
         "row_YKpHPM": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-28_114512.png",
             "caption": "",
             "heading": "",
             "text": "<p><strong>Store build or redesign</strong></p><ul><li>Set up a new Shopify store or redesign an existing one, with options ranging from basic theme setup to custom solutions.</li></ul>",
@@ -58,6 +59,7 @@
         "row_J8iCiJ": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-28_123837.png",
             "caption": "",
             "heading": "",
             "text": "<p>Theme customization</p><ul><li>Create custom pages and forms to personalize how customers discover and purchase your products.</li></ul>",
@@ -68,6 +70,7 @@
         "row_rMEBFD": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-28_123902.png",
             "caption": "",
             "heading": "",
             "text": "<p>Custom app integrations</p><ul><li>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</li></ul>",
@@ -78,6 +81,7 @@
         "row_tbtn63": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-28_123920.png",
             "caption": "",
             "heading": "",
             "text": "<p>Troubleshooting</p><ul><li>Resolve any errors or issues in your store.</li></ul>",
@@ -88,6 +92,7 @@
         "row_xP4eDF": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-28_123941.png",
             "caption": "",
             "heading": "",
             "text": "<p>Product and collection setup</p><ul><li>Set up your products with images and descriptions or offer custom options like subscriptions and gift cards.</li></ul>",
@@ -121,11 +126,36 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_CxmQhB": {
+      "type": "rich-text",
+      "blocks": {
+        "text_DDLDKX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These services can be tailored to the needs of small businesses, large enterprises, or anything in between, depending on the developer’s expertise and the client’s goals.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_DDLDKX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_class": "",
+        "is_gradient_box": false
+      }
     }
   },
   "order": [
     "main",
     "rich_text_qepVrc",
-    "multirow_custom_LjxgbC"
+    "multirow_custom_LjxgbC",
+    "rich_text_CxmQhB"
   ]
 }
