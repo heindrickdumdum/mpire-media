@@ -108,6 +108,9 @@
         "row_tbtn63",
         "row_xP4eDF"
       ],
+      "custom_css": [
+        ".image-with-text__media {height: auto;}"
+      ],
       "settings": {
         "section_heading": "",
         "section_heading_size": "h2",
