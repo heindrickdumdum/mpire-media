@@ -48,30 +48,50 @@
         "row_YKpHPM": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "",
+            "heading": "",
+            "text": "<p><strong>Store build or redesign</strong></p><ul><li>Set up a new Shopify store or redesign an existing one, with options ranging from basic theme setup to custom solutions.</li></ul>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_J8iCiJ": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "",
+            "heading": "",
+            "text": "<p>Theme customization</p><ul><li>Create custom pages and forms to personalize how customers discover and purchase your products.</li></ul>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_rMEBFD": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "",
+            "heading": "",
+            "text": "<p>Custom app integrations</p><ul><li>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</li></ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_tbtn63": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "",
+            "text": "<p>Troubleshooting</p><ul><li>Resolve any errors or issues in your store.</li></ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_xP4eDF": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "",
+            "text": "<p>Product and collection setup</p><ul><li>Set up your products with images and descriptions or offer custom options like subscriptions and gift cards.</li></ul>",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -79,7 +99,9 @@
       "block_order": [
         "row_YKpHPM",
         "row_J8iCiJ",
-        "row_rMEBFD"
+        "row_rMEBFD",
+        "row_tbtn63",
+        "row_xP4eDF"
       ],
       "settings": {
         "section_heading": "",
