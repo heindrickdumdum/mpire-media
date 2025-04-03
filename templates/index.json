@@ -915,7 +915,7 @@
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-04.png",
             "logo": "shopify://shop_images/compressed_brands_mixherslogo_d0535c30-77d1-4195-9e74-916bdd659fd3.png",
-            "show_banner_content": true,
+            "show_banner_content": false,
             "heading": "Our Strategy",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -935,7 +935,7 @@
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-05.png",
             "logo": "shopify://shop_images/mrcool.png",
-            "show_banner_content": true,
+            "show_banner_content": false,
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -955,7 +955,7 @@
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-06.png",
             "logo": "shopify://shop_images/Saalt_logo_for_web_gray_blue_1white.png",
-            "show_banner_content": true,
+            "show_banner_content": false,
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -975,7 +975,7 @@
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-07.png",
             "logo": "shopify://shop_images/Woobies_black_logo_with_box_779cb760-6e32-4a66-9617-4ef33f09cbb4_240x_2x-2white.png",
-            "show_banner_content": true,
+            "show_banner_content": false,
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -995,7 +995,7 @@
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-08.png",
             "logo": "shopify://shop_images/vanessa.png",
-            "show_banner_content": true,
+            "show_banner_content": false,
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -1015,7 +1015,7 @@
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-09.png",
             "logo": "shopify://shop_images/aeromixer.png",
-            "show_banner_content": true,
+            "show_banner_content": false,
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -1035,7 +1035,7 @@
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-10.png",
             "logo": "shopify://shop_images/dylink.png",
-            "show_banner_content": true,
+            "show_banner_content": false,
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -1055,7 +1055,7 @@
           "settings": {
             "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-11.png",
             "logo": "shopify://shop_images/dirt_locker.png",
-            "show_banner_content": true,
+            "show_banner_content": false,
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
