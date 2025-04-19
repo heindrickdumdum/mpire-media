@@ -43,7 +43,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "section_banner": "shopify://shop_images/Asset_4_b4228870-8338-4837-9153-eed80954f17f.png",
+        "section_banner": "shopify://shop_images/Studio_Image.png",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 0,
@@ -58,9 +58,9 @@
         "video_ad_tn7M77": {
           "type": "video_ad",
           "settings": {
-            "ad_title": "",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/f8310cec46b04c77a3464c8747d1b361.mp4",
-            "video_thumbnail_url": "https://cdn.shopify.com/s/files/1/0741/9350/2504/files/Artwork1_dc6422a9-e339-4cef-b0f2-8bb9f6ee25de.png?v=1737183838"
+            "ad_title": "Water Smart",
+            "video_url": "https://youtu.be/UmS_KCRx9mY",
+            "video_thumbnail_url": "https://youtu.be/UmS_KCRx9mY"
           }
         },
         "image_ad_tYKLhX": {
