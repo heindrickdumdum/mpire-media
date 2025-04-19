@@ -388,9 +388,9 @@
         "image_RL7EQm": {
           "type": "image",
           "settings": {
-            "brand_logo": "shopify://shop_images/11.jpg",
-            "brand_name": "Ad Buying",
-            "brand_link": "shopify://pages/ad-buying",
+            "brand_logo": "shopify://shop_images/Content_Creation.png",
+            "brand_name": "Content Creation",
+            "brand_link": "shopify://pages/content-creation",
             "column_span": "tw-col-span-2",
             "row_span": "tw-row-span-2"
           }
@@ -398,9 +398,9 @@
         "image_7EjcpX": {
           "type": "image",
           "settings": {
-            "brand_logo": "shopify://shop_images/12.jpg",
-            "brand_name": "Content Creation",
-            "brand_link": "shopify://pages/content-creation",
+            "brand_logo": "shopify://shop_images/email-marketing.jpg",
+            "brand_name": "Email Marketing",
+            "brand_link": "shopify://pages/email-marketing",
             "column_span": "tw-col-span-2",
             "row_span": "tw-row-span-1"
           }
@@ -408,9 +408,9 @@
         "image_nAVGzF": {
           "type": "image",
           "settings": {
-            "brand_logo": "shopify://shop_images/DALL_E_2025-03-18_15.05.19_-_A_16-bit_pixel_art_style_illustration_of_a_person_checking_email_on_a_laptop._The_email_notification_icon_is_glowing_in_vibrant_purple_7D3193_and.webp",
-            "brand_name": "Email Marketing",
-            "brand_link": "shopify://pages/email-marketing",
+            "brand_logo": "shopify://shop_images/Ad_Buying.jpg",
+            "brand_name": "Ad Buying",
+            "brand_link": "shopify://pages/ad-buying",
             "column_span": "tw-col-span-2",
             "row_span": "tw-row-span-1"
           }
@@ -418,7 +418,7 @@
         "image_zAAYjx": {
           "type": "image",
           "settings": {
-            "brand_logo": "shopify://shop_images/3.jpg",
+            "brand_logo": "shopify://shop_images/Web_Development.jpg",
             "brand_name": "Web Development",
             "brand_link": "shopify://pages/web-development",
             "column_span": "tw-col-span-4",
