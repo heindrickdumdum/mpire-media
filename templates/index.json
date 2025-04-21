@@ -448,7 +448,7 @@
         "row_xXNxX8": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/4.jpg",
+            "image": "shopify://shop_images/53028496_xl.jpg",
             "caption": "",
             "heading": "",
             "text": "<p><strong>Our team will plan a full-funnel<br/>advertising strategy</strong> with every possible<br/>interaction with your business and map out what we intend to learn from each interaction.</p>",
@@ -459,7 +459,7 @@
         "row_dE96w4": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/5.jpg",
+            "image": "shopify://shop_images/Customers.jpg",
             "caption": "",
             "heading": "",
             "text": "<p><strong>What have you learned about your<br/>customers</strong> through your advertising efforts to know how to resonate with your customers?</p>",
@@ -470,7 +470,7 @@
         "row_EXdL7z": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DALL_E_2025-03-20_17.45.03_-_A_high-quality_16-bit_pixel_art_illustration_of_a_marketing_funnel_concept._The_scene_is_wide_and_horizontal._The_funnel_shape_is_large_central_and.webp",
+            "image": "shopify://shop_images/Digital-Marketing-Funnels-for-Beginners-01.webp",
             "caption": "",
             "heading": "",
             "text": "<p><strong>The point of a marketing funnel</strong> is to<br/>create a practical purchasing experience for your target audience. To be effective, we need to understand as much as we can about our customers and their wants, needs, and concerns through the masterful distribution of purposeful content.</p>",
@@ -481,7 +481,7 @@
         "row_Yt8wCN": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DALL_E_2025-03-20_17.41.06_-_A_high-quality_16-bit_pixel_art_illustration_representing_distractions._The_scene_shows_a_character_sitting_at_a_desk_trying_to_focus_on_work_while_m.webp",
+            "image": "shopify://shop_images/Awareness_2.jpg",
             "caption": "",
             "heading": "",
             "text": "<p><strong>Most brands need help to scale their<br/>business</strong> because they focus too much of their marketing efforts on selling the benefits of their product or service or advertising the main problems their product/service solves without resolving the concerns of those who have expressed interest without purchasing. We want to leverage our marketing efforts to learn why those interested are NOT purchasing</p>",
@@ -492,7 +492,7 @@
         "row_JRTDFQ": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DALL_E_2025-03-20_17.38.41_-_A_high-quality_16-bit_pixel_art_illustration_of_a_machine_printing_money._The_machine_is_futuristic_with_conveyor_belts_moving_stacks_of_cash._The_mo_1.webp",
+            "image": "shopify://shop_images/Awareness_1.jpg",
             "caption": "",
             "heading": "",
             "text": "<p><strong>A proper funnel strategy</strong> will include how<br/>we can resolve all customers’ concerns. When we learn how to resolve those concerns, we can apply what we have learned to our ads and website, which results in much higher conversion rates. A higher conversion rate means more scalable profitability.</p>",
@@ -533,7 +533,7 @@
         "text_gA3wLe": {
           "type": "text",
           "settings": {
-            "text": "<p>Targeting your ideal audience isnt just serving your ads to them, its resonating with them.</p><p><br/>• Resonating with your ideal customer sits in what we say to them, how we speak to them, and how we visually relate to their interests to turn our offer from an interest<br/>to a need.<br/>• Afterall...Good marketing makes your brand look smart, but great marketing makes the customer feel smart.</p>",
+            "text": "<p>Targeting your ideal audience isn't just serving your ads to them, it's resonating with them.</p><p><br/>• Resonating with your ideal customer sits in what we say to them, how we speak to them, and how we visually relate to their interests to turn our offer from an interest<br/>to a need.<br/>• Afterall...Good marketing makes your brand look smart, but great marketing makes the customer feel smart.</p>",
             "text_style": "body"
           }
         }
@@ -543,10 +543,10 @@
       ],
       "settings": {
         "section_heading": "ASK YOURSELF:",
-        "section_sub_heading": "<p>\"What are the top 5 reasons why someonewould be interested in your offer but notpurchase?”</p>",
+        "section_sub_heading": "<p>\"What are the top 5 reasons why someone would be interested in your offer but not purchase?”</p>",
         "sub_image_text": "",
         "section_heading_size": "h1",
-        "image": "shopify://shop_images/9.jpg",
+        "image": "shopify://shop_images/Awareness_4.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -587,7 +587,7 @@
         "section_sub_heading": "<p>Content is King. It’s true, but your content doesn't need a massive budget to get the results you need. Reduce that risk with a smarter approach to content.<br/></p><p>Too many brands fail to be effective with their creative efforts because their ads lack purpose.</p>",
         "sub_image_text": "<p>We have learned the key to success is behind what we are learning from our creative. Too many brands make the mistake of making content that isn't designed with a purpose or learning in addition to converting. We can confidently say it doesn't take a huge investment in big production.</p>",
         "section_heading_size": "h1",
-        "image": "shopify://shop_images/1.jpg",
+        "image": "shopify://shop_images/Content_Shoot.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
