@@ -970,26 +970,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_nFM9Uc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-07.png",
-            "logo": "shopify://shop_images/Woobies_black_logo_with_box_779cb760-6e32-4a66-9617-4ef33f09cbb4_240x_2x-2white.png",
-            "show_banner_content": false,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_9ke6fW": {
           "type": "slide",
           "settings": {
@@ -1076,7 +1056,6 @@
         "slide_QMhm4A",
         "slide_rg8QhY",
         "slide_eGzg6q",
-        "slide_nFM9Uc",
         "slide_9ke6fW",
         "slide_Jcy6wD",
         "slide_zjcjGB",
