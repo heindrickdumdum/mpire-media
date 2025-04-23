@@ -55,6 +55,38 @@
     "ads_list_PU88Ng": {
       "type": "ads-list",
       "blocks": {
+        "video_ad_9Npx34": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "Dylink",
+            "video_url": "https://youtube.com/shorts/45rycwRpqpI?feature=share",
+            "video_thumbnail_url": "https://youtube.com/shorts/45rycwRpqpI?feature=share"
+          }
+        },
+        "video_ad_pgLfKe": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "Riddy",
+            "video_url": "https://youtube.com/shorts/ewYIrNn5MYY?feature=share",
+            "video_thumbnail_url": "https://youtube.com/shorts/ewYIrNn5MYY?feature=share"
+          }
+        },
+        "video_ad_9GLRrN": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "Kenetik",
+            "video_url": "https://youtube.com/shorts/QYLj26UyYc4",
+            "video_thumbnail_url": "https://youtube.com/shorts/QYLj26UyYc4"
+          }
+        },
+        "video_ad_jJnKeq": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "Everee",
+            "video_url": "https://youtube.com/shorts/YtLLirj_dZM",
+            "video_thumbnail_url": "https://youtube.com/shorts/YtLLirj_dZM"
+          }
+        },
         "video_ad_tn7M77": {
           "type": "video_ad",
           "settings": {
@@ -62,28 +94,14 @@
             "video_url": "https://youtu.be/UmS_KCRx9mY",
             "video_thumbnail_url": "https://youtu.be/UmS_KCRx9mY"
           }
-        },
-        "image_ad_tYKLhX": {
-          "type": "image_ad",
-          "settings": {
-            "ad_title": "",
-            "image": "shopify://shop_images/Asset_1_c232515a-4b02-4799-a28b-4ce75f019a2d.png",
-            "image_url": ""
-          }
-        },
-        "image_ad_XBGnJx": {
-          "type": "image_ad",
-          "settings": {
-            "ad_title": "",
-            "image": "shopify://shop_images/woman-searching-something-internet-using-her-smartphone-while-being-home.jpg",
-            "image_url": ""
-          }
         }
       },
       "block_order": [
-        "video_ad_tn7M77",
-        "image_ad_tYKLhX",
-        "image_ad_XBGnJx"
+        "video_ad_9Npx34",
+        "video_ad_pgLfKe",
+        "video_ad_9GLRrN",
+        "video_ad_jJnKeq",
+        "video_ad_tn7M77"
       ],
       "settings": {
         "heading": "SCRIPTED VIDEO ADS:",
@@ -98,26 +116,53 @@
     "ads_list_VQMJh4": {
       "type": "ads-list",
       "blocks": {
-        "image_ad_kQetHY": {
-          "type": "image_ad",
+        "video_ad_RUdcKp": {
+          "type": "video_ad",
           "settings": {
-            "ad_title": "",
-            "image": "shopify://shop_images/photography-1850469_1280.jpg",
-            "image_url": ""
+            "ad_title": "Civivi",
+            "video_url": "https://youtu.be/yEsq46Ei30c",
+            "video_thumbnail_url": "https://youtu.be/yEsq46Ei30c"
           }
         },
-        "image_ad_qieGwY": {
-          "type": "image_ad",
+        "video_ad_7daRM6": {
+          "type": "video_ad",
           "settings": {
-            "ad_title": "",
-            "image": "shopify://shop_images/MPIRE_MEDIA_-_WEB_DESIGN-13.png",
-            "image_url": ""
+            "ad_title": "Lolly's Lemonade",
+            "video_url": "https://youtube.com/shorts/ExEB2Y0sRVk?feature=share",
+            "video_thumbnail_url": "https://youtube.com/shorts/ExEB2Y0sRVk?feature=share"
+          }
+        },
+        "video_ad_8fNGjJ": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "Dunkin",
+            "video_url": "https://youtube.com/shorts/jjGQimWABc4?feature=share",
+            "video_thumbnail_url": "https://youtube.com/shorts/jjGQimWABc4?feature=share"
+          }
+        },
+        "video_ad_NUj8Fa": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "Shirt Swap",
+            "video_url": "https://youtube.com/shorts/5wrucGhvjZ4?feature=share",
+            "video_thumbnail_url": "https://youtube.com/shorts/5wrucGhvjZ4?feature=share"
+          }
+        },
+        "video_ad_8Cn9rj": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "Dippo",
+            "video_url": "https://youtube.com/shorts/oOBb3MBqAFU?feature=share",
+            "video_thumbnail_url": "https://youtube.com/shorts/oOBb3MBqAFU?feature=share"
           }
         }
       },
       "block_order": [
-        "image_ad_kQetHY",
-        "image_ad_qieGwY"
+        "video_ad_RUdcKp",
+        "video_ad_7daRM6",
+        "video_ad_8fNGjJ",
+        "video_ad_NUj8Fa",
+        "video_ad_8Cn9rj"
       ],
       "settings": {
         "heading": "MOTION GRAPHIC ADS:",
