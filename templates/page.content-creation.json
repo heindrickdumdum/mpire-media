@@ -55,6 +55,14 @@
     "ads_list_PU88Ng": {
       "type": "ads-list",
       "blocks": {
+        "video_ad_9GLRrN": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "Kenetik",
+            "video_url": "https://youtube.com/embed/QYLj26UyYc4",
+            "video_thumbnail_url": "https://img.youtube.com/vi/QYLj26UyYc4/maxresdefault.jpg"
+          }
+        },
         "video_ad_9Npx34": {
           "type": "video_ad",
           "settings": {
@@ -71,27 +79,19 @@
             "video_thumbnail_url": "https://img.youtube.com/vi/ewYIrNn5MYY/maxresdefault.jpg"
           }
         },
-        "video_ad_9GLRrN": {
-          "type": "video_ad",
-          "settings": {
-            "ad_title": "Kenetik",
-            "video_url": "https://youtube.com/shorts/QYLj26UyYc4",
-            "video_thumbnail_url": "https://youtube.com/shorts/QYLj26UyYc4"
-          }
-        },
         "video_ad_tn7M77": {
           "type": "video_ad",
           "settings": {
-            "ad_title": "Water Smart",
-            "video_url": "https://youtu.be/UmS_KCRx9mY",
-            "video_thumbnail_url": "https://youtu.be/UmS_KCRx9mY"
+            "ad_title": "Everee",
+            "video_url": "https://youtube.com/embed/YtLLirj_dZM",
+            "video_thumbnail_url": "https://img.youtube.com/vi/YtLLirj_dZM/maxresdefault.jpg"
           }
         }
       },
       "block_order": [
+        "video_ad_9GLRrN",
         "video_ad_9Npx34",
         "video_ad_pgLfKe",
-        "video_ad_9GLRrN",
         "video_ad_tn7M77"
       ],
       "settings": {
