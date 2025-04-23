@@ -71,14 +71,6 @@
             "video_thumbnail_url": "https://img.youtube.com/vi/45rycwRpqpI/maxresdefault.jpg"
           }
         },
-        "video_ad_pgLfKe": {
-          "type": "video_ad",
-          "settings": {
-            "ad_title": "Riddy",
-            "video_url": "https://youtube.com/embed/ewYIrNn5MYY",
-            "video_thumbnail_url": "https://img.youtube.com/vi/ewYIrNn5MYY/maxresdefault.jpg"
-          }
-        },
         "video_ad_tn7M77": {
           "type": "video_ad",
           "settings": {
@@ -86,13 +78,21 @@
             "video_url": "https://youtube.com/embed/YtLLirj_dZM",
             "video_thumbnail_url": "https://img.youtube.com/vi/YtLLirj_dZM/maxresdefault.jpg"
           }
+        },
+        "video_ad_pgLfKe": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "Riddy",
+            "video_url": "https://youtube.com/embed/ewYIrNn5MYY",
+            "video_thumbnail_url": "https://img.youtube.com/vi/ewYIrNn5MYY/maxresdefault.jpg"
+          }
         }
       },
       "block_order": [
         "video_ad_9GLRrN",
         "video_ad_9Npx34",
-        "video_ad_pgLfKe",
-        "video_ad_tn7M77"
+        "video_ad_tn7M77",
+        "video_ad_pgLfKe"
       ],
       "settings": {
         "heading": "SCRIPTED VIDEO ADS:",
@@ -107,44 +107,53 @@
     "ads_list_VQMJh4": {
       "type": "ads-list",
       "blocks": {
-        "video_ad_RUdcKp": {
-          "type": "video_ad",
-          "settings": {
-            "ad_title": "Civivi",
-            "video_url": "https://youtu.be/yEsq46Ei30c",
-            "video_thumbnail_url": "https://youtu.be/yEsq46Ei30c"
-          }
-        },
         "video_ad_7daRM6": {
           "type": "video_ad",
           "settings": {
             "ad_title": "Lolly's Lemonade",
-            "video_url": "https://youtube.com/shorts/ExEB2Y0sRVk?feature=share",
-            "video_thumbnail_url": "https://youtube.com/shorts/ExEB2Y0sRVk?feature=share"
+            "video_url": "https://youtube.com/embed/ExEB2Y0sRVk",
+            "video_thumbnail_url": "https://img.youtube.com/vi/ExEB2Y0sRVk/maxresdefault.jpg"
+          }
+        },
+        "video_ad_zy4yYh": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "Dunkin",
+            "video_url": "https://youtube.com/embed/jjGQimWABc4",
+            "video_thumbnail_url": "https://img.youtube.com/vi/jjGQimWABc4/maxresdefault.jpg"
           }
         },
         "video_ad_NUj8Fa": {
           "type": "video_ad",
           "settings": {
             "ad_title": "Shirt Swap",
-            "video_url": "https://youtube.com/shorts/5wrucGhvjZ4?feature=share",
-            "video_thumbnail_url": "https://youtube.com/shorts/5wrucGhvjZ4?feature=share"
+            "video_url": "https://youtube.com/embed/5wrucGhvjZ4",
+            "video_thumbnail_url": "https://img.youtube.com/vi/5wrucGhvjZ4/maxresdefault.jpg"
           }
         },
         "video_ad_8Cn9rj": {
           "type": "video_ad",
           "settings": {
             "ad_title": "Dippo",
-            "video_url": "https://youtube.com/shorts/oOBb3MBqAFU?feature=share",
-            "video_thumbnail_url": "https://youtube.com/shorts/oOBb3MBqAFU?feature=share"
+            "video_url": "https://youtube.com/embed/oOBb3MBqAFU",
+            "video_thumbnail_url": "https://img.youtube.com/vi/oOBb3MBqAFU/maxresdefault.jpg"
+          }
+        },
+        "video_ad_frP46t": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "civivi",
+            "video_url": "https://www.youtube.com/embed/yEsq46Ei30c",
+            "video_thumbnail_url": "https://img.youtube.com/vi/yEsq46Ei30c/maxresdefault.jpg"
           }
         }
       },
       "block_order": [
-        "video_ad_RUdcKp",
         "video_ad_7daRM6",
+        "video_ad_zy4yYh",
         "video_ad_NUj8Fa",
-        "video_ad_8Cn9rj"
+        "video_ad_8Cn9rj",
+        "video_ad_frP46t"
       ],
       "settings": {
         "heading": "MOTION GRAPHIC ADS:",
@@ -235,33 +244,41 @@
         "video_ad_xCrwYr": {
           "type": "video_ad",
           "settings": {
-            "ad_title": "",
-            "video_url": "",
-            "video_thumbnail_url": ""
+            "ad_title": "Firecut",
+            "video_url": "https://youtube.com/embed/4N7nOBFrUVw",
+            "video_thumbnail_url": "https://img.youtube.com/vi/4N7nOBFrUVw/maxresdefault.jpg"
           }
         },
         "video_ad_n4Gzm7": {
           "type": "video_ad",
           "settings": {
-            "ad_title": "",
-            "video_url": "",
-            "video_thumbnail_url": ""
+            "ad_title": "Dazi",
+            "video_url": "https://www.youtube.com/embed/wQPgvUfNDlg",
+            "video_thumbnail_url": "https://img.youtube.com/vi/wQPgvUfNDlg/maxresdefault.jpg"
           }
         },
         "video_ad_btyqjW": {
           "type": "video_ad",
           "settings": {
-            "ad_title": "",
-            "video_url": "",
-            "video_thumbnail_url": ""
+            "ad_title": "Splenda",
+            "video_url": "https://www.youtube.com/embed/0OAQf6H0uPo",
+            "video_thumbnail_url": "https://img.youtube.com/vi/0OAQf6H0uPo/maxresdefault.jpg"
           }
         },
         "video_ad_9EAtmi": {
           "type": "video_ad",
           "settings": {
-            "ad_title": "",
-            "video_url": "",
-            "video_thumbnail_url": ""
+            "ad_title": "Yaya",
+            "video_url": "https://www.youtube.com/embed/8oSVJK9xiCs",
+            "video_thumbnail_url": "https://img.youtube.com/vi/8oSVJK9xiCs/maxresdefault.jpg"
+          }
+        },
+        "video_ad_RJw4BM": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "Kenetik",
+            "video_url": "https://www.youtube.com/embed/qLTwcAliZvE",
+            "video_thumbnail_url": "https://img.youtube.com/vi/qLTwcAliZvE/maxresdefault.jpg"
           }
         }
       },
@@ -269,7 +286,8 @@
         "video_ad_xCrwYr",
         "video_ad_n4Gzm7",
         "video_ad_btyqjW",
-        "video_ad_9EAtmi"
+        "video_ad_9EAtmi",
+        "video_ad_RJw4BM"
       ],
       "settings": {
         "heading": "ORGANIC VIDEOS",
