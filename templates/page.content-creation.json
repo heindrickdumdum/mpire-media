@@ -67,8 +67,8 @@
           "type": "video_ad",
           "settings": {
             "ad_title": "Riddy",
-            "video_url": "https://youtube.com/shorts/ewYIrNn5MYY?feature=share",
-            "video_thumbnail_url": "https://youtube.com/shorts/ewYIrNn5MYY?feature=share"
+            "video_url": "https://youtube.com/shorts/ewYIrNn5MYY",
+            "video_thumbnail_url": "https://youtube.com/shorts/ewYIrNn5MYY?feature=share/maxresdefault.jpg"
           }
         },
         "video_ad_9GLRrN": {
