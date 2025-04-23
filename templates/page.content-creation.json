@@ -79,14 +79,6 @@
             "video_thumbnail_url": "https://youtube.com/shorts/QYLj26UyYc4"
           }
         },
-        "video_ad_jJnKeq": {
-          "type": "video_ad",
-          "settings": {
-            "ad_title": "Everee",
-            "video_url": "https://youtube.com/shorts/YtLLirj_dZM",
-            "video_thumbnail_url": "https://youtube.com/shorts/YtLLirj_dZM"
-          }
-        },
         "video_ad_tn7M77": {
           "type": "video_ad",
           "settings": {
@@ -100,7 +92,6 @@
         "video_ad_9Npx34",
         "video_ad_pgLfKe",
         "video_ad_9GLRrN",
-        "video_ad_jJnKeq",
         "video_ad_tn7M77"
       ],
       "settings": {
@@ -132,14 +123,6 @@
             "video_thumbnail_url": "https://youtube.com/shorts/ExEB2Y0sRVk?feature=share"
           }
         },
-        "video_ad_8fNGjJ": {
-          "type": "video_ad",
-          "settings": {
-            "ad_title": "Dunkin",
-            "video_url": "https://youtube.com/shorts/jjGQimWABc4?feature=share",
-            "video_thumbnail_url": "https://youtube.com/shorts/jjGQimWABc4?feature=share"
-          }
-        },
         "video_ad_NUj8Fa": {
           "type": "video_ad",
           "settings": {
@@ -160,7 +143,6 @@
       "block_order": [
         "video_ad_RUdcKp",
         "video_ad_7daRM6",
-        "video_ad_8fNGjJ",
         "video_ad_NUj8Fa",
         "video_ad_8Cn9rj"
       ],
@@ -177,6 +159,20 @@
     "ads_list_wdbfCf": {
       "type": "ads-list",
       "blocks": {
+        "image_ad_jUVkE6": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        },
+        "image_ad_L9ATCL": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        },
         "image_ad_67dpUH": {
           "type": "image_ad",
           "settings": {
@@ -190,19 +186,13 @@
             "ad_title": "",
             "image_url": ""
           }
-        },
-        "image_ad_JXFaym": {
-          "type": "image_ad",
-          "settings": {
-            "ad_title": "",
-            "image_url": ""
-          }
         }
       },
       "block_order": [
+        "image_ad_jUVkE6",
+        "image_ad_L9ATCL",
         "image_ad_67dpUH",
-        "image_ad_K76jPq",
-        "image_ad_JXFaym"
+        "image_ad_K76jPq"
       ],
       "settings": {
         "heading": "IMAGE ADS:",
@@ -242,11 +232,20 @@
     "ads_list_89gMYm": {
       "type": "ads-list",
       "blocks": {
-        "image_ad_3VQdLd": {
-          "type": "image_ad",
+        "video_ad_xCrwYr": {
+          "type": "video_ad",
           "settings": {
             "ad_title": "",
-            "image_url": ""
+            "video_url": "",
+            "video_thumbnail_url": ""
+          }
+        },
+        "video_ad_n4Gzm7": {
+          "type": "video_ad",
+          "settings": {
+            "ad_title": "",
+            "video_url": "",
+            "video_thumbnail_url": ""
           }
         },
         "video_ad_btyqjW": {
@@ -267,12 +266,13 @@
         }
       },
       "block_order": [
-        "image_ad_3VQdLd",
+        "video_ad_xCrwYr",
+        "video_ad_n4Gzm7",
         "video_ad_btyqjW",
         "video_ad_9EAtmi"
       ],
       "settings": {
-        "heading": "Our Clients",
+        "heading": "ORGANIC VIDEOS",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -284,6 +284,13 @@
     "ads_list_jRgbyd": {
       "type": "ads-list",
       "blocks": {
+        "image_ad_m6Jj47": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "",
+            "image_url": ""
+          }
+        },
         "image_ad_e3qXkx": {
           "type": "image_ad",
           "settings": {
@@ -307,12 +314,13 @@
         }
       },
       "block_order": [
+        "image_ad_m6Jj47",
         "image_ad_e3qXkx",
         "image_ad_XMwEyP",
         "image_ad_jacx4t"
       ],
       "settings": {
-        "heading": "MAGES:",
+        "heading": "ORGANIC IMAGES:",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
