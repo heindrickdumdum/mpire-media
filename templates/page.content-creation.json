@@ -168,36 +168,76 @@
     "ads_list_wdbfCf": {
       "type": "ads-list",
       "blocks": {
+        "image_ad_wwXbwW": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "Aru Toothbrush",
+            "image": "shopify://shop_images/get.aru_1732125627_3505646301239250828_60800027943.jpg",
+            "image_url": ""
+          }
+        },
+        "image_ad_eHjifY": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "FTF Course",
+            "image": "shopify://shop_images/Thumbnail3.png",
+            "image_url": ""
+          }
+        },
+        "image_ad_978rDi": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "FTF Hacks",
+            "image": "shopify://shop_images/25HacksAd-Landon-square.png",
+            "image_url": ""
+          }
+        },
+        "image_ad_n4rf69": {
+          "type": "image_ad",
+          "settings": {
+            "ad_title": "Glamping",
+            "image": "shopify://shop_images/Glamping_5.jpg",
+            "image_url": ""
+          }
+        },
         "image_ad_jUVkE6": {
           "type": "image_ad",
           "settings": {
-            "ad_title": "",
+            "ad_title": "Mixhers Greens",
+            "image": "shopify://shop_images/IMG_9280.jpg",
             "image_url": ""
           }
         },
         "image_ad_L9ATCL": {
           "type": "image_ad",
           "settings": {
-            "ad_title": "",
+            "ad_title": "Mixhers Love",
+            "image": "shopify://shop_images/HerLoveAd_Square.jpg",
             "image_url": ""
           }
         },
         "image_ad_67dpUH": {
           "type": "image_ad",
           "settings": {
-            "ad_title": "",
+            "ad_title": "Smiley Case",
+            "image": "shopify://shop_images/NeonSmileyPurple.png",
             "image_url": ""
           }
         },
         "image_ad_K76jPq": {
           "type": "image_ad",
           "settings": {
-            "ad_title": "",
+            "ad_title": "Kenetik",
+            "image": "shopify://shop_images/7.01_-_1080_x_1080_-_Mpire_Media_-_AA_-_218522.png",
             "image_url": ""
           }
         }
       },
       "block_order": [
+        "image_ad_wwXbwW",
+        "image_ad_eHjifY",
+        "image_ad_978rDi",
+        "image_ad_n4rf69",
         "image_ad_jUVkE6",
         "image_ad_L9ATCL",
         "image_ad_67dpUH",
@@ -305,21 +345,24 @@
         "image_ad_m6Jj47": {
           "type": "image_ad",
           "settings": {
-            "ad_title": "",
+            "ad_title": "Soap & Glory",
+            "image": "shopify://shop_images/Soap_Glory.jpg",
             "image_url": ""
           }
         },
         "image_ad_e3qXkx": {
           "type": "image_ad",
           "settings": {
-            "ad_title": "",
+            "ad_title": "Spindrift",
+            "image": "shopify://shop_images/Pineapple_Drink.jpg",
             "image_url": ""
           }
         },
         "image_ad_XMwEyP": {
           "type": "image_ad",
           "settings": {
-            "ad_title": "",
+            "ad_title": "Food Closeups",
+            "image": "shopify://shop_images/Food_Closeup.jpg",
             "image_url": ""
           }
         },
@@ -327,6 +370,7 @@
           "type": "image_ad",
           "settings": {
             "ad_title": "",
+            "image": "shopify://shop_images/Clothing_Photography.jpg",
             "image_url": ""
           }
         }
